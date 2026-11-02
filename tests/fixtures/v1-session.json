@@ -1,0 +1,455 @@
+{
+ "storage": {
+  "bytes": "{\"mode\": \"plan\", \"active_function\": \"code\", \"contents\": [\"{\\\"parts\\\":[{\\\"text\\\":\\\"hello\\\"}],\\\"role\\\":\\\"user\\\"}\", \"{\\\"parts\\\":[{\\\"text\\\":\\\"reading it\\\"},{\\\"function_call\\\":{\\\"id\\\":\\\"call_1\\\",\\\"args\\\":{\\\"path\\\":\\\"src/app.py\\\",\\\"offset\\\":0,\\\"limit\\\":3.0},\\\"name\\\":\\\"read_file\\\"}}],\\\"role\\\":\\\"model\\\"}\", \"{\\\"parts\\\":[{\\\"function_response\\\":{\\\"id\\\":\\\"call_1\\\",\\\"name\\\":\\\"read_file\\\",\\\"response\\\":{\\\"output\\\":\\\"def f():\\\\n    return 1\\\\n\\\"}}},{\\\"text\\\":\\\"ok \\u2014 \\u00fcn\\u00efcode\\\",\\\"thought\\\":true}],\\\"role\\\":\\\"user\\\"}\", \"{\\\"parts\\\":[{\\\"inline_data\\\":{\\\"data\\\":\\\"iVBORw0KGgoAAf8=\\\",\\\"display_name\\\":\\\"shot\\\",\\\"mime_type\\\":\\\"image/png\\\"}}],\\\"role\\\":\\\"model\\\"}\", \"{\\\"parts\\\":[{\\\"text\\\":\\\"done\\\"}],\\\"role\\\":\\\"model\\\"}\"], \"checkpoints\": [{\"prompt\": \"hello\", \"time\": \"<TIME>\", \"contents_len\": 0, \"undo_len\": 0, \"todos\": [{\"content\": \"x\", \"status\": \"pending\"}], \"memory_len\": 1234}, {\"prompt\": \"make it so\", \"time\": \"<TIME>\", \"contents_len\": 1, \"undo_len\": 1, \"todos\": [], \"memory_len\": 2}], \"undo_stack\": [{\"path\": \"src/app.py\", \"old_text\": \"def f():\\r\\n    return 1\\r\\n\", \"crlf\": true}, {\"path\": \"new.txt\", \"old_text\": null, \"crlf\": false}], \"todos\": [{\"content\": \"ship\", \"status\": \"in_progress\"}], \"timeline_history\": [{\"prompt\": \"hello\", \"timestamp\": \"<TIME>\", \"replies\": [\"hi\"], \"events\": [{\"kind\": \"tool\", \"label\": \"read_file\"}], \"file_changes\": []}]}",
+  "loaded": {
+   "contents": [
+    "{\"parts\":[{\"text\":\"hello\"}],\"role\":\"user\"}",
+    "{\"parts\":[{\"text\":\"reading it\"},{\"function_call\":{\"id\":\"call_1\",\"args\":{\"path\":\"src/app.py\",\"offset\":0,\"limit\":3.0},\"name\":\"read_file\"}}],\"role\":\"model\"}",
+    "{\"parts\":[{\"function_response\":{\"id\":\"call_1\",\"name\":\"read_file\",\"response\":{\"output\":\"def f():\\n    return 1\\n\"}}},{\"text\":\"ok — ünïcode\",\"thought\":true}],\"role\":\"user\"}",
+    "{\"parts\":[{\"inline_data\":{\"data\":\"iVBORw0KGgoAAf8=\",\"display_name\":\"shot\",\"mime_type\":\"image/png\"}}],\"role\":\"model\"}",
+    "{\"parts\":[{\"text\":\"done\"}],\"role\":\"model\"}"
+   ],
+   "mode": "plan",
+   "active_function": "code",
+   "todos": [
+    {
+     "content": "ship",
+     "status": "in_progress"
+    }
+   ],
+   "undo": [
+    [
+     "src/app.py",
+     "def f():\r\n    return 1\r\n",
+     true
+    ],
+    [
+     "new.txt",
+     null,
+     false
+    ]
+   ],
+   "checkpoints": [
+    {
+     "prompt": "hello",
+     "time": "10:11:12",
+     "contents_len": 0,
+     "undo_len": 0,
+     "todos": [
+      {
+       "content": "x",
+       "status": "pending"
+      }
+     ],
+     "memory_len": 1234
+    },
+    {
+     "prompt": "make it so",
+     "time": "10:12:00",
+     "contents_len": 1,
+     "undo_len": 1,
+     "todos": [],
+     "memory_len": 2
+    }
+   ],
+   "timeline_history": [
+    {
+     "prompt": "hello",
+     "timestamp": "10:11:12",
+     "replies": [
+      "hi"
+     ],
+     "events": [
+      {
+       "kind": "tool",
+       "label": "read_file"
+      }
+     ],
+     "file_changes": []
+    }
+   ]
+  },
+  "missing_print": "",
+  "missing_return": null
+ },
+ "agent": {
+  "save_bytes": "{\"mode\": \"plan\", \"active_function\": \"code\", \"contents\": [\"{\\\"parts\\\":[{\\\"text\\\":\\\"hello\\\"}],\\\"role\\\":\\\"user\\\"}\", \"{\\\"parts\\\":[{\\\"text\\\":\\\"reading it\\\"},{\\\"function_call\\\":{\\\"id\\\":\\\"call_1\\\",\\\"args\\\":{\\\"path\\\":\\\"src/app.py\\\",\\\"offset\\\":0,\\\"limit\\\":3.0},\\\"name\\\":\\\"read_file\\\"}}],\\\"role\\\":\\\"model\\\"}\", \"{\\\"parts\\\":[{\\\"function_response\\\":{\\\"id\\\":\\\"call_1\\\",\\\"name\\\":\\\"read_file\\\",\\\"response\\\":{\\\"output\\\":\\\"def f():\\\\n    return 1\\\\n\\\"}}},{\\\"text\\\":\\\"ok \\u2014 \\u00fcn\\u00efcode\\\",\\\"thought\\\":true}],\\\"role\\\":\\\"user\\\"}\", \"{\\\"parts\\\":[{\\\"inline_data\\\":{\\\"data\\\":\\\"iVBORw0KGgoAAf8=\\\",\\\"display_name\\\":\\\"shot\\\",\\\"mime_type\\\":\\\"image/png\\\"}}],\\\"role\\\":\\\"model\\\"}\", \"{\\\"parts\\\":[{\\\"text\\\":\\\"done\\\"}],\\\"role\\\":\\\"model\\\"}\"], \"checkpoints\": [{\"prompt\": \"hello\", \"time\": \"<TIME>\", \"contents_len\": 0, \"undo_len\": 0, \"todos\": [{\"content\": \"x\", \"status\": \"pending\"}], \"memory_len\": 1234}, {\"prompt\": \"make it so\", \"time\": \"<TIME>\", \"contents_len\": 1, \"undo_len\": 1, \"todos\": [], \"memory_len\": 2}], \"undo_stack\": [{\"path\": \"src/app.py\", \"old_text\": \"def f():\\r\\n    return 1\\r\\n\", \"crlf\": true}, {\"path\": \"new.txt\", \"old_text\": null, \"crlf\": false}], \"todos\": [{\"content\": \"ship\", \"status\": \"in_progress\"}], \"timeline_history\": [{\"prompt\": \"hello\", \"timestamp\": \"<TIME>\", \"replies\": [\"hi\"], \"events\": [{\"kind\": \"tool\", \"label\": \"read_file\"}], \"file_changes\": []}]}",
+  "save_matches_storage": true,
+  "rel_cases": [
+   [
+    "src/app.py",
+    "src/app.py"
+   ],
+   [
+    "memory/memory.md",
+    "memory/memory.md"
+   ],
+   [
+    ".",
+    "."
+   ]
+  ],
+  "rel_outside_absolute": true,
+  "rel_outside": [
+   "<WS>\\gemibot-parity-outside.txt",
+   "<WS>\\gemibot-parity-outside.txt"
+  ],
+  "rel_case_mismatch": {
+   "returns_argument": false,
+   "is_absolute": false,
+   "posix_relative": true
+  },
+  "rel_case_ghost": {
+   "returns_argument": false,
+   "posix_relative": true,
+   "resolved_abs": false
+  },
+  "resolve_cases": [
+   [
+    "src/app.py",
+    "<WS>\\src\\app.py",
+    null
+   ],
+   [
+    "./src/../src/app.py",
+    "<WS>\\src\\app.py",
+    null
+   ],
+   [
+    "memory/memory.md",
+    "<WS>\\memory\\memory.md",
+    null
+   ],
+   [
+    "memory/settings.md",
+    "<WS>\\memory\\settings.md",
+    null
+   ],
+   [
+    "memory\\memory.md",
+    "<WS>\\memory\\memory.md",
+    null
+   ],
+   [
+    "  src/app.py  ",
+    "<WS>\\src\\app.py",
+    null
+   ],
+   [
+    "'src/app.py'",
+    "<WS>\\src\\app.py",
+    null
+   ],
+   [
+    "/src/app.py",
+    "<WS>\\src\\app.py",
+    null
+   ],
+   [
+    "\\src\\app.py",
+    "<WS>\\src\\app.py",
+    null
+   ],
+   [
+    ".",
+    "<WS>",
+    null
+   ],
+   [
+    "",
+    "<WS>",
+    null
+   ],
+   [
+    null,
+    "<WS>",
+    null
+   ],
+   [
+    "<WS>\\src\\app.py",
+    "<WS>\\src\\app.py",
+    null
+   ],
+   [
+    "\"src/app.py\"",
+    "<WS>\\src\\app.py",
+    null
+   ],
+   [
+    "~/outside.py",
+    "<WS>\\~\\outside.py",
+    null
+   ],
+   [
+    "../outside.txt",
+    null,
+    "ToolError: Access denied: Path '../outside.txt' escapes the active target directory.\nActive target directory: <WS>\nAll operations must remain strictly inside the target folder."
+   ],
+   [
+    "..\\..\\secrets.env",
+    null,
+    "ToolError: Access denied: Path '..\\..\\secrets.env' escapes the active target directory.\nActive target directory: <WS>\nAll operations must remain strictly inside the target folder."
+   ],
+   [
+    "src/../../escape.py",
+    null,
+    "ToolError: Access denied: Path 'src/../../escape.py' escapes the active target directory.\nActive target directory: <WS>\nAll operations must remain strictly inside the target folder."
+   ],
+   [
+    "C:\\Users\\ACER\\AppData\\Local\\Temp\\gemibot-parity-outside.py",
+    null,
+    "ToolError: Access denied: Path 'C:\\Users\\ACER\\AppData\\Local\\Temp\\gemibot-parity-outside.py' escapes the active target directory.\nActive target directory: <WS>\nAll operations must remain strictly inside the target folder."
+   ],
+   [
+    "C:\\Windows\\win.ini",
+    null,
+    "ToolError: Access denied: Path 'C:\\Windows\\win.ini' escapes the active target directory.\nActive target directory: <WS>\nAll operations must remain strictly inside the target folder."
+   ],
+   [
+    "*",
+    "<WS>\\*",
+    null
+   ],
+   [
+    "NUL",
+    "<WS>\\NUL",
+    null
+   ]
+  ],
+  "load_missing_print": "  \u001b[90m- No previous session.json found. Loaded /memory/memory.md context.\u001b[0m\n",
+  "load_missing_state": {
+   "mode": "build",
+   "active_function": "all",
+   "contents": [],
+   "checkpoints": [],
+   "undo": [],
+   "todos": [],
+   "timeline_history": [],
+   "builds": 0
+  },
+  "load_print": "  \u001b[90m- No previous session.json found. Loaded /memory/memory.md context.\u001b[0m\n",
+  "reload_print": "  \u001b[90m-'''' Resumed previous session (1 prompt(s))\u001b[0m\n",
+  "reload_state": {
+   "mode": "plan",
+   "active_function": "code",
+   "contents": [
+    "{\"parts\":[{\"text\":\"hello\"}],\"role\":\"user\"}",
+    "{\"parts\":[{\"text\":\"reading it\"},{\"function_call\":{\"id\":\"call_1\",\"args\":{\"path\":\"src/app.py\",\"offset\":0,\"limit\":3.0},\"name\":\"read_file\"}}],\"role\":\"model\"}",
+    "{\"parts\":[{\"function_response\":{\"id\":\"call_1\",\"name\":\"read_file\",\"response\":{\"output\":\"def f():\\n    return 1\\n\"}}},{\"text\":\"ok — ünïcode\",\"thought\":true}],\"role\":\"user\"}",
+    "{\"parts\":[{\"inline_data\":{\"data\":\"iVBORw0KGgoAAf8=\",\"display_name\":\"shot\",\"mime_type\":\"image/png\"}}],\"role\":\"model\"}",
+    "{\"parts\":[{\"text\":\"done\"}],\"role\":\"model\"}"
+   ],
+   "checkpoints": [
+    {
+     "prompt": "hello",
+     "time": "session",
+     "contents_len": 0,
+     "undo_len": 2,
+     "todos": [],
+     "memory_len": 250
+    }
+   ],
+   "undo": [
+    [
+     "src/app.py",
+     "def f():\r\n    return 1\r\n",
+     true
+    ],
+    [
+     "new.txt",
+     null,
+     false
+    ]
+   ],
+   "todos": [
+    {
+     "content": "ship",
+     "status": "in_progress"
+    }
+   ],
+   "timeline_history": [
+    {
+     "prompt": "hello",
+     "timestamp": "10:11:12",
+     "replies": [
+      "hi"
+     ],
+     "events": [
+      {
+       "kind": "tool",
+       "label": "read_file"
+      }
+     ],
+     "file_changes": []
+    }
+   ],
+   "builds": 0
+  },
+  "rebuilt": [
+   {
+    "prompt": "real question",
+    "time": "session",
+    "contents_len": 0,
+    "undo_len": 1,
+    "todos": [],
+    "memory_len": 250
+   },
+   {
+    "prompt": "plain prompt",
+    "time": "session",
+    "contents_len": 1,
+    "undo_len": 1,
+    "todos": [],
+    "memory_len": 250
+   },
+   {
+    "prompt": "last prompt",
+    "time": "session",
+    "contents_len": 6,
+    "undo_len": 1,
+    "todos": [],
+    "memory_len": 250
+   }
+  ],
+  "rebuilt_print": "  \u001b[90m-'''' Resumed previous session (1 prompt(s))\u001b[0m\n",
+  "undo_1_print": "  \u001b[90m- \u001b[92m-'''' Removed made/new.txt\u001b[0m\n",
+  "undo_1_file": "def f():\r\n    return 2\r\n",
+  "undo_2_print": "  \u001b[90m- \u001b[92m-'''' Restored src/app.py\u001b[0m\n",
+  "undo_2_exists": false,
+  "undo_2_dir_exists": false,
+  "undo_empty_print": "  \u001b[2mNothing to undo.\u001b[0m\n",
+  "undo_session_bytes": "{\"mode\": \"plan\", \"active_function\": \"code\", \"contents\": [], \"checkpoints\": [], \"undo_stack\": [], \"todos\": [{\"content\": \"ship\", \"status\": \"in_progress\"}], \"timeline_history\": [{\"prompt\": \"hello\", \"timestamp\": \"<TIME>\", \"replies\": [\"hi\"], \"events\": [{\"kind\": \"tool\", \"label\": \"read_file\"}], \"file_changes\": []}]}",
+  "restore_new_dir_print": "  \u001b[90m- \u001b[92m-'''' Restored deep/nest/f.md\u001b[0m\n",
+  "restore_new_dir_bytes": "# heading\n",
+  "revert": {
+   "title": "Revert session, files & memory to before prompt",
+   "items": [
+    [
+     "#3: third",
+     "[09:02:00] - reverts 1 prompt(s), 1 file change(s)"
+    ],
+    [
+     "#2: second prompt with a very long line that should be c...",
+     "[09:01:00] - reverts 2 prompt(s), 2 file change(s)"
+    ],
+    [
+     "#1: first prompt",
+     "[09:00:00] - reverts 3 prompt(s), 3 file change(s)"
+    ]
+   ],
+   "page": 25,
+   "print": "\n  \u001b[90m- \u001b[93m\u001b[1mReverting to before #2\u001b[0m \u001b[2m(second prompt with a very long line that should be cut at ex)\u001b[0m\n  \u001b[90m- \u001b[92m-'''' Restored made/gone.txt\u001b[0m\n  \u001b[90m- \u001b[92m-'''' Restored deep/nest/f.md\u001b[0m\n  \u001b[90m- \u001b[95m-'''' Rolled back /memory/memory.md\u001b[0m\n  \u001b[90m- \u001b[92m- Reverted 2 prompt(s) and 2 file change(s).\u001b[0m\n",
+   "state": {
+    "mode": "plan",
+    "active_function": "code",
+    "contents": [
+     "{\"parts\":[{\"text\":\"one\"}],\"role\":\"user\"}"
+    ],
+    "checkpoints": [
+     {
+      "prompt": "first prompt",
+      "time": "09:00:00",
+      "contents_len": 0,
+      "undo_len": 0,
+      "todos": [
+       {
+        "content": "a",
+        "status": "pending"
+       }
+      ],
+      "memory_len": 250
+     }
+    ],
+    "undo": [
+     [
+      "src/app.py",
+      "first\n",
+      false
+     ]
+    ],
+    "todos": [],
+    "timeline_history": [
+     {
+      "prompt": "hello",
+      "timestamp": "10:11:12",
+      "replies": [
+       "hi"
+      ],
+      "events": [
+       {
+        "kind": "tool",
+        "label": "read_file"
+       }
+      ],
+      "file_changes": []
+     }
+    ],
+    "builds": 1
+   },
+   "memory": "# System Development Progress & Interaction Memory\n\n> This file (`/memory/memory.md`) stores the complete, unabbreviated chronological record of all user prompts, AI responses, tool/command executions, and exact file diffs/contents across sessions.\n\n",
+   "files": {
+    "src/app.py": "def f():\r\r\n    return 1\r\r\n",
+    "deep/nest/f.md": "# older\n",
+    "made/gone.txt_exists": true
+   },
+   "session_bytes": "{\"mode\": \"plan\", \"active_function\": \"code\", \"contents\": [\"{\\\"parts\\\":[{\\\"text\\\":\\\"one\\\"}],\\\"role\\\":\\\"user\\\"}\"], \"checkpoints\": [{\"prompt\": \"first prompt\", \"time\": \"<TIME>\", \"contents_len\": 0, \"undo_len\": 0, \"todos\": [{\"content\": \"a\", \"status\": \"pending\"}], \"memory_len\": 250}], \"undo_stack\": [{\"path\": \"src/app.py\", \"old_text\": \"first\\n\", \"crlf\": false}], \"todos\": [], \"timeline_history\": [{\"prompt\": \"hello\", \"timestamp\": \"<TIME>\", \"replies\": [\"hi\"], \"events\": [{\"kind\": \"tool\", \"label\": \"read_file\"}], \"file_changes\": []}]}"
+  },
+  "revert_declined_print": "  \u001b[2mRevert cancelled.\u001b[0m\n",
+  "revert_empty_print": "  \u001b[2mNo previous prompts to revert to yet.\u001b[0m\n",
+  "rollback": {
+   "returned": true,
+   "print": "  \u001b[90m- \u001b[92m-'''' Restored src/app.py\u001b[0m\n",
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "contents": [],
+    "checkpoints": [],
+    "undo": [],
+    "todos": [
+     {
+      "content": "a",
+      "status": "pending"
+     }
+    ],
+    "timeline_history": [],
+    "builds": 1
+   },
+   "app_py": "rollback\n"
+  },
+  "rollback_out_of_range": [
+   false,
+   "",
+   {
+    "mode": "build",
+    "active_function": "all",
+    "contents": [],
+    "checkpoints": [],
+    "undo": [],
+    "todos": [
+     {
+      "content": "a",
+      "status": "pending"
+     }
+    ],
+    "timeline_history": [],
+    "builds": 1
+   }
+  ],
+  "rollback_negative": [
+   false,
+   ""
+  ],
+  "load_broken_print": "  \u001b[90m- No previous session.json found. Loaded /memory/memory.md context.\u001b[0m\n",
+  "load_broken_state": {
+   "mode": "build",
+   "active_function": "all",
+   "contents": [],
+   "checkpoints": [],
+   "undo": [],
+   "todos": [],
+   "timeline_history": [],
+   "builds": 0
+  },
+  "load_truncated_print": "  \u001b[90m- No previous session.json found. Loaded /memory/memory.md context.\u001b[0m\n"
+ }
+}

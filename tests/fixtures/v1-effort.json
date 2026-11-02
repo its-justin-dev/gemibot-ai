@@ -1,0 +1,1374 @@
+{
+ "levels": [
+  {
+   "level": "turbo",
+   "display": "Turbo",
+   "icon": "🏎️",
+   "description": "No thinking tokens - absolute fastest response.",
+   "cost_hint": "No thinking (fastest)",
+   "budget": null,
+   "status": "🏎️ Turbo Effort: No thinking tokens - absolute fastest response. (No thinking (fastest))",
+   "status_nothink": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "level": "low",
+   "display": "Low",
+   "icon": "⚡",
+   "description": "Fastest response with minimal reasoning (512 tokens).",
+   "cost_hint": "Fastest (~512 tokens)",
+   "budget": 512,
+   "status": "⚡ Low Effort: Fastest response with minimal reasoning (512 tokens). (Fastest (~512 tokens))",
+   "status_nothink": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "level": "medium",
+   "display": "Medium",
+   "icon": "⚖️",
+   "description": "Balanced reasoning for general coding (2k tokens).",
+   "cost_hint": "Balanced (~2k tokens)",
+   "budget": 2048,
+   "status": "⚖️ Medium Effort: Balanced reasoning for general coding (2k tokens). (Balanced (~2k tokens))",
+   "status_nothink": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "level": "high",
+   "display": "High",
+   "icon": "🧠",
+   "description": "Deep reasoning for complex logic (8k tokens).",
+   "cost_hint": "Deep (~8k tokens)",
+   "budget": 8192,
+   "status": "🧠 High Effort: Deep reasoning for complex logic (8k tokens). (Deep (~8k tokens))",
+   "status_nothink": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "level": "extra_high",
+   "display": "Extra High",
+   "icon": "🚀",
+   "description": "Maximum reasoning for complex tasks (16k tokens).",
+   "cost_hint": "Maximum (~16k tokens)",
+   "budget": 16384,
+   "status": "🚀 Extra High Effort: Maximum reasoning for complex tasks (16k tokens). (Maximum (~16k tokens))",
+   "status_nothink": "Thinking effort is not applicable to this model (standard direct generation)."
+  }
+ ],
+ "from_string": [
+  [
+   null,
+   "medium"
+  ],
+  [
+   "",
+   "low"
+  ],
+  [
+   "low",
+   "low"
+  ],
+  [
+   "LOW",
+   "low"
+  ],
+  [
+   "extra-high",
+   "extra_high"
+  ],
+  [
+   "Extra High",
+   "extra_high"
+  ],
+  [
+   "turbo",
+   "turbo"
+  ],
+  [
+   "medium",
+   "medium"
+  ],
+  [
+   "EffortLevel.HIGH",
+   "high"
+  ],
+  [
+   "  high  ",
+   "high"
+  ],
+  [
+   "nonsense",
+   "medium"
+  ],
+  [
+   "extra",
+   "extra_high"
+  ],
+  [
+   "Medium",
+   "medium"
+  ]
+ ],
+ "supports": [
+  [
+   "gemini-3.1-flash-lite",
+   true
+  ],
+  [
+   "gemini-3.5-flash-lite",
+   true
+  ],
+  [
+   "gemini-3.8-flash",
+   true
+  ],
+  [
+   "gemini-3.7-flash",
+   true
+  ],
+  [
+   "gemini-3.6-flash",
+   true
+  ],
+  [
+   "gemini-3.5-flash",
+   true
+  ],
+  [
+   "gemini-3.1-pro-preview",
+   true
+  ],
+  [
+   "gemini-3-flash-preview",
+   true
+  ],
+  [
+   "gemini-4-argon",
+   true
+  ],
+  [
+   "gemini-flash-latest",
+   true
+  ],
+  [
+   "gemini-pro-latest",
+   true
+  ],
+  [
+   "gemini-flash-lite-latest",
+   true
+  ],
+  [
+   "antigravity-preview-latest",
+   true
+  ],
+  [
+   "antigravity",
+   true
+  ],
+  [
+   "antigravity-preview-09-2026",
+   true
+  ],
+  [
+   "antigravity-preview-05-2026",
+   true
+  ],
+  [
+   "antigravity-latest",
+   true
+  ],
+  [
+   "deep-research-pro-preview-12-2025",
+   false
+  ],
+  [
+   "deep-research-preview-04-2026",
+   false
+  ],
+  [
+   "deep-research-max-preview-04-2026",
+   false
+  ],
+  [
+   "gemma-4-31b-it",
+   false
+  ],
+  [
+   "gemma-4-26b-a4b-it",
+   false
+  ],
+  [
+   "",
+   false
+  ],
+  [
+   null,
+   false
+  ],
+  [
+   "gemma-3-27b-it",
+   false
+  ],
+  [
+   "GEMMA-3-27B",
+   false
+  ],
+  [
+   "text-embedding-004",
+   false
+  ],
+  [
+   "gemini-embedding-001",
+   false
+  ],
+  [
+   "embedding-x",
+   false
+  ],
+  [
+   "imagen-3.0-generate-002",
+   false
+  ],
+  [
+   "veo-3.1-generate-preview",
+   false
+  ],
+  [
+   "lyria-realtime-exp",
+   false
+  ],
+  [
+   "nano-banana-pro",
+   false
+  ],
+  [
+   "models/gemini-3.5-flash",
+   true
+  ],
+  [
+   "GEMINI-3.5-FLASH",
+   true
+  ],
+  [
+   " gemini-3.5-flash ",
+   true
+  ],
+  [
+   "antigravity-pro",
+   true
+  ],
+  [
+   "gemini-2.5-flash-image",
+   false
+  ],
+  [
+   "gemini-2.0-flash-thinking-exp-0121",
+   true
+  ],
+  [
+   "gemini-4.0-pro",
+   true
+  ],
+  [
+   "gemini-pro-vision",
+   true
+  ],
+  [
+   "gemini",
+   false
+  ],
+  [
+   "tts-1",
+   false
+  ],
+  [
+   "clip-model",
+   false
+  ],
+  [
+   "video-model",
+   false
+  ],
+  [
+   "transcribe-x",
+   false
+  ],
+  [
+   "audio-dialog-x",
+   false
+  ],
+  [
+   "custom-thinking-model",
+   true
+  ],
+  [
+   "unknown-1.0",
+   false
+  ],
+  [
+   "Models/gemini-3.5-flash",
+   true
+  ],
+  [
+   "gemini-3.5-flash/thinking",
+   true
+  ]
+ ],
+ "configs": [
+  {
+   "model": "gemini-3.5-flash",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 512,
+   "thoughts": false
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 512,
+   "thoughts": true
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 2048,
+   "thoughts": false
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 2048,
+   "thoughts": true
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 8192,
+   "thoughts": false
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 8192,
+   "thoughts": true
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 16384,
+   "thoughts": false
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 16384,
+   "thoughts": true
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.5-flash-image",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "imagen-3.0-generate-002",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 512,
+   "thoughts": false
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 512,
+   "thoughts": true
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 2048,
+   "thoughts": false
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 2048,
+   "thoughts": true
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 8192,
+   "thoughts": false
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 8192,
+   "thoughts": true
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 16384,
+   "thoughts": false
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 16384,
+   "thoughts": true
+  },
+  {
+   "model": "gemini-2.0-flash-thinking-exp-0121",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "turbo",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "turbo",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 512,
+   "thoughts": false
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "low",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 512,
+   "thoughts": true
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "low",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 2048,
+   "thoughts": false
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "medium",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 2048,
+   "thoughts": true
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "medium",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 8192,
+   "thoughts": false
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 8192,
+   "thoughts": true
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": false,
+   "budget": 16384,
+   "thoughts": false
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "extra_high",
+   "include_thoughts": false,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": false,
+   "budget": 16384,
+   "thoughts": true
+  },
+  {
+   "model": "antigravity-pro",
+   "level": "extra_high",
+   "include_thoughts": true,
+   "disable_thinking": true,
+   "budget": null,
+   "thoughts": null
+  }
+ ],
+ "loose": [
+  {
+   "model": "gemini-3.5-flash",
+   "raw": "None",
+   "budget": 2048,
+   "status": "⚖️ Medium Effort: Balanced reasoning for general coding (2k tokens). (Balanced (~2k tokens))"
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "raw": "",
+   "budget": 512,
+   "status": "⚡ Low Effort: Fastest response with minimal reasoning (512 tokens). (Fastest (~512 tokens))"
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "raw": "low",
+   "budget": 512,
+   "status": "⚡ Low Effort: Fastest response with minimal reasoning (512 tokens). (Fastest (~512 tokens))"
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "raw": "EXTRA-HIGH",
+   "budget": 16384,
+   "status": "🚀 Extra High Effort: Maximum reasoning for complex tasks (16k tokens). (Maximum (~16k tokens))"
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "raw": "Turbo",
+   "budget": null,
+   "status": "🏎️ Turbo Effort: No thinking tokens - absolute fastest response. (No thinking (fastest))"
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "raw": "effortlevel.high",
+   "budget": 8192,
+   "status": "🧠 High Effort: Deep reasoning for complex logic (8k tokens). (Deep (~8k tokens))"
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "raw": "nonsense",
+   "budget": 2048,
+   "status": "⚖️ Medium Effort: Balanced reasoning for general coding (2k tokens). (Balanced (~2k tokens))"
+  },
+  {
+   "model": "gemini-3.5-flash",
+   "raw": "7",
+   "budget": 2048,
+   "status": "⚖️ Medium Effort: Balanced reasoning for general coding (2k tokens). (Balanced (~2k tokens))"
+  },
+  {
+   "model": "veo-3.1-generate-preview",
+   "raw": "None",
+   "budget": null,
+   "status": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "model": "veo-3.1-generate-preview",
+   "raw": "",
+   "budget": null,
+   "status": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "model": "veo-3.1-generate-preview",
+   "raw": "low",
+   "budget": null,
+   "status": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "model": "veo-3.1-generate-preview",
+   "raw": "EXTRA-HIGH",
+   "budget": null,
+   "status": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "model": "veo-3.1-generate-preview",
+   "raw": "Turbo",
+   "budget": null,
+   "status": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "model": "veo-3.1-generate-preview",
+   "raw": "effortlevel.high",
+   "budget": null,
+   "status": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "model": "veo-3.1-generate-preview",
+   "raw": "nonsense",
+   "budget": null,
+   "status": "Thinking effort is not applicable to this model (standard direct generation)."
+  },
+  {
+   "model": "veo-3.1-generate-preview",
+   "raw": "7",
+   "budget": null,
+   "status": "Thinking effort is not applicable to this model (standard direct generation)."
+  }
+ ]
+}

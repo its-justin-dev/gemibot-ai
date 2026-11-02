@@ -1,0 +1,610 @@
+[
+ {
+  "line": "Hello there -- you goof-ball, use the -b option!",
+  "width": 58,
+  "wrap": [
+   "Hello there -- you goof-ball, use the -b option!"
+  ],
+  "wrap_default": [
+   "Hello there -- you goof-ball, use the -b option!"
+  ],
+  "fill_indent": "** Hello there -- you goof-ball, use the -b option!"
+ },
+ {
+  "line": "Short",
+  "width": 58,
+  "wrap": [
+   "Short"
+  ],
+  "wrap_default": [
+   "Short"
+  ],
+  "fill_indent": "** Short"
+ },
+ {
+  "line": "   leading and trailing   ",
+  "width": 58,
+  "wrap": [
+   "   leading and trailing"
+  ],
+  "wrap_default": [
+   "   leading and trailing"
+  ],
+  "fill_indent": "**    leading and trailing"
+ },
+ {
+  "line": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "width": 58,
+  "wrap": [
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaa"
+  ],
+  "wrap_default": [
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaa"
+  ],
+  "fill_indent": "** aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n   aaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "line": "supercalifragilisticexpialidocious-and-then-some-more-text-here",
+  "width": 58,
+  "wrap": [
+   "supercalifragilisticexpialidocious-and-then-some-more-",
+   "text-here"
+  ],
+  "wrap_default": [
+   "supercalifragilisticexpialidocious-and-then-some-more-",
+   "text-here"
+  ],
+  "fill_indent": "** supercalifragilisticexpialidocious-and-then-some-more-\n   text-here"
+ },
+ {
+  "line": "Tab\there and a  double space",
+  "width": 58,
+  "wrap": [
+   "Tab     here and a  double space"
+  ],
+  "wrap_default": [
+   "Tab     here and a  double space"
+  ],
+  "fill_indent": "** Tab     here and a  double space"
+ },
+ {
+  "line": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ",
+  "width": 58,
+  "wrap": [
+   "word word word word word word word word word word word",
+   "word word word word word word word word word word word",
+   "word word word word word word word word"
+  ],
+  "wrap_default": [
+   "word word word word word word word word word word word",
+   "word word word word word word word word word word word",
+   "word word word word word word word word"
+  ],
+  "fill_indent": "** word word word word word word word word word word word\n   word word word word word word word word word word word\n   word word word word word word word word"
+ },
+ {
+  "line": "Welsh: hydna-'r-bren holl-dwfnodd",
+  "width": 58,
+  "wrap": [
+   "Welsh: hydna-'r-bren holl-dwfnodd"
+  ],
+  "wrap_default": [
+   "Welsh: hydna-'r-bren holl-dwfnodd"
+  ],
+  "fill_indent": "** Welsh: hydna-'r-bren holl-dwfnodd"
+ },
+ {
+  "line": "- item with a very long tail that must be wrapped at the configured width boundary exactly",
+  "width": 58,
+  "wrap": [
+   "- item with a very long tail that must be wrapped at the",
+   "configured width boundary exactly"
+  ],
+  "wrap_default": [
+   "- item with a very long tail that must be wrapped at the",
+   "configured width boundary exactly"
+  ],
+  "fill_indent": "** - item with a very long tail that must be wrapped at\n   the configured width boundary exactly"
+ },
+ {
+  "line": "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to",
+  "width": 58,
+  "wrap": [
+   "— em dash — between words here, and some Taglish: ‘di ba",
+   "kuya, grabe ’yong bug na ‘to"
+  ],
+  "wrap_default": [
+   "— em dash — between words here, and some Taglish: ‘di ba",
+   "kuya, grabe ’yong bug na ‘to"
+  ],
+  "fill_indent": "** — em dash — between words here, and some Taglish: ‘di\n   ba kuya, grabe ’yong bug na ‘to"
+ },
+ {
+  "line": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "width": 58,
+  "wrap": [
+   "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+   "eee"
+  ],
+  "wrap_default": [
+   "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+   "eee"
+  ],
+  "fill_indent": "** eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\n   eeee"
+ },
+ {
+  "line": "",
+  "width": 58,
+  "wrap": [
+   ""
+  ],
+  "wrap_default": [
+   ""
+  ],
+  "fill_indent": ""
+ },
+ {
+  "line": "áéíóú accented words must wrap the same as ascii words in this sentence here",
+  "width": 58,
+  "wrap": [
+   "áéíóú accented words must wrap the same as ascii words",
+   "in this sentence here"
+  ],
+  "wrap_default": [
+   "áéíóú accented words must wrap the same as ascii words",
+   "in this sentence here"
+  ],
+  "fill_indent": "** áéíóú accented words must wrap the same as ascii words\n   in this sentence here"
+ },
+ {
+  "line": "Hello there -- you goof-ball, use the -b option!",
+  "width": 76,
+  "wrap": [
+   "Hello there -- you goof-ball, use the -b option!"
+  ],
+  "wrap_default": [
+   "Hello there -- you goof-ball, use the -b option!"
+  ],
+  "fill_indent": "** Hello there -- you goof-ball, use the -b option!"
+ },
+ {
+  "line": "Short",
+  "width": 76,
+  "wrap": [
+   "Short"
+  ],
+  "wrap_default": [
+   "Short"
+  ],
+  "fill_indent": "** Short"
+ },
+ {
+  "line": "   leading and trailing   ",
+  "width": 76,
+  "wrap": [
+   "   leading and trailing"
+  ],
+  "wrap_default": [
+   "   leading and trailing"
+  ],
+  "fill_indent": "**    leading and trailing"
+ },
+ {
+  "line": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "width": 76,
+  "wrap": [
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  ],
+  "wrap_default": [
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  ],
+  "fill_indent": "** aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "line": "supercalifragilisticexpialidocious-and-then-some-more-text-here",
+  "width": 76,
+  "wrap": [
+   "supercalifragilisticexpialidocious-and-then-some-more-text-here"
+  ],
+  "wrap_default": [
+   "supercalifragilisticexpialidocious-and-then-some-more-text-here"
+  ],
+  "fill_indent": "** supercalifragilisticexpialidocious-and-then-some-more-text-here"
+ },
+ {
+  "line": "Tab\there and a  double space",
+  "width": 76,
+  "wrap": [
+   "Tab     here and a  double space"
+  ],
+  "wrap_default": [
+   "Tab     here and a  double space"
+  ],
+  "fill_indent": "** Tab     here and a  double space"
+ },
+ {
+  "line": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ",
+  "width": 76,
+  "wrap": [
+   "word word word word word word word word word word word word word word word",
+   "word word word word word word word word word word word word word word word"
+  ],
+  "wrap_default": [
+   "word word word word word word word word word word word word word word word",
+   "word word word word word word word word word word word word word word word"
+  ],
+  "fill_indent": "** word word word word word word word word word word word word word word\n   word word word word word word word word word word word word word word\n   word word"
+ },
+ {
+  "line": "Welsh: hydna-'r-bren holl-dwfnodd",
+  "width": 76,
+  "wrap": [
+   "Welsh: hydna-'r-bren holl-dwfnodd"
+  ],
+  "wrap_default": [
+   "Welsh: hydna-'r-bren holl-dwfnodd"
+  ],
+  "fill_indent": "** Welsh: hydna-'r-bren holl-dwfnodd"
+ },
+ {
+  "line": "- item with a very long tail that must be wrapped at the configured width boundary exactly",
+  "width": 76,
+  "wrap": [
+   "- item with a very long tail that must be wrapped at the configured width",
+   "boundary exactly"
+  ],
+  "wrap_default": [
+   "- item with a very long tail that must be wrapped at the configured width",
+   "boundary exactly"
+  ],
+  "fill_indent": "** - item with a very long tail that must be wrapped at the configured width\n   boundary exactly"
+ },
+ {
+  "line": "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to",
+  "width": 76,
+  "wrap": [
+   "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong",
+   "bug na ‘to"
+  ],
+  "wrap_default": [
+   "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong",
+   "bug na ‘to"
+  ],
+  "fill_indent": "** — em dash — between words here, and some Taglish: ‘di ba kuya, grabe\n   ’yong bug na ‘to"
+ },
+ {
+  "line": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "width": 76,
+  "wrap": [
+   "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  ],
+  "wrap_default": [
+   "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  ],
+  "fill_indent": "** eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+ },
+ {
+  "line": "",
+  "width": 76,
+  "wrap": [
+   ""
+  ],
+  "wrap_default": [
+   ""
+  ],
+  "fill_indent": ""
+ },
+ {
+  "line": "áéíóú accented words must wrap the same as ascii words in this sentence here",
+  "width": 76,
+  "wrap": [
+   "áéíóú accented words must wrap the same as ascii words in this sentence",
+   "here"
+  ],
+  "wrap_default": [
+   "áéíóú accented words must wrap the same as ascii words in this sentence",
+   "here"
+  ],
+  "fill_indent": "** áéíóú accented words must wrap the same as ascii words in this sentence\n   here"
+ },
+ {
+  "line": "Hello there -- you goof-ball, use the -b option!",
+  "width": 92,
+  "wrap": [
+   "Hello there -- you goof-ball, use the -b option!"
+  ],
+  "wrap_default": [
+   "Hello there -- you goof-ball, use the -b option!"
+  ],
+  "fill_indent": "** Hello there -- you goof-ball, use the -b option!"
+ },
+ {
+  "line": "Short",
+  "width": 92,
+  "wrap": [
+   "Short"
+  ],
+  "wrap_default": [
+   "Short"
+  ],
+  "fill_indent": "** Short"
+ },
+ {
+  "line": "   leading and trailing   ",
+  "width": 92,
+  "wrap": [
+   "   leading and trailing"
+  ],
+  "wrap_default": [
+   "   leading and trailing"
+  ],
+  "fill_indent": "**    leading and trailing"
+ },
+ {
+  "line": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "width": 92,
+  "wrap": [
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  ],
+  "wrap_default": [
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  ],
+  "fill_indent": "** aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "line": "supercalifragilisticexpialidocious-and-then-some-more-text-here",
+  "width": 92,
+  "wrap": [
+   "supercalifragilisticexpialidocious-and-then-some-more-text-here"
+  ],
+  "wrap_default": [
+   "supercalifragilisticexpialidocious-and-then-some-more-text-here"
+  ],
+  "fill_indent": "** supercalifragilisticexpialidocious-and-then-some-more-text-here"
+ },
+ {
+  "line": "Tab\there and a  double space",
+  "width": 92,
+  "wrap": [
+   "Tab     here and a  double space"
+  ],
+  "wrap_default": [
+   "Tab     here and a  double space"
+  ],
+  "fill_indent": "** Tab     here and a  double space"
+ },
+ {
+  "line": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ",
+  "width": 92,
+  "wrap": [
+   "word word word word word word word word word word word word word word word word word word",
+   "word word word word word word word word word word word word"
+  ],
+  "wrap_default": [
+   "word word word word word word word word word word word word word word word word word word",
+   "word word word word word word word word word word word word"
+  ],
+  "fill_indent": "** word word word word word word word word word word word word word word word word word word\n   word word word word word word word word word word word word"
+ },
+ {
+  "line": "Welsh: hydna-'r-bren holl-dwfnodd",
+  "width": 92,
+  "wrap": [
+   "Welsh: hydna-'r-bren holl-dwfnodd"
+  ],
+  "wrap_default": [
+   "Welsh: hydna-'r-bren holl-dwfnodd"
+  ],
+  "fill_indent": "** Welsh: hydna-'r-bren holl-dwfnodd"
+ },
+ {
+  "line": "- item with a very long tail that must be wrapped at the configured width boundary exactly",
+  "width": 92,
+  "wrap": [
+   "- item with a very long tail that must be wrapped at the configured width boundary exactly"
+  ],
+  "wrap_default": [
+   "- item with a very long tail that must be wrapped at the configured width boundary exactly"
+  ],
+  "fill_indent": "** - item with a very long tail that must be wrapped at the configured width boundary\n   exactly"
+ },
+ {
+  "line": "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to",
+  "width": 92,
+  "wrap": [
+   "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to"
+  ],
+  "wrap_default": [
+   "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to"
+  ],
+  "fill_indent": "** — em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to"
+ },
+ {
+  "line": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "width": 92,
+  "wrap": [
+   "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  ],
+  "wrap_default": [
+   "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  ],
+  "fill_indent": "** eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+ },
+ {
+  "line": "",
+  "width": 92,
+  "wrap": [
+   ""
+  ],
+  "wrap_default": [
+   ""
+  ],
+  "fill_indent": ""
+ },
+ {
+  "line": "áéíóú accented words must wrap the same as ascii words in this sentence here",
+  "width": 92,
+  "wrap": [
+   "áéíóú accented words must wrap the same as ascii words in this sentence here"
+  ],
+  "wrap_default": [
+   "áéíóú accented words must wrap the same as ascii words in this sentence here"
+  ],
+  "fill_indent": "** áéíóú accented words must wrap the same as ascii words in this sentence here"
+ },
+ {
+  "line": "Hello there -- you goof-ball, use the -b option!",
+  "width": 96,
+  "wrap": [
+   "Hello there -- you goof-ball, use the -b option!"
+  ],
+  "wrap_default": [
+   "Hello there -- you goof-ball, use the -b option!"
+  ],
+  "fill_indent": "** Hello there -- you goof-ball, use the -b option!"
+ },
+ {
+  "line": "Short",
+  "width": 96,
+  "wrap": [
+   "Short"
+  ],
+  "wrap_default": [
+   "Short"
+  ],
+  "fill_indent": "** Short"
+ },
+ {
+  "line": "   leading and trailing   ",
+  "width": 96,
+  "wrap": [
+   "   leading and trailing"
+  ],
+  "wrap_default": [
+   "   leading and trailing"
+  ],
+  "fill_indent": "**    leading and trailing"
+ },
+ {
+  "line": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "width": 96,
+  "wrap": [
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  ],
+  "wrap_default": [
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  ],
+  "fill_indent": "** aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "line": "supercalifragilisticexpialidocious-and-then-some-more-text-here",
+  "width": 96,
+  "wrap": [
+   "supercalifragilisticexpialidocious-and-then-some-more-text-here"
+  ],
+  "wrap_default": [
+   "supercalifragilisticexpialidocious-and-then-some-more-text-here"
+  ],
+  "fill_indent": "** supercalifragilisticexpialidocious-and-then-some-more-text-here"
+ },
+ {
+  "line": "Tab\there and a  double space",
+  "width": 96,
+  "wrap": [
+   "Tab     here and a  double space"
+  ],
+  "wrap_default": [
+   "Tab     here and a  double space"
+  ],
+  "fill_indent": "** Tab     here and a  double space"
+ },
+ {
+  "line": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ",
+  "width": 96,
+  "wrap": [
+   "word word word word word word word word word word word word word word word word word word word",
+   "word word word word word word word word word word word"
+  ],
+  "wrap_default": [
+   "word word word word word word word word word word word word word word word word word word word",
+   "word word word word word word word word word word word"
+  ],
+  "fill_indent": "** word word word word word word word word word word word word word word word word word word\n   word word word word word word word word word word word word"
+ },
+ {
+  "line": "Welsh: hydna-'r-bren holl-dwfnodd",
+  "width": 96,
+  "wrap": [
+   "Welsh: hydna-'r-bren holl-dwfnodd"
+  ],
+  "wrap_default": [
+   "Welsh: hydna-'r-bren holl-dwfnodd"
+  ],
+  "fill_indent": "** Welsh: hydna-'r-bren holl-dwfnodd"
+ },
+ {
+  "line": "- item with a very long tail that must be wrapped at the configured width boundary exactly",
+  "width": 96,
+  "wrap": [
+   "- item with a very long tail that must be wrapped at the configured width boundary exactly"
+  ],
+  "wrap_default": [
+   "- item with a very long tail that must be wrapped at the configured width boundary exactly"
+  ],
+  "fill_indent": "** - item with a very long tail that must be wrapped at the configured width boundary exactly"
+ },
+ {
+  "line": "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to",
+  "width": 96,
+  "wrap": [
+   "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to"
+  ],
+  "wrap_default": [
+   "— em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to"
+  ],
+  "fill_indent": "** — em dash — between words here, and some Taglish: ‘di ba kuya, grabe ’yong bug na ‘to"
+ },
+ {
+  "line": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "width": 96,
+  "wrap": [
+   "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  ],
+  "wrap_default": [
+   "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  ],
+  "fill_indent": "** eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+ },
+ {
+  "line": "",
+  "width": 96,
+  "wrap": [
+   ""
+  ],
+  "wrap_default": [
+   ""
+  ],
+  "fill_indent": ""
+ },
+ {
+  "line": "áéíóú accented words must wrap the same as ascii words in this sentence here",
+  "width": 96,
+  "wrap": [
+   "áéíóú accented words must wrap the same as ascii words in this sentence here"
+  ],
+  "wrap_default": [
+   "áéíóú accented words must wrap the same as ascii words in this sentence here"
+  ],
+  "fill_indent": "** áéíóú accented words must wrap the same as ascii words in this sentence here"
+ }
+]

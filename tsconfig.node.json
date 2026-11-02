@@ -1,0 +1,24 @@
+{
+  "extends": "@electron-toolkit/tsconfig/tsconfig.node.json",
+  "include": [
+    "electron.vite.config.*",
+    "vitest.benchmark.config.mts",
+    "src/main/**/*",
+    "src/preload/**/*",
+    "src/shared/**/*",
+    "src/types/**/*",
+    "tests/unit/**/*",
+    "tests/benchmark/**/*",
+    "tools/**/*.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["electron-vite/node"],
+    "baseUrl": ".",
+    "paths": {
+      "@main/*": ["src/main/*"],
+      "@preload/*": ["src/preload/*"],
+      "@shared/*": ["src/shared/*"]
+    }
+  }
+}

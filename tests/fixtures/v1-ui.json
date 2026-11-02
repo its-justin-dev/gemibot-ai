@@ -1,0 +1,2303 @@
+{
+ "HELP": "\n\u001b[1mGemibot.py // GemiBot AI Commands\u001b[0m\n  \u001b[96m/model\u001b[0m            open interactive model selector (1, 2, 3...)\n  \u001b[96m/function\u001b[0m         open interactive Function & Mode Selector (Build, Read, Plan, Image UHD, DOCX, Excel, Voice...)\n  \u001b[96m/build\u001b[0m            switch to BUILD mode (full read, write, multimodal & shell access)\n  \u001b[96m/plan\u001b[0m             switch to PLAN mode (read-only architectural analysis, no edits/commands)\n  \u001b[96m/read\u001b[0m             switch to READ mode (strict read & media inspection mode)\n  \u001b[96m/todos\u001b[0m            display active task checklist\n  \u001b[96m/undo\u001b[0m             revert the last single file change made by the agent\n  \u001b[96m/revert\u001b[0m           pick a previous prompt checkpoint and roll back code, history and memory\n  \u001b[96m/target <path>\u001b[0m   set or inspect target project directory (use /target clear to reset)\n  \u001b[96m/settings\u001b[0m         view /memory/settings.md saved user preferences\n  \u001b[96m/memory\u001b[0m           show /memory/memory.md logs and interaction history\n  \u001b[96m/pip\u001b[0m              check or auto-install all required Python multimedia libraries in .venv\n  \u001b[96m/clear\u001b[0m            clear active chat context and reset /memory/memory.md\n  \u001b[96m/usage\u001b[0m            show session token consumption metrics\n  \u001b[96m/help\u001b[0m             show this help menu\n  \u001b[96m/exit\u001b[0m             shutdown and exit Gemibot CLI\n\n\u001b[1mCommand Chaining (+)\u001b[0m\n  You can combine 2 or more commands using '+' with spaces or without spaces:\n  - \u001b[93m/plan + /build\u001b[0m\n  - \u001b[93m/plan+/build\u001b[0m\n  - \u001b[93m/clear + /todos + /usage + /build\u001b[0m\n  - \u001b[93m/1 + /3 + /6\u001b[0m (Numeric chaining works too!)\n\n\u001b[1mKeybinds & Shortcuts\u001b[0m\n  \u001b[93mEsc\u001b[0m               interrupt AI generation, reply output, or running command\n  \u001b[96m@path\u001b[0m             attach a file inline, e.g. fix the bug in @src/app.py\n  \u001b[96m!command\u001b[0m          execute a shell command directly in project root (e.g. !git status)\n  \u001b[96m\\ (line end)\u001b[0m      continue your prompt on the next line\n",
+ "WIDTH": 96,
+ "SPINNER_FRAMES": [
+  "|",
+  "/",
+  "-",
+  "\\"
+ ],
+ "TOOL_ICONS_LOCAL": [
+  [
+   "list_files",
+   "-"
+  ],
+  [
+   "read_file",
+   "-"
+  ],
+  [
+   "glob_files",
+   "-"
+  ],
+  [
+   "grep_files",
+   "-"
+  ],
+  [
+   "todo_write",
+   "-"
+  ],
+  [
+   "edit_file",
+   "-"
+  ],
+  [
+   "write_file",
+   "-"
+  ],
+  [
+   "delete_file",
+   "-"
+  ],
+  [
+   "run_command",
+   "$"
+  ],
+  [
+   "web_fetch",
+   "-"
+  ],
+  [
+   "image_read",
+   "-"
+  ],
+  [
+   "image_ocr",
+   "-"
+  ],
+  [
+   "image_generate_uhd",
+   "-"
+  ],
+  [
+   "image_transform",
+   "-"
+  ],
+  [
+   "docx_read",
+   "-"
+  ],
+  [
+   "docx_analyze",
+   "-"
+  ],
+  [
+   "docx_write",
+   "-"
+  ],
+  [
+   "docx_edit",
+   "-"
+  ],
+  [
+   "excel_read",
+   "-"
+  ],
+  [
+   "excel_analyze",
+   "-"
+  ],
+  [
+   "excel_write",
+   "-"
+  ],
+  [
+   "pdf_read",
+   "-"
+  ],
+  [
+   "pdf_analyze",
+   "-"
+  ],
+  [
+   "pdf_write",
+   "-"
+  ],
+  [
+   "pptx_read",
+   "-"
+  ],
+  [
+   "pptx_write",
+   "-"
+  ],
+  [
+   "voice_analyze",
+   "-"
+  ],
+  [
+   "voice_transcribe",
+   "-"
+  ],
+  [
+   "voice_generate",
+   "-"
+  ],
+  [
+   "video_read",
+   "-"
+  ],
+  [
+   "video_analyze",
+   "-"
+  ],
+  [
+   "video_extract_frames",
+   "-"
+  ],
+  [
+   "sqlite_query",
+   "-"
+  ],
+  [
+   "csv_analyze",
+   "-"
+  ],
+  [
+   "archive_manage",
+   "-"
+  ],
+  [
+   "qr_generate",
+   "-"
+  ],
+  [
+   "system_diagnostics",
+   "-"
+  ]
+ ],
+ "WRITE_NAMES_LOCAL": [
+  "archive_manage",
+  "delete_file",
+  "docx_edit",
+  "docx_write",
+  "edit_file",
+  "excel_write",
+  "image_generate_uhd",
+  "image_transform",
+  "pdf_write",
+  "pptx_write",
+  "qr_generate",
+  "run_command",
+  "video_extract_frames",
+  "voice_generate",
+  "web_fetch",
+  "write_file"
+ ],
+ "READ_NAMES_LOCAL": [
+  "list_files",
+  "read_file",
+  "glob_files",
+  "grep_files",
+  "todo_write",
+  "image_read",
+  "image_ocr",
+  "docx_read",
+  "docx_analyze",
+  "excel_read",
+  "excel_analyze",
+  "pdf_read",
+  "pdf_analyze",
+  "pptx_read",
+  "voice_analyze",
+  "voice_transcribe",
+  "video_read",
+  "video_analyze",
+  "sqlite_query",
+  "csv_analyze",
+  "system_diagnostics"
+ ],
+ "ALL_NAMES_BOUND": [
+  "list_files",
+  "read_file",
+  "glob_files",
+  "grep_files",
+  "todo_write",
+  "image_read",
+  "image_ocr",
+  "docx_read",
+  "docx_analyze",
+  "excel_read",
+  "excel_analyze",
+  "pdf_read",
+  "pdf_analyze",
+  "pptx_read",
+  "voice_analyze",
+  "voice_transcribe",
+  "video_read",
+  "video_analyze",
+  "sqlite_query",
+  "csv_analyze",
+  "system_diagnostics",
+  "search_grounding",
+  "map_grounding",
+  "edit_file",
+  "write_file",
+  "delete_file",
+  "run_command",
+  "web_fetch",
+  "image_generate_uhd",
+  "image_transform",
+  "docx_write",
+  "docx_edit",
+  "excel_write",
+  "pdf_write",
+  "pptx_write",
+  "voice_generate",
+  "video_extract_frames",
+  "archive_manage",
+  "qr_generate"
+ ],
+ "FUNCTION_CATALOG_BOUND": [
+  [
+   "all",
+   "All Functions Unlocked - Coding + Image UHD + DOCX + Excel + PDF/PPTX + Voice + Video"
+  ],
+  [
+   "build",
+   "Build Mode - Code reading, editing, writing, shell execution & full multimodal tools"
+  ],
+  [
+   "plan",
+   "Plan Mode - Read-only architecture investigation & step-by-step planning"
+  ],
+  [
+   "read",
+   "Read Mode - Strict read-only inspection across code, docs, images, audio & video"
+  ],
+  [
+   "image_reader",
+   "Image Reader & OCR - Vision analysis, UI inspection, EXIF & text extraction"
+  ],
+  [
+   "image_generator_uhd",
+   "Image Generator Ultra HD - 4K (3840x2160) AI image generation & upscaling"
+  ],
+  [
+   "docx_management",
+   "DOCX Management - Word .docx reader, structural analyzer, writer & editor"
+  ],
+  [
+   "excel_management",
+   "Excel Management - Spreadsheet .xlsx/.csv reader, stats analyzer & formula writer"
+  ],
+  [
+   "pdf_management",
+   "PDF Management - PDF reader, page/metadata analyzer & PDF report generator"
+  ],
+  [
+   "pptx_management",
+   "PPTX Management - PowerPoint slide reader, analyzer & presentation builder"
+  ],
+  [
+   "voice_analyzer",
+   "Voice Analyzer & Transcriber - Audio metrics, waveform stats & speech-to-text"
+  ],
+  [
+   "voice_generator",
+   "Voice Generator (TTS) - Neural & offline text-to-speech audio file synthesis"
+  ],
+  [
+   "video_reader",
+   "Video Reader & Analyzer - Video metadata, frame extraction & Gemini scene analysis"
+  ],
+  [
+   "data_sql",
+   "Data Science & SQL - SQLite query runner, CSV statistical profiler & QR generator"
+  ],
+  [
+   "search_grounding",
+   "Search Grounding - Live web search with real-time Google Search grounding (1.5K queries)"
+  ],
+  [
+   "map_grounding",
+   "Map Grounding - Google Maps places, local business, directions & geographic grounding"
+  ],
+  [
+   "pip_installer",
+   "Environment & .venv Pip Installer - Check or auto-install all required pip packages"
+  ]
+ ],
+ "FUNCTION_TOOL_MAP_BOUND": {
+  "all": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "image_read",
+   "image_ocr",
+   "docx_read",
+   "docx_analyze",
+   "excel_read",
+   "excel_analyze",
+   "pdf_read",
+   "pdf_analyze",
+   "pptx_read",
+   "voice_analyze",
+   "voice_transcribe",
+   "video_read",
+   "video_analyze",
+   "sqlite_query",
+   "csv_analyze",
+   "system_diagnostics",
+   "search_grounding",
+   "map_grounding",
+   "edit_file",
+   "write_file",
+   "delete_file",
+   "run_command",
+   "web_fetch",
+   "image_generate_uhd",
+   "image_transform",
+   "docx_write",
+   "docx_edit",
+   "excel_write",
+   "pdf_write",
+   "pptx_write",
+   "voice_generate",
+   "video_extract_frames",
+   "archive_manage",
+   "qr_generate"
+  ],
+  "build": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "image_read",
+   "image_ocr",
+   "docx_read",
+   "docx_analyze",
+   "excel_read",
+   "excel_analyze",
+   "pdf_read",
+   "pdf_analyze",
+   "pptx_read",
+   "voice_analyze",
+   "voice_transcribe",
+   "video_read",
+   "video_analyze",
+   "sqlite_query",
+   "csv_analyze",
+   "system_diagnostics",
+   "search_grounding",
+   "map_grounding",
+   "edit_file",
+   "write_file",
+   "delete_file",
+   "run_command",
+   "web_fetch",
+   "image_generate_uhd",
+   "image_transform",
+   "docx_write",
+   "docx_edit",
+   "excel_write",
+   "pdf_write",
+   "pptx_write",
+   "voice_generate",
+   "video_extract_frames",
+   "archive_manage",
+   "qr_generate"
+  ],
+  "plan": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "image_read",
+   "image_ocr",
+   "docx_read",
+   "docx_analyze",
+   "excel_read",
+   "excel_analyze",
+   "pdf_read",
+   "pdf_analyze",
+   "pptx_read",
+   "voice_analyze",
+   "voice_transcribe",
+   "video_read",
+   "video_analyze",
+   "sqlite_query",
+   "csv_analyze",
+   "system_diagnostics",
+   "search_grounding",
+   "map_grounding"
+  ],
+  "read": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "image_read",
+   "image_ocr",
+   "docx_read",
+   "docx_analyze",
+   "excel_read",
+   "excel_analyze",
+   "pdf_read",
+   "pdf_analyze",
+   "pptx_read",
+   "voice_analyze",
+   "voice_transcribe",
+   "video_read",
+   "video_analyze",
+   "sqlite_query",
+   "csv_analyze",
+   "system_diagnostics",
+   "search_grounding",
+   "map_grounding"
+  ],
+  "image_reader": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "image_read",
+   "image_ocr"
+  ],
+  "image_generator_uhd": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "image_read",
+   "image_ocr",
+   "image_generate_uhd",
+   "image_transform"
+  ],
+  "docx_management": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "docx_read",
+   "docx_analyze",
+   "docx_write",
+   "docx_edit"
+  ],
+  "excel_management": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "excel_read",
+   "excel_analyze",
+   "excel_write"
+  ],
+  "pdf_management": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "pdf_read",
+   "pdf_analyze",
+   "pptx_read",
+   "pdf_write",
+   "pptx_write"
+  ],
+  "pptx_management": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "pdf_read",
+   "pdf_analyze",
+   "pptx_read",
+   "pdf_write",
+   "pptx_write"
+  ],
+  "voice_analyzer": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "voice_analyze",
+   "voice_transcribe"
+  ],
+  "voice_generator": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "voice_analyze",
+   "voice_transcribe",
+   "voice_generate"
+  ],
+  "video_reader": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "video_read",
+   "video_analyze",
+   "video_extract_frames"
+  ],
+  "data_sql": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "sqlite_query",
+   "csv_analyze",
+   "system_diagnostics",
+   "archive_manage",
+   "qr_generate"
+  ],
+  "search_grounding": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "search_grounding",
+   "map_grounding"
+  ],
+  "map_grounding": [
+   "list_files",
+   "read_file",
+   "glob_files",
+   "grep_files",
+   "todo_write",
+   "search_grounding",
+   "map_grounding"
+  ]
+ },
+ "TOOL_DISPLAY_NAMES": [
+  [
+   "model_failover",
+   "Model Failover"
+  ],
+  [
+   "read_file",
+   "Read File"
+  ],
+  [
+   "write_file",
+   "Write File"
+  ],
+  [
+   "edit_file",
+   "Edit File"
+  ],
+  [
+   "delete_file",
+   "Delete File"
+  ],
+  [
+   "list_files",
+   "List Files"
+  ],
+  [
+   "glob_files",
+   "Glob Files"
+  ],
+  [
+   "grep_files",
+   "Grep Files"
+  ],
+  [
+   "todo_write",
+   "Todo Write"
+  ],
+  [
+   "run_command",
+   "Run Command"
+  ],
+  [
+   "run_command_outside_target",
+   "Run Command (Outside)"
+  ],
+  [
+   "web_fetch",
+   "Web Fetch"
+  ],
+  [
+   "image_read",
+   "Image Read"
+  ],
+  [
+   "image_ocr",
+   "Image OCR"
+  ],
+  [
+   "image_generate_uhd",
+   "Image Generate UHD"
+  ],
+  [
+   "image_transform",
+   "Image Transform"
+  ],
+  [
+   "docx_read",
+   "DocX Read"
+  ],
+  [
+   "docx_analyze",
+   "DocX Analyze"
+  ],
+  [
+   "docx_write",
+   "DocX Write"
+  ],
+  [
+   "docx_edit",
+   "DocX Edit"
+  ],
+  [
+   "excel_read",
+   "Excel Read"
+  ],
+  [
+   "excel_analyze",
+   "Excel Analyze"
+  ],
+  [
+   "excel_write",
+   "Excel Write"
+  ],
+  [
+   "pdf_read",
+   "PDF Read"
+  ],
+  [
+   "pdf_analyze",
+   "PDF Analyze"
+  ],
+  [
+   "pdf_write",
+   "PDF Write"
+  ],
+  [
+   "pptx_read",
+   "PPTX Read"
+  ],
+  [
+   "pptx_write",
+   "PPTX Write"
+  ],
+  [
+   "voice_analyze",
+   "Voice Analyze"
+  ],
+  [
+   "voice_transcribe",
+   "Voice Transcribe"
+  ],
+  [
+   "voice_generate",
+   "Voice Generate"
+  ],
+  [
+   "video_read",
+   "Video Read"
+  ],
+  [
+   "video_analyze",
+   "Video Analyze"
+  ],
+  [
+   "video_extract_frames",
+   "Video Extract Frames"
+  ],
+  [
+   "sqlite_query",
+   "SQLite Query"
+  ],
+  [
+   "csv_analyze",
+   "CSV Analyze"
+  ],
+  [
+   "archive_manage",
+   "Archive Manage"
+  ],
+  [
+   "qr_generate",
+   "QR Generate"
+  ],
+  [
+   "system_diagnostics",
+   "System Diagnostics"
+  ],
+  [
+   "permission",
+   "Permission"
+  ],
+  [
+   "error",
+   "Error"
+  ]
+ ],
+ "ACTION_ICONS": [
+  [
+   "list_files",
+   "📁"
+  ],
+  [
+   "read_file",
+   "📄"
+  ],
+  [
+   "glob_files",
+   "🔍"
+  ],
+  [
+   "grep_files",
+   "🔎"
+  ],
+  [
+   "todo_write",
+   "📋"
+  ],
+  [
+   "edit_file",
+   "📝"
+  ],
+  [
+   "write_file",
+   "✍️"
+  ],
+  [
+   "delete_file",
+   "🗑️"
+  ],
+  [
+   "run_command",
+   "⚡"
+  ],
+  [
+   "run_command_outside_target",
+   "⚠️"
+  ],
+  [
+   "web_fetch",
+   "🌐"
+  ],
+  [
+   "image_read",
+   "👁️"
+  ],
+  [
+   "image_ocr",
+   "🔤"
+  ],
+  [
+   "image_generate_uhd",
+   "🎨"
+  ],
+  [
+   "image_transform",
+   "🖼️"
+  ],
+  [
+   "docx_read",
+   "📄"
+  ],
+  [
+   "docx_analyze",
+   "📄"
+  ],
+  [
+   "docx_write",
+   "📝"
+  ],
+  [
+   "docx_edit",
+   "📝"
+  ],
+  [
+   "excel_read",
+   "📊"
+  ],
+  [
+   "excel_analyze",
+   "📊"
+  ],
+  [
+   "excel_write",
+   "📊"
+  ],
+  [
+   "pdf_read",
+   "📑"
+  ],
+  [
+   "pdf_analyze",
+   "📑"
+  ],
+  [
+   "pdf_write",
+   "📑"
+  ],
+  [
+   "pptx_read",
+   "📽️"
+  ],
+  [
+   "pptx_write",
+   "📽️"
+  ],
+  [
+   "voice_analyze",
+   "🎙️"
+  ],
+  [
+   "voice_transcribe",
+   "🎙️"
+  ],
+  [
+   "voice_generate",
+   "🔊"
+  ],
+  [
+   "video_read",
+   "🎬"
+  ],
+  [
+   "video_analyze",
+   "🎬"
+  ],
+  [
+   "video_extract_frames",
+   "🎞️"
+  ],
+  [
+   "sqlite_query",
+   "💾"
+  ],
+  [
+   "csv_analyze",
+   "📊"
+  ],
+  [
+   "archive_manage",
+   "📦"
+  ],
+  [
+   "qr_generate",
+   "📱"
+  ],
+  [
+   "system_diagnostics",
+   "🩺"
+  ],
+  [
+   "permission",
+   "🛡️"
+  ],
+  [
+   "error",
+   "⚠️"
+  ]
+ ],
+ "STATUS_COLORS": [
+  [
+   "Success",
+   [
+    "#10b981",
+    "#064e3b"
+   ]
+  ],
+  [
+   "Running",
+   [
+    "#f59e0b",
+    "#451a03"
+   ]
+  ],
+  [
+   "Failed",
+   [
+    "#f87171",
+    "#450a0a"
+   ]
+  ],
+  [
+   "Denied",
+   [
+    "#fb923c",
+    "#431407"
+   ]
+  ]
+ ],
+ "ALL_DECLARATIONS_BOUND": [
+  {
+   "name": "list_files",
+   "description": "List files and folders in a directory of the project.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Directory relative to the project root. Default '.'",
+      "type": "STRING"
+     },
+     "depth": {
+      "description": "How many levels to show (1-4). Default 2",
+      "type": "INTEGER"
+     }
+    },
+    "required": [],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "read_file",
+   "description": "Read a text file. Output lines are prefixed with 'N| ' line numbers.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "File path relative to the project root",
+      "type": "STRING"
+     },
+     "offset": {
+      "description": "First line to read, starting at 1",
+      "type": "INTEGER"
+     },
+     "limit": {
+      "description": "Maximum number of lines. Default 2000",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "glob_files",
+   "description": "Find files by glob pattern such as '**/*.py' or 'src/**/*.ts'.",
+   "parameters": {
+    "properties": {
+     "pattern": {
+      "description": "Glob pattern relative to the project root",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "pattern"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "grep_files",
+   "description": "Search file contents with a regular expression.",
+   "parameters": {
+    "properties": {
+     "pattern": {
+      "description": "Regular expression to search for",
+      "type": "STRING"
+     },
+     "path": {
+      "description": "Directory or file to search. Default '.'",
+      "type": "STRING"
+     },
+     "include": {
+      "description": "Only search file names matching this glob, e.g. '*.py'",
+      "type": "STRING"
+     },
+     "ignore_case": {
+      "description": "Case-insensitive search",
+      "type": "BOOLEAN"
+     }
+    },
+    "required": [
+     "pattern"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "todo_write",
+   "description": "Create or update the task checklist for the current job.",
+   "parameters": {
+    "properties": {
+     "todos": {
+      "description": "Full list of todos",
+      "items": {
+       "properties": {
+        "content": {
+         "description": "Task description",
+         "type": "STRING"
+        },
+        "status": {
+         "description": "pending, in_progress or completed",
+         "type": "STRING"
+        }
+       },
+       "required": [
+        "content",
+        "status"
+       ],
+       "type": "OBJECT"
+      },
+      "type": "ARRAY"
+     }
+    },
+    "required": [
+     "todos"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "image_read",
+   "description": "Read and analyze an image file using Pillow metadata and Gemini Vision.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Image path relative to project root",
+      "type": "STRING"
+     },
+     "prompt": {
+      "description": "Question or analysis instruction for the image",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "image_ocr",
+   "description": "Extract all text, tables, and labels from an image using Gemini Vision OCR.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Image path relative to project root",
+      "type": "STRING"
+     },
+     "language": {
+      "description": "Expected language hint, default 'auto'",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "docx_read",
+   "description": "Read a Microsoft Word (.docx) file including headings, paragraphs, and tables.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to the .docx file",
+      "type": "STRING"
+     },
+     "include_tables": {
+      "description": "Include extracted table rows. Default true",
+      "type": "BOOLEAN"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "docx_analyze",
+   "description": "Analyze a Word (.docx) file for structure, statistics, styles, headings, and readability.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to the .docx file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "excel_read",
+   "description": "Read sheets, rows, and cell values from an Excel (.xlsx) or CSV file.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .xlsx or .csv file",
+      "type": "STRING"
+     },
+     "sheet": {
+      "description": "Sheet name (optional, defaults to active sheet)",
+      "type": "STRING"
+     },
+     "max_rows": {
+      "description": "Maximum rows to display. Default 100",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "excel_analyze",
+   "description": "Analyze an Excel (.xlsx) workbook for sheet schemas, summary statistics, missing values, and formulas.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .xlsx file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "pdf_read",
+   "description": "Read text content from a PDF file across specified pages.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .pdf file",
+      "type": "STRING"
+     },
+     "start_page": {
+      "description": "First page number (1-indexed). Default 1",
+      "type": "INTEGER"
+     },
+     "end_page": {
+      "description": "Last page number. Default 20",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "pdf_analyze",
+   "description": "Analyze a PDF document for metadata, page count, word density, TOC, and structure.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .pdf file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "pptx_read",
+   "description": "Read slide titles, bullet text, tables, and speaker notes from a PowerPoint (.pptx) file.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .pptx file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "voice_analyze",
+   "description": "Analyze an audio/voice file (.wav, .mp3, .m4a, .ogg, .flac) for acoustic metrics and Gemini AI voice comprehension.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Audio file path",
+      "type": "STRING"
+     },
+     "prompt": {
+      "description": "Specific question or analysis focus for the audio",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "voice_transcribe",
+   "description": "Transcribe spoken audio into accurate text and speaker segments.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Audio file path",
+      "type": "STRING"
+     },
+     "language": {
+      "description": "Language code hint, e.g. 'en-US' or 'tl-PH'. Default 'auto'",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "video_read",
+   "description": "Inspect a video file (.mp4, .mkv, .mov, .avi, .webm) for resolution, FPS, frame count, duration, and timeline info.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to video file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "video_analyze",
+   "description": "Extract keyframes from a video file and analyze visual scenes, actions, and text with Gemini Vision.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to video file",
+      "type": "STRING"
+     },
+     "prompt": {
+      "description": "What to analyze or look for in the video",
+      "type": "STRING"
+     },
+     "sample_frames": {
+      "description": "Number of evenly spaced frames to sample (2-12). Default 6",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "sqlite_query",
+   "description": "Run a SQL query on a local SQLite database file and return rows.",
+   "parameters": {
+    "properties": {
+     "db_path": {
+      "description": "Path to .sqlite / .db file",
+      "type": "STRING"
+     },
+     "sql": {
+      "description": "SQL query to execute (SELECT, PRAGMA, etc.)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "db_path",
+     "sql"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "csv_analyze",
+   "description": "Perform statistical and schema profiling on a CSV/TSV dataset.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .csv file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "system_diagnostics",
+   "description": "Inspect OS, CPU, RAM, Disk, Python .venv packages, and Gemibot readiness.",
+   "parameters": {
+    "properties": {},
+    "required": [],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "search_grounding",
+   "description": "Real-time Google Search grounding: query Google for live facts, breaking news, docs, and citations.",
+   "parameters": {
+    "properties": {
+     "query": {
+      "description": "Search query to find real-time information from Google Search",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "map_grounding",
+   "description": "Google Maps grounding: look up places, addresses, navigation directions, geo coordinates, and local business data.",
+   "parameters": {
+    "properties": {
+     "location": {
+      "description": "Place name, address, or geographic query on Google Maps",
+      "type": "STRING"
+     },
+     "query": {
+      "description": "Specific question or information required about this location (optional)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "location"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "edit_file",
+   "description": "Replace exact text in a file. old_string must match the file exactly and be unique unless replace_all is true. Use an empty old_string only to create a new file.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "File path relative to the project root",
+      "type": "STRING"
+     },
+     "old_string": {
+      "description": "Exact text to replace",
+      "type": "STRING"
+     },
+     "new_string": {
+      "description": "Replacement text",
+      "type": "STRING"
+     },
+     "replace_all": {
+      "description": "Replace every occurrence",
+      "type": "BOOLEAN"
+     },
+     "what": {
+      "description": "Brief description of what was changed (1-2 lines, optional)",
+      "type": "STRING"
+     },
+     "why": {
+      "description": "Reason for the change (optional)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path",
+     "old_string",
+     "new_string"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "write_file",
+   "description": "Create a file or completely overwrite an existing one.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "File path relative to the project root",
+      "type": "STRING"
+     },
+     "content": {
+      "description": "Full file content",
+      "type": "STRING"
+     },
+     "what": {
+      "description": "Brief description of what the file contains or does (1-2 lines, optional)",
+      "type": "STRING"
+     },
+     "why": {
+      "description": "Reason for creating/modifying this file (optional)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path",
+     "content"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "delete_file",
+   "description": "Delete a file from the project.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "File path relative to the project root",
+      "type": "STRING"
+     },
+     "what": {
+      "description": "Brief description of what was deleted (1-2 lines, optional)",
+      "type": "STRING"
+     },
+     "why": {
+      "description": "Reason for deletion (optional)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "run_command",
+   "description": "Run a shell command in the project root (build, test, git, install, etc.).",
+   "parameters": {
+    "properties": {
+     "command": {
+      "description": "The command to run",
+      "type": "STRING"
+     },
+     "timeout": {
+      "description": "Timeout in seconds. Default 120, maximum 600",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "command"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "web_fetch",
+   "description": "Fetch a web page and return its text content.",
+   "parameters": {
+    "properties": {
+     "url": {
+      "description": "The http or https URL",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "url"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "image_generate_uhd",
+   "description": "Generate an Ultra HD 4K (3840x2160) image from a prompt and save it to disk.",
+   "parameters": {
+    "properties": {
+     "prompt": {
+      "description": "Detailed visual description of the image to generate",
+      "type": "STRING"
+     },
+     "output_path": {
+      "description": "Destination file path, e.g. 'assets/hero_uhd.png'",
+      "type": "STRING"
+     },
+     "resolution": {
+      "description": "Target resolution: '4k' (3840x2160), '2k' (2560x1440), 'square_uhd' (2048x2048). Default '4k'",
+      "type": "STRING"
+     },
+     "enhance": {
+      "description": "Apply Ultra HD Lanczos sharpening and contrast mastering. Default true",
+      "type": "BOOLEAN"
+     },
+     "what": {
+      "description": "Brief description of the generated image (1-2 lines, optional)",
+      "type": "STRING"
+     },
+     "why": {
+      "description": "Reason for generating this image (optional)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "prompt",
+     "output_path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "image_transform",
+   "description": "Resize, crop, rotate, convert format, or enhance an existing image.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Source image path",
+      "type": "STRING"
+     },
+     "output_path": {
+      "description": "Output image path (optional, defaults to overwriting path)",
+      "type": "STRING"
+     },
+     "operation": {
+      "description": "Operation: 'resize', 'upscale_4k', 'grayscale', 'rotate', 'sharpen', 'contrast', 'thumbnail'",
+      "type": "STRING"
+     },
+     "width": {
+      "description": "Target width for resize/thumbnail",
+      "type": "INTEGER"
+     },
+     "height": {
+      "description": "Target height for resize/thumbnail",
+      "type": "INTEGER"
+     },
+     "angle": {
+      "description": "Rotation angle in degrees",
+      "type": "INTEGER"
+     },
+     "what": {
+      "description": "Brief description of the transformation (1-2 lines, optional)",
+      "type": "STRING"
+     },
+     "why": {
+      "description": "Reason for this transformation (optional)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path",
+     "operation"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "docx_write",
+   "description": "Create or overwrite a Microsoft Word (.docx) document from Markdown-formatted content.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Output .docx file path",
+      "type": "STRING"
+     },
+     "title": {
+      "description": "Document title heading",
+      "type": "STRING"
+     },
+     "content": {
+      "description": "Body content supporting # headings, * bullets, 1. numbered lists, and | tables |",
+      "type": "STRING"
+     },
+     "author": {
+      "description": "Document author metadata",
+      "type": "STRING"
+     },
+     "what": {
+      "description": "Brief description of the document content (1-2 lines, optional)",
+      "type": "STRING"
+     },
+     "why": {
+      "description": "Reason for creating/modifying this document (optional)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path",
+     "content"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "docx_edit",
+   "description": "Edit an existing .docx file by replacing text across paragraphs/tables or appending content.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to existing .docx file",
+      "type": "STRING"
+     },
+     "find_text": {
+      "description": "Exact text to find and replace (optional)",
+      "type": "STRING"
+     },
+     "replace_text": {
+      "description": "Replacement text (optional)",
+      "type": "STRING"
+     },
+     "append_markdown": {
+      "description": "Additional Markdown paragraphs/headings to append at the end (optional)",
+      "type": "STRING"
+     },
+     "what": {
+      "description": "Brief description of the edit (1-2 lines, optional)",
+      "type": "STRING"
+     },
+     "why": {
+      "description": "Reason for this edit (optional)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "excel_write",
+   "description": "Create or update an Excel (.xlsx) workbook with headers, rows, formulas, and auto-sized columns.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Output .xlsx file path",
+      "type": "STRING"
+     },
+     "sheet_name": {
+      "description": "Target worksheet name. Default 'Sheet1'",
+      "type": "STRING"
+     },
+     "headers": {
+      "description": "Column header names",
+      "items": {
+       "type": "STRING"
+      },
+      "type": "ARRAY"
+     },
+     "rows": {
+      "description": "2D array of row values (strings, numbers, or '=SUM(...)' formulas)",
+      "items": {
+       "items": {
+        "type": "STRING"
+       },
+       "type": "ARRAY"
+      },
+      "type": "ARRAY"
+     }
+    },
+    "required": [
+     "path",
+     "headers",
+     "rows"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "pdf_write",
+   "description": "Generate a formatted PDF document from title and Markdown/plain text content.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Output .pdf file path",
+      "type": "STRING"
+     },
+     "title": {
+      "description": "PDF document title",
+      "type": "STRING"
+     },
+     "content": {
+      "description": "Full text/Markdown content to render into PDF pages",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path",
+     "content"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "pptx_write",
+   "description": "Create a PowerPoint (.pptx) presentation deck from a list of slide definitions.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Output .pptx file path",
+      "type": "STRING"
+     },
+     "title": {
+      "description": "Presentation main title",
+      "type": "STRING"
+     },
+     "subtitle": {
+      "description": "Presentation subtitle",
+      "type": "STRING"
+     },
+     "slides": {
+      "description": "Slides to add",
+      "items": {
+       "properties": {
+        "heading": {
+         "description": "Slide heading",
+         "type": "STRING"
+        },
+        "bullets": {
+         "description": "Bullet points",
+         "items": {
+          "type": "STRING"
+         },
+         "type": "ARRAY"
+        },
+        "notes": {
+         "description": "Speaker notes",
+         "type": "STRING"
+        }
+       },
+       "required": [
+        "heading",
+        "bullets"
+       ],
+       "type": "OBJECT"
+      },
+      "type": "ARRAY"
+     }
+    },
+    "required": [
+     "path",
+     "title",
+     "slides"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "voice_generate",
+   "description": "Generate natural spoken audio (.mp3 or .wav) from text using Neural TTS / offline TTS.",
+   "parameters": {
+    "properties": {
+     "text": {
+      "description": "Text to synthesize into speech",
+      "type": "STRING"
+     },
+     "output_path": {
+      "description": "Output audio file path, e.g. 'output/voice.mp3'",
+      "type": "STRING"
+     },
+     "voice": {
+      "description": "Voice name or gender hint, e.g. 'en-US-GuyNeural', 'en-US-JennyNeural', 'en-PH-JamesNeural'",
+      "type": "STRING"
+     },
+     "rate": {
+      "description": "Speech rate words per minute (default 175)",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "text",
+     "output_path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "video_extract_frames",
+   "description": "Extract keyframe images from a video file into an output folder.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to video file",
+      "type": "STRING"
+     },
+     "output_dir": {
+      "description": "Directory to save extracted frame PNGs",
+      "type": "STRING"
+     },
+     "count": {
+      "description": "Number of evenly spaced frames to extract (1-30). Default 8",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path",
+     "output_dir"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "archive_manage",
+   "description": "Create or extract a .zip or .tar.gz archive inside the project.",
+   "parameters": {
+    "properties": {
+     "action": {
+      "description": "'zip', 'unzip', 'tar', or 'untar'",
+      "type": "STRING"
+     },
+     "source": {
+      "description": "Source file/folder or archive path",
+      "type": "STRING"
+     },
+     "destination": {
+      "description": "Destination archive path or extraction folder",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "action",
+     "source",
+     "destination"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "qr_generate",
+   "description": "Generate a high-resolution QR code image PNG from text or URL.",
+   "parameters": {
+    "properties": {
+     "data": {
+      "description": "URL or text payload for the QR code",
+      "type": "STRING"
+     },
+     "output_path": {
+      "description": "Output PNG path, e.g. 'assets/qrcode.png'",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "data",
+     "output_path"
+    ],
+    "type": "OBJECT"
+   }
+  }
+ ],
+ "READ_DECLARATIONS_LOCAL": [
+  {
+   "name": "list_files",
+   "description": "List files and folders in a directory of the project.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Directory relative to the project root. Default '.'",
+      "type": "STRING"
+     },
+     "depth": {
+      "description": "How many levels to show (1-4). Default 2",
+      "type": "INTEGER"
+     }
+    },
+    "required": [],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "read_file",
+   "description": "Read a text file. Output lines are prefixed with 'N| ' line numbers.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "File path relative to the project root",
+      "type": "STRING"
+     },
+     "offset": {
+      "description": "First line to read, starting at 1",
+      "type": "INTEGER"
+     },
+     "limit": {
+      "description": "Maximum number of lines. Default 2000",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "glob_files",
+   "description": "Find files by glob pattern such as '**/*.py' or 'src/**/*.ts'.",
+   "parameters": {
+    "properties": {
+     "pattern": {
+      "description": "Glob pattern relative to the project root",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "pattern"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "grep_files",
+   "description": "Search file contents with a regular expression.",
+   "parameters": {
+    "properties": {
+     "pattern": {
+      "description": "Regular expression to search for",
+      "type": "STRING"
+     },
+     "path": {
+      "description": "Directory or file to search. Default '.'",
+      "type": "STRING"
+     },
+     "include": {
+      "description": "Only search file names matching this glob, e.g. '*.py'",
+      "type": "STRING"
+     },
+     "ignore_case": {
+      "description": "Case-insensitive search",
+      "type": "BOOLEAN"
+     }
+    },
+    "required": [
+     "pattern"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "todo_write",
+   "description": "Create or update the task checklist for the current job.",
+   "parameters": {
+    "properties": {
+     "todos": {
+      "description": "Full list of todos",
+      "items": {
+       "properties": {
+        "content": {
+         "description": "Task description",
+         "type": "STRING"
+        },
+        "status": {
+         "description": "pending, in_progress or completed",
+         "type": "STRING"
+        }
+       },
+       "required": [
+        "content",
+        "status"
+       ],
+       "type": "OBJECT"
+      },
+      "type": "ARRAY"
+     }
+    },
+    "required": [
+     "todos"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "image_read",
+   "description": "Read and analyze an image file using Pillow metadata and Gemini Vision.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Image path relative to project root",
+      "type": "STRING"
+     },
+     "prompt": {
+      "description": "Question or analysis instruction for the image",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "image_ocr",
+   "description": "Extract all text, tables, and labels from an image using Gemini Vision OCR.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Image path relative to project root",
+      "type": "STRING"
+     },
+     "language": {
+      "description": "Expected language hint, default 'auto'",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "docx_read",
+   "description": "Read a Microsoft Word (.docx) file including headings, paragraphs, and tables.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to the .docx file",
+      "type": "STRING"
+     },
+     "include_tables": {
+      "description": "Include extracted table rows. Default true",
+      "type": "BOOLEAN"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "docx_analyze",
+   "description": "Analyze a Word (.docx) file for structure, statistics, styles, headings, and readability.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to the .docx file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "excel_read",
+   "description": "Read sheets, rows, and cell values from an Excel (.xlsx) or CSV file.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .xlsx or .csv file",
+      "type": "STRING"
+     },
+     "sheet": {
+      "description": "Sheet name (optional, defaults to active sheet)",
+      "type": "STRING"
+     },
+     "max_rows": {
+      "description": "Maximum rows to display. Default 100",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "excel_analyze",
+   "description": "Analyze an Excel (.xlsx) workbook for sheet schemas, summary statistics, missing values, and formulas.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .xlsx file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "pdf_read",
+   "description": "Read text content from a PDF file across specified pages.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .pdf file",
+      "type": "STRING"
+     },
+     "start_page": {
+      "description": "First page number (1-indexed). Default 1",
+      "type": "INTEGER"
+     },
+     "end_page": {
+      "description": "Last page number. Default 20",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "pdf_analyze",
+   "description": "Analyze a PDF document for metadata, page count, word density, TOC, and structure.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .pdf file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "pptx_read",
+   "description": "Read slide titles, bullet text, tables, and speaker notes from a PowerPoint (.pptx) file.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .pptx file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "voice_analyze",
+   "description": "Analyze an audio/voice file (.wav, .mp3, .m4a, .ogg, .flac) for acoustic metrics and Gemini AI voice comprehension.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Audio file path",
+      "type": "STRING"
+     },
+     "prompt": {
+      "description": "Specific question or analysis focus for the audio",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "voice_transcribe",
+   "description": "Transcribe spoken audio into accurate text and speaker segments.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Audio file path",
+      "type": "STRING"
+     },
+     "language": {
+      "description": "Language code hint, e.g. 'en-US' or 'tl-PH'. Default 'auto'",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "video_read",
+   "description": "Inspect a video file (.mp4, .mkv, .mov, .avi, .webm) for resolution, FPS, frame count, duration, and timeline info.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to video file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "video_analyze",
+   "description": "Extract keyframes from a video file and analyze visual scenes, actions, and text with Gemini Vision.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to video file",
+      "type": "STRING"
+     },
+     "prompt": {
+      "description": "What to analyze or look for in the video",
+      "type": "STRING"
+     },
+     "sample_frames": {
+      "description": "Number of evenly spaced frames to sample (2-12). Default 6",
+      "type": "INTEGER"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "sqlite_query",
+   "description": "Run a SQL query on a local SQLite database file and return rows.",
+   "parameters": {
+    "properties": {
+     "db_path": {
+      "description": "Path to .sqlite / .db file",
+      "type": "STRING"
+     },
+     "sql": {
+      "description": "SQL query to execute (SELECT, PRAGMA, etc.)",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "db_path",
+     "sql"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "csv_analyze",
+   "description": "Perform statistical and schema profiling on a CSV/TSV dataset.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Path to .csv file",
+      "type": "STRING"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "OBJECT"
+   }
+  },
+  {
+   "name": "system_diagnostics",
+   "description": "Inspect OS, CPU, RAM, Disk, Python .venv packages, and Gemibot readiness.",
+   "parameters": {
+    "properties": {},
+    "required": [],
+    "type": "OBJECT"
+   }
+  }
+ ]
+}

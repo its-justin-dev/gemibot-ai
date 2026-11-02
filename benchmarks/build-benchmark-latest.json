@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-10-24T05:21:57.095Z",
+  "mode": "fake",
+  "caveat": "Fake-mode measurements use a scripted model and a simulated verifier; no API key or network was used. Normal mode is a chars/4 estimate of one tool turn per file with full history, so it is a lower bound, not an API measurement.",
+  "scenarios": [
+    {
+      "id": "todo-web",
+      "name": "Todo web app",
+      "status": "success",
+      "success": true,
+      "durationMs": 188,
+      "filesCreated": 12,
+      "tasks": 2,
+      "tasksSucceeded": 2,
+      "verifications": 2,
+      "commands": 9,
+      "builds": 2,
+      "tests": 1,
+      "smoke": 1,
+      "taskRetries": 0,
+      "repairs": 0,
+      "steps": 9,
+      "tokens": {
+        "input": 3417,
+        "output": 532,
+        "task": 1154,
+        "total": 5103
+      },
+      "normalModeEstimate": {
+        "input": 32828,
+        "output": 1052,
+        "total": 33880,
+        "turns": 14
+      },
+      "notes": []
+    },
+    {
+      "id": "rest-auth",
+      "name": "REST API auth",
+      "status": "success",
+      "success": true,
+      "durationMs": 98,
+      "filesCreated": 10,
+      "tasks": 2,
+      "tasksSucceeded": 2,
+      "verifications": 2,
+      "commands": 9,
+      "builds": 2,
+      "tests": 1,
+      "smoke": 1,
+      "taskRetries": 1,
+      "repairs": 0,
+      "steps": 10,
+      "tokens": {
+        "input": 3411,
+        "output": 515,
+        "task": 2114,
+        "total": 6040
+      },
+      "normalModeEstimate": {
+        "input": 28072,
+        "output": 1235,
+        "total": 29307,
+        "turns": 12
+      },
+      "notes": [
+        "Task t1 failed once and was retried with the real error."
+      ]
+    },
+    {
+      "id": "inventory-fullstack",
+      "name": "Full-stack inventory",
+      "status": "success",
+      "success": true,
+      "durationMs": 198,
+      "filesCreated": 13,
+      "tasks": 3,
+      "tasksSucceeded": 3,
+      "verifications": 5,
+      "commands": 23,
+      "builds": 5,
+      "tests": 4,
+      "smoke": 2,
+      "taskRetries": 0,
+      "repairs": 1,
+      "steps": 15,
+      "tokens": {
+        "input": 5430,
+        "output": 712,
+        "task": 1502,
+        "total": 7644
+      },
+      "normalModeEstimate": {
+        "input": 35434,
+        "output": 1018,
+        "total": 36452,
+        "turns": 15
+      },
+      "notes": [
+        "Final verification failed once and a real repair edit fixed it."
+      ]
+    },
+    {
+      "id": "vague-request",
+      "name": "Vague request",
+      "status": "success",
+      "success": true,
+      "durationMs": 72,
+      "filesCreated": 7,
+      "tasks": 1,
+      "tasksSucceeded": 1,
+      "verifications": 2,
+      "commands": 9,
+      "builds": 2,
+      "tests": 1,
+      "smoke": 1,
+      "taskRetries": 0,
+      "repairs": 0,
+      "steps": 9,
+      "tokens": {
+        "input": 3684,
+        "output": 571,
+        "task": 558,
+        "total": 4813
+      },
+      "normalModeEstimate": {
+        "input": 17919,
+        "output": 395,
+        "total": 18314,
+        "turns": 9
+      },
+      "notes": [
+        "Recorded 3 assumption(s) and 1 batched question(s)."
+      ]
+    }
+  ],
+  "totals": {
+    "scenarios": 4,
+    "succeeded": 4,
+    "durationMs": 556,
+    "tokens": 23600,
+    "normalModeEstimate": 117953,
+    "repairs": 1,
+    "taskRetries": 1,
+    "filesCreated": 42
+  }
+}

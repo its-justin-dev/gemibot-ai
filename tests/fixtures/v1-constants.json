@@ -1,0 +1,1197 @@
+{
+ "MODEL_CATALOG": [
+  [
+   "gemini-3.1-flash-lite",
+   "Gemini 3.1 Flash Lite [FASTEST - 6-7s]"
+  ],
+  [
+   "gemini-3.5-flash-lite",
+   "Gemini 3.5 Flash Lite [Fast - 20-25s]"
+  ],
+  [
+   "gemini-3.8-flash",
+   "Gemini 3.8 Flash"
+  ],
+  [
+   "gemini-3.7-flash",
+   "Gemini 3.7 Flash"
+  ],
+  [
+   "gemini-3.6-flash",
+   "Gemini 3.6 Flash"
+  ],
+  [
+   "gemini-3.5-flash",
+   "Gemini 3.5 Flash"
+  ],
+  [
+   "gemini-2-flash",
+   "Gemini 2 Flash"
+  ],
+  [
+   "gemini-2-flash-lite",
+   "Gemini 2 Flash Lite"
+  ],
+  [
+   "gemini-2.0-flash",
+   "Gemini 2 Flash"
+  ],
+  [
+   "gemini-2.0-flash-lite",
+   "Gemini 2 Flash Lite"
+  ],
+  [
+   "gemini-3.1-pro-preview",
+   "Gemini 3.1 Pro"
+  ],
+  [
+   "gemini-3-flash-preview",
+   "Gemini 3 Flash"
+  ],
+  [
+   "gemini-2.5-pro",
+   "Gemini 2.5 Pro"
+  ],
+  [
+   "gemini-2.5-flash",
+   "Gemini 2.5 Flash"
+  ],
+  [
+   "gemini-2.5-flash-lite",
+   "Gemini 2.5 Flash Lite"
+  ],
+  [
+   "gemini-4-argon",
+   "Gemini 4 Argon"
+  ],
+  [
+   "gemini-flash-latest",
+   "Gemini Flash Latest"
+  ],
+  [
+   "gemini-pro-latest",
+   "Gemini Pro Latest"
+  ],
+  [
+   "gemini-flash-lite-latest",
+   "Gemini Flash-Lite Latest"
+  ],
+  [
+   "gemma-4-31b-it",
+   "Gemma 4 31B"
+  ],
+  [
+   "gemma-4-26b-a4b-it",
+   "Gemma 4 26B"
+  ],
+  [
+   "antigravity-preview-latest",
+   "Antigravity (Latest Preview)"
+  ],
+  [
+   "antigravity",
+   "Antigravity (Default)"
+  ],
+  [
+   "antigravity-preview-09-2026",
+   "Antigravity (09-2026 Preview)"
+  ],
+  [
+   "antigravity-preview-05-2026",
+   "Antigravity (05-2026 Preview)"
+  ],
+  [
+   "antigravity-latest",
+   "Antigravity Latest"
+  ],
+  [
+   "deep-research-pro-preview-12-2025",
+   "Deep Research Pro Preview"
+  ],
+  [
+   "deep-research-preview-04-2026",
+   "Deep Research Preview"
+  ],
+  [
+   "deep-research-max-preview-04-2026",
+   "Deep Research Max Preview"
+  ],
+  [
+   "nano-banana-pro-preview",
+   "Nano Banana Pro (Gemini 3 Pro Image)"
+  ],
+  [
+   "gemini-3.1-flash-image",
+   "Nano Banana 2 (Gemini 3.1 Flash Image)"
+  ],
+  [
+   "gemini-3.1-flash-lite-image",
+   "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
+  ],
+  [
+   "gemini-2.5-flash-image",
+   "Nano Banana (Gemini 2.5 Flash Preview Image)"
+  ],
+  [
+   "gemini-nano-banana-2.1",
+   "Gemini Nano Banana 2.1"
+  ],
+  [
+   "gemini-omni-1.1-flash",
+   "Gemini Omni 1.1 Flash"
+  ],
+  [
+   "gemini-omni-flash-preview",
+   "Gemini Omni Flash"
+  ],
+  [
+   "veo-3.1-generate-preview",
+   "Veo 3 Generate"
+  ],
+  [
+   "veo-3.1-fast-generate-preview",
+   "Veo 3 Fast Generate"
+  ],
+  [
+   "veo-3.1-lite-generate-preview",
+   "Veo 3 Lite Generate"
+  ],
+  [
+   "gemini-3.8-flash-tts",
+   "Gemini 3.8 Flash TTS"
+  ],
+  [
+   "gemini-3.8-flash-lite-tts",
+   "Gemini 3.8 Flash Lite TTS"
+  ],
+  [
+   "gemini-3.1-flash-tts-preview",
+   "Gemini 3.1 Flash TTS"
+  ],
+  [
+   "gemini-2.5-flash-preview-tts",
+   "Gemini 2.5 Flash TTS"
+  ],
+  [
+   "gemini-2.5-pro-preview-tts",
+   "Gemini 2.5 Pro TTS"
+  ],
+  [
+   "gemini-3.5-transcribe",
+   "Gemini 3.5 Transcribe"
+  ],
+  [
+   "lyria-3-clip-preview",
+   "Lyria 3 Clip"
+  ],
+  [
+   "lyria-3-pro-preview",
+   "Lyria 3 Pro"
+  ],
+  [
+   "lyria-3.5",
+   "Lyria 3.5"
+  ],
+  [
+   "gemini-3.8-live",
+   "Gemini 3.8 Live"
+  ],
+  [
+   "gemini-3.8-live-extended-thinking",
+   "Gemini 3.8 Live Extended Thinking"
+  ],
+  [
+   "gemini-3.5-live-translate-preview",
+   "Gemini 3.5 Live Translate"
+  ],
+  [
+   "gemini-3.5-transcribe-live",
+   "Gemini 3.5 Transcribe Live"
+  ],
+  [
+   "gemini-3.1-flash-live-preview",
+   "Gemini 3 Flash Live"
+  ],
+  [
+   "gemini-2.5-flash-native-audio-latest",
+   "Gemini 2.5 Flash Native Audio Dialog"
+  ],
+  [
+   "gemini-2.5-computer-use-preview-10-2025",
+   "Computer Use Preview"
+  ],
+  [
+   "gemini-robotics-er-2-preview",
+   "Gemini Robotics ER 2 Preview"
+  ],
+  [
+   "gemini-embedding-2",
+   "Gemini Embedding 2"
+  ],
+  [
+   "gemini-embedding-001",
+   "Gemini Embedding 1"
+  ],
+  [
+   "gemini-2",
+   "Gemini 2 (Search Grounding)"
+  ],
+  [
+   "gemini-2.5",
+   "Gemini 2.5 (Search Grounding)"
+  ],
+  [
+   "gemini-3",
+   "Gemini 3 and newer (Search Grounding)"
+  ],
+  [
+   "default",
+   "Default (Search Grounding)"
+  ]
+ ],
+ "ANTIGRAVITY_MODELS": [
+  "antigravity-preview-latest",
+  "antigravity",
+  "antigravity-preview-09-2026",
+  "antigravity-preview-05-2026",
+  "antigravity-latest"
+ ],
+ "MODEL_ALIASES": [
+  [
+   "gemini-2-flash",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "gemini-2.0-flash",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "gemini-2-flash-lite",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "gemini-2.0-flash-lite",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "gemini-2.5-flash-lite",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "gemini-2.5-flash",
+   "gemini-3.8-flash"
+  ],
+  [
+   "gemini-2.5-pro",
+   "gemini-3.1-pro-preview"
+  ],
+  [
+   "gemini-2",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "gemini-2.5",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "gemini-3",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "default",
+   "gemini-3.1-flash-lite"
+  ],
+  [
+   "antigravity",
+   "antigravity-preview-latest"
+  ],
+  [
+   "antigravity-latest",
+   "antigravity-preview-latest"
+  ]
+ ],
+ "FALLBACK_MODELS": [
+  "gemini-3.5-flash-lite",
+  "gemini-3.1-flash-lite",
+  "antigravity-preview-latest",
+  "gemini-3.5-flash"
+ ],
+ "GROUNDING_MODELS": [
+  "default",
+  "gemini-2",
+  "gemini-2.5",
+  "gemini-3"
+ ],
+ "MODELS": [
+  "gemini-3.1-flash-lite",
+  "gemini-3.5-flash-lite",
+  "gemini-3.8-flash",
+  "gemini-3.7-flash",
+  "gemini-3.6-flash",
+  "gemini-3.5-flash",
+  "gemini-3.1-pro-preview",
+  "gemini-3-flash-preview",
+  "gemini-4-argon",
+  "gemini-flash-latest",
+  "gemini-pro-latest",
+  "gemini-flash-lite-latest",
+  "antigravity-preview-latest",
+  "antigravity",
+  "antigravity-preview-09-2026",
+  "antigravity-preview-05-2026",
+  "antigravity-latest",
+  "deep-research-pro-preview-12-2025",
+  "deep-research-preview-04-2026",
+  "deep-research-max-preview-04-2026",
+  "gemma-4-31b-it",
+  "gemma-4-26b-a4b-it"
+ ],
+ "IMAGE_MODELS": [
+  "nano-banana-pro-preview",
+  "gemini-3.1-flash-image",
+  "gemini-2.5-flash-image",
+  "imagen-3.0-generate-002"
+ ],
+ "MAX_STEPS": 40,
+ "MAX_OUTPUT": 30000,
+ "SESSION_DIR": ".gemibot",
+ "MEMORY_REL_PATH": "memory/memory.md",
+ "SETTINGS_REL_PATH": "memory/settings.md",
+ "IGNORED": [
+  ".gemibot",
+  ".git",
+  ".idea",
+  ".next",
+  ".pytest_cache",
+  ".venv",
+  ".vscode",
+  "__pycache__",
+  "build",
+  "dist",
+  "env",
+  "node_modules",
+  "target",
+  "venv"
+ ],
+ "SPINNER_FRAMES": [
+  "|",
+  "/",
+  "-",
+  "\\"
+ ],
+ "REQUIRED_PIP_PACKAGES": [
+  "google-genai",
+  "pillow",
+  "python-docx",
+  "openpyxl",
+  "pandas",
+  "pypdf",
+  "pymupdf",
+  "reportlab",
+  "python-pptx",
+  "opencv-python",
+  "moviepy",
+  "pydub",
+  "SpeechRecognition",
+  "gTTS",
+  "pyttsx3",
+  "edge-tts",
+  "librosa",
+  "soundfile",
+  "numpy",
+  "qrcode",
+  "psutil",
+  "beautifulsoup4",
+  "lxml",
+  "requests"
+ ],
+ "MEMORY_HEADER": "# System Development Progress & Interaction Memory\n\n> This file (`/memory/memory.md`) stores the complete, unabbreviated chronological record of all user prompts, AI responses, tool/command executions, and exact file diffs/contents across sessions.\n\n",
+ "SETTINGS_HEADER": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n",
+ "MEMORY_FIRST_NOTE": "Note: (Required to do first): Read the /memory/memory.md you have knowledge in entire system development progress",
+ "MEMORY_LAST_NOTE": "Note (Required to do last): Log this interaction in /memory/memory.md. At the top of the entry, include the current date and timestamp. Record my exact prompt, your complete response, and the full, unabbreviated record of all system changes including exact code diffs (or full contents of modified/created files), every tool or terminal command executed, and their complete outputs. Do not summarize or truncate modifications. Format the entry cleanly in Markdown so another AI assistant can parse the exact project state and immediately resume work.",
+ "PERSONA": "\nYou are \"GemiBot AI\" running inside Gemibot CLI, a command-line coding and multimodal agent\nand the user's close friend, like a chill older brother who is also a very strong senior engineer.\n\nPersonality:\n- Warm, loyal, casual and short. Never robotic or formal.\n- Call the user \"bro\". Never write the full word \"brother\".\n- If the user says \"bro\" or \"brother\", answer back with \"bro\".\n- Reply in the same language the user uses (English, Tagalog or Taglish).\n- Never use emojis.\n- The persona applies to your chat messages only. Never put persona words into\n  code, comments, commit messages or file contents unless the user asks.\n\nMemory & Continuity Protocol:\n- {MEMORY_FIRST_NOTE}\n- {MEMORY_LAST_NOTE}\n- The CLI engine automatically reads `/memory/memory.md` before your turn and\n  automatically writes the full, unabbreviated interaction log (including exact prompts,\n  your complete response, all tool/command outputs, exact diffs, and full modified file\n  contents) to `/memory/memory.md` as the final step of every turn. Do not manually\n  overwrite `/memory/memory.md` with partial summaries.\n\nCapabilities & Specialized Suites:\n- Coding & Workspace: list_files, read_file, glob_files, grep_files, edit_file, write_file, delete_file, run_command, web_fetch, todo_write\n- Image Vision & Ultra HD Generation: image_read, image_ocr, image_generate_uhd\n- Word DOCX Management: docx_read, docx_analyze, docx_write, docx_edit\n- Excel & Spreadsheet Management: excel_read, excel_analyze, excel_write, excel_formula_audit\n- PDF & PowerPoint Management: pdf_read, pdf_analyze, pdf_write, pptx_read, pptx_write\n- Voice & Audio Intelligence: voice_analyze, voice_transcribe, voice_generate\n- Video Intelligence: video_read, video_analyze, video_extract_frames\n- Data Science, SQLite, Archives & Diagnostics: sqlite_query, csv_analyze, archive_manage, qr_generate, system_diagnostics\n\nHow you work:\n- STRICT TARGET DIRECTORY RESTRICTION: You work exclusively inside the user's\n  designated target directory and its subfolders. You may list, read, search,\n  create, edit, delete, and generate files (including images and media) ONLY\n  inside that directory. Nothing outside the target directory can be touched,\n  and you cannot escape or navigate up to parent folders (e.g. \"..\", absolute\n  paths, other drives, symlinks/junctions).\n- All generated files (images, docx, excel, pdf, audio, video frames, etc.)\n  must be saved inside the target directory.\n- Always read a file before you edit it. Never guess file contents.\n- Prefer edit_file for changes. Use write_file only for new files or full rewrites.\n- read_file output has line number prefixes like \"12| \". Never include them in\n  old_string, new_string or file content.\n- Make the smallest correct change. Match the existing code style and conventions.\n- For multi-step work, keep a short plan with todo_write and update it as you go.\n- After changing code, run the project's tests, build or linter with run_command\n  when that is possible, and fix what you broke.\n- Use grep_files and glob_files to explore before making assumptions.\n- Be accurate. If you are not sure, say so. Do not invent files, functions or output.\n- Keep chat replies short. Do not repeat file contents you already wrote.\n",
+ "PLAN_NOTE": "\nYou are in PLAN mode. You can only read, analyze and search. You cannot edit files or run\ncommands. Investigate, then give the user a clear step-by-step plan. Do not claim\nyou changed anything.\n",
+ "READ_NOTE": "\nYou are in READ mode. You can only read and inspect files, documents, images, audio,\nspreadsheets, and videos. You cannot modify or delete files or execute shell commands.\n",
+ "COLORS": {
+  "BG_BADGE": "\u001b[48;5;236m\u001b[97m",
+  "BG_BUILD": "\u001b[48;5;29m\u001b[97m",
+  "BG_FUNC": "\u001b[48;5;93m\u001b[97m",
+  "BG_PLAN": "\u001b[48;5;136m\u001b[97m",
+  "BG_READ": "\u001b[48;5;24m\u001b[97m",
+  "BLUE": "\u001b[94m",
+  "BOLD": "\u001b[1m",
+  "CYAN": "\u001b[96m",
+  "DIM": "\u001b[2m",
+  "GRAY": "\u001b[90m",
+  "GREEN": "\u001b[92m",
+  "ITALIC": "\u001b[3m",
+  "MAGENTA": "\u001b[95m",
+  "RED": "\u001b[91m",
+  "RESET": "\u001b[0m",
+  "WHITE": "\u001b[97m",
+  "YELLOW": "\u001b[93m"
+ },
+ "model_logic": [
+  {
+   "id": "gemini-3.1-flash-lite",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ FASTEST • 6-7s response • 500 RPD • Multimodal",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.5-flash-lite",
+   "resolved": "gemini-3.5-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ Fast • 20-25s response • 500 RPD • Multimodal",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.8-flash",
+   "resolved": "gemini-3.8-flash",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ Ultra Fast • Latest Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.7-flash",
+   "resolved": "gemini-3.7-flash",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.6-flash",
+   "resolved": "gemini-3.6-flash",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ High Speed • High Context",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.5-flash",
+   "resolved": "gemini-3.5-flash",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ High Capacity • Flagship Flash",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2-flash",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2-flash-lite",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2.0-flash",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2.0-flash-lite",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.1-pro-preview",
+   "resolved": "gemini-3.1-pro-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Pro & Frontier",
+   "badge": "🧠 Complex Reasoning & Code Architecture",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3-flash-preview",
+   "resolved": "gemini-3-flash-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2.5-pro",
+   "resolved": "gemini-3.1-pro-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Pro & Frontier",
+   "badge": "🧠 Complex Reasoning & Code Architecture",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2.5-flash",
+   "resolved": "gemini-3.8-flash",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2.5-flash-lite",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-4-argon",
+   "resolved": "gemini-4-argon",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Pro & Frontier",
+   "badge": "🧠 Flagship Reasoning Frontier Model",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-flash-latest",
+   "resolved": "gemini-flash-latest",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-pro-latest",
+   "resolved": "gemini-pro-latest",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Pro & Frontier",
+   "badge": "🧠 Complex Reasoning & Code Architecture",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-flash-lite-latest",
+   "resolved": "gemini-flash-lite-latest",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemma-4-31b-it",
+   "resolved": "gemma-4-31b-it",
+   "antigravity": false,
+   "gemma": true,
+   "embedding": false,
+   "grounding": false,
+   "category": "Gemma",
+   "badge": "💎 Open Model • Direct Reasoning",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemma-4-26b-a4b-it",
+   "resolved": "gemma-4-26b-a4b-it",
+   "antigravity": false,
+   "gemma": true,
+   "embedding": false,
+   "grounding": false,
+   "category": "Gemma",
+   "badge": "💎 Open Model • Direct Reasoning",
+   "supports_thinking": false
+  },
+  {
+   "id": "antigravity-preview-latest",
+   "resolved": "antigravity-preview-latest",
+   "antigravity": true,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Antigravity",
+   "badge": "🤖 Autonomous Coding Agent • Interactions API",
+   "supports_thinking": true
+  },
+  {
+   "id": "antigravity",
+   "resolved": "antigravity-preview-latest",
+   "antigravity": true,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Antigravity",
+   "badge": "🤖 Autonomous Coding Agent • Interactions API",
+   "supports_thinking": true
+  },
+  {
+   "id": "antigravity-preview-09-2026",
+   "resolved": "antigravity-preview-09-2026",
+   "antigravity": true,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Antigravity",
+   "badge": "🤖 Autonomous Coding Agent • Interactions API",
+   "supports_thinking": true
+  },
+  {
+   "id": "antigravity-preview-05-2026",
+   "resolved": "antigravity-preview-05-2026",
+   "antigravity": true,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Antigravity",
+   "badge": "🤖 Autonomous Coding Agent • Interactions API",
+   "supports_thinking": true
+  },
+  {
+   "id": "antigravity-latest",
+   "resolved": "antigravity-preview-latest",
+   "antigravity": true,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Antigravity",
+   "badge": "🤖 Autonomous Coding Agent • Interactions API",
+   "supports_thinking": true
+  },
+  {
+   "id": "deep-research-pro-preview-12-2025",
+   "resolved": "deep-research-pro-preview-12-2025",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Deep Research",
+   "badge": "🔍 Autonomous Deep Web Research Agent",
+   "supports_thinking": false
+  },
+  {
+   "id": "deep-research-preview-04-2026",
+   "resolved": "deep-research-preview-04-2026",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Deep Research",
+   "badge": "🔍 Autonomous Deep Web Research Agent",
+   "supports_thinking": false
+  },
+  {
+   "id": "deep-research-max-preview-04-2026",
+   "resolved": "deep-research-max-preview-04-2026",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Deep Research",
+   "badge": "🔍 Autonomous Deep Web Research Agent",
+   "supports_thinking": false
+  },
+  {
+   "id": "nano-banana-pro-preview",
+   "resolved": "nano-banana-pro-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "🎨 Multimodal Image Generation & Vision",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-3.1-flash-image",
+   "resolved": "gemini-3.1-flash-image",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "🎨 Multimodal Image Generation & Vision",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-3.1-flash-lite-image",
+   "resolved": "gemini-3.1-flash-lite-image",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "🎨 Multimodal Image Generation & Vision",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-2.5-flash-image",
+   "resolved": "gemini-2.5-flash-image",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "🎨 Multimodal Image Generation & Vision",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-nano-banana-2.1",
+   "resolved": "gemini-nano-banana-2.1",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "🎨 Multimodal Image Generation & Vision",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-omni-1.1-flash",
+   "resolved": "gemini-omni-1.1-flash",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-omni-flash-preview",
+   "resolved": "gemini-omni-flash-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "veo-3.1-generate-preview",
+   "resolved": "veo-3.1-generate-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "🎬 High-Definition Video Generation",
+   "supports_thinking": false
+  },
+  {
+   "id": "veo-3.1-fast-generate-preview",
+   "resolved": "veo-3.1-fast-generate-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "🎬 High-Definition Video Generation",
+   "supports_thinking": false
+  },
+  {
+   "id": "veo-3.1-lite-generate-preview",
+   "resolved": "veo-3.1-lite-generate-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Image & Video",
+   "badge": "🎬 High-Definition Video Generation",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-3.8-flash-tts",
+   "resolved": "gemini-3.8-flash-tts",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "🔊 Speech & Voice Audio Synthesis",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-3.8-flash-lite-tts",
+   "resolved": "gemini-3.8-flash-lite-tts",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "🔊 Speech & Voice Audio Synthesis",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-3.1-flash-tts-preview",
+   "resolved": "gemini-3.1-flash-tts-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "🔊 Speech & Voice Audio Synthesis",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-2.5-flash-preview-tts",
+   "resolved": "gemini-2.5-flash-preview-tts",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "🔊 Speech & Voice Audio Synthesis",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-2.5-pro-preview-tts",
+   "resolved": "gemini-2.5-pro-preview-tts",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "🔊 Speech & Voice Audio Synthesis",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-3.5-transcribe",
+   "resolved": "gemini-3.5-transcribe",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "🎙️ Audio Transcription & Speech Analysis",
+   "supports_thinking": false
+  },
+  {
+   "id": "lyria-3-clip-preview",
+   "resolved": "lyria-3-clip-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": false
+  },
+  {
+   "id": "lyria-3-pro-preview",
+   "resolved": "lyria-3-pro-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "🧠 Complex Reasoning & Code Architecture",
+   "supports_thinking": false
+  },
+  {
+   "id": "lyria-3.5",
+   "resolved": "lyria-3.5",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-3.8-live",
+   "resolved": "gemini-3.8-live",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.8-live-extended-thinking",
+   "resolved": "gemini-3.8-live-extended-thinking",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.5-live-translate-preview",
+   "resolved": "gemini-3.5-live-translate-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3.5-transcribe-live",
+   "resolved": "gemini-3.5-transcribe-live",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "🎙️ Audio Transcription & Speech Analysis",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-3.1-flash-live-preview",
+   "resolved": "gemini-3.1-flash-live-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2.5-flash-native-audio-latest",
+   "resolved": "gemini-2.5-flash-native-audio-latest",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Audio & Voice",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2.5-computer-use-preview-10-2025",
+   "resolved": "gemini-2.5-computer-use-preview-10-2025",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Robotics & Tools",
+   "badge": "🖥️ UI Automation & Computer Control",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-robotics-er-2-preview",
+   "resolved": "gemini-robotics-er-2-preview",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Robotics & Tools",
+   "badge": "🦾 Spatial & Physical Intelligence",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-embedding-2",
+   "resolved": "gemini-embedding-2",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": true,
+   "grounding": false,
+   "category": "Embeddings",
+   "badge": "📐 Vector Embeddings • Semantic Search",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-embedding-001",
+   "resolved": "gemini-embedding-001",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": true,
+   "grounding": false,
+   "category": "Embeddings",
+   "badge": "📐 Vector Embeddings • Semantic Search",
+   "supports_thinking": false
+  },
+  {
+   "id": "gemini-2",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": true,
+   "category": "Search Grounding",
+   "badge": "🌐 Live Google Web Search Grounded",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-2.5",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": true,
+   "category": "Search Grounding",
+   "badge": "🌐 Live Google Web Search Grounded",
+   "supports_thinking": true
+  },
+  {
+   "id": "gemini-3",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": true,
+   "category": "Search Grounding",
+   "badge": "🌐 Live Google Web Search Grounded",
+   "supports_thinking": true
+  },
+  {
+   "id": "default",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": true,
+   "category": "Search Grounding",
+   "badge": "🌐 Live Google Web Search Grounded",
+   "supports_thinking": false
+  },
+  {
+   "id": "",
+   "resolved": "gemini-3.1-flash-lite",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": false
+  },
+  {
+   "id": "made-up-model",
+   "resolved": "made-up-model",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": false
+  },
+  {
+   "id": "models/gemini-3.5-flash",
+   "resolved": "models/gemini-3.5-flash",
+   "antigravity": false,
+   "gemma": false,
+   "embedding": false,
+   "grounding": false,
+   "category": "Flash",
+   "badge": "⚡ General AI Generation",
+   "supports_thinking": true
+  }
+ ],
+ "network_errors": [
+  [
+   "Error sending request: Max retries exceeded with url",
+   false
+  ],
+  [
+   "[Errno 11001] getaddrinfo failed",
+   true
+  ],
+  [
+   "NameResolutionError",
+   true
+  ],
+  [
+   "Connection refused",
+   true
+  ],
+  [
+   "[WinError 10051] As unconnected",
+   true
+  ],
+  [
+   "temporarily unavailable: temporary failure in name resolution",
+   true
+  ],
+  [
+   "429 Too Many Requests",
+   false
+  ],
+  [
+   "Invalid JSON payload",
+   false
+  ],
+  [
+   "socket.gaierror",
+   true
+  ],
+  [
+   "No internet",
+   true
+  ],
+  [
+   "connection reset by peer",
+   true
+  ]
+ ]
+}

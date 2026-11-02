@@ -1,0 +1,5 @@
+name,age,score,active
+Alice,34,91.5,True
+Bob,28,78,False
+Cara,,85.0,True
+Dan,41,,True

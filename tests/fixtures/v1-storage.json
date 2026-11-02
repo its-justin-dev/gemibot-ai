@@ -1,0 +1,2492 @@
+{
+ "pil_mime": {
+  "AVIF": "image/avif",
+  "BMP": "image/bmp",
+  "DIB": "image/bmp",
+  "PCX": "image/x-pcx",
+  "EPS": "application/postscript",
+  "GIF": "image/gif",
+  "PNG": "image/png",
+  "JPEG2000": "image/jp2",
+  "ICNS": "image/icns",
+  "ICO": "image/x-icon",
+  "JPEG": "image/jpeg",
+  "MPEG": "video/mpeg",
+  "TIFF": "image/tiff",
+  "MPO": "image/mpo",
+  "PALM": "image/palm",
+  "PDF": "application/pdf",
+  "PPM": "image/x-portable-anymap",
+  "PSD": "image/vnd.adobe.photoshop",
+  "SGI": "image/sgi",
+  "TGA": "image/x-tga",
+  "WEBP": "image/webp",
+  "XBM": "image/xbm",
+  "XPM": "image/xpm"
+ },
+ "paths": [
+  [
+   "app.py",
+   "app.py",
+   "app.py",
+   "app.py",
+   ".py",
+   "app"
+  ],
+  [
+   "./a/b.py",
+   "a/b.py",
+   "a/b.py",
+   "b.py",
+   ".py",
+   "b"
+  ],
+  [
+   "a\\b\\c.py",
+   "a/b/c.py",
+   "a/b/c.py",
+   "c.py",
+   ".py",
+   "c"
+  ],
+  [
+   "/abs/x/",
+   "abs/x",
+   "abs/x",
+   "x",
+   "",
+   "x"
+  ],
+  [
+   "./",
+   ".",
+   ".",
+   "",
+   "",
+   ""
+  ],
+  [
+   "..",
+   "..",
+   "..",
+   "..",
+   "",
+   ".."
+  ],
+  [
+   "  spaced/file.txt ",
+   "spaced/file.txt",
+   "spaced/file.txt",
+   "file.txt ",
+   ".txt ",
+   "file"
+  ],
+  [
+   ".env",
+   ".env",
+   ".env",
+   ".env",
+   "",
+   ".env"
+  ],
+  [
+   "archive.tar.gz",
+   "archive.tar.gz",
+   "archive.tar.gz",
+   "archive.tar.gz",
+   ".gz",
+   "archive.tar"
+  ],
+  [
+   "a.b.c",
+   "a.b.c",
+   "a.b.c",
+   "a.b.c",
+   ".c",
+   "a.b"
+  ],
+  [
+   "no_suffixed",
+   "no_suffixed",
+   "no_suffixed",
+   "no_suffixed",
+   "",
+   "no_suffixed"
+  ],
+  [
+   "trailingdot.",
+   "trailingdot.",
+   "trailingdot.",
+   "trailingdot.",
+   "",
+   "trailingdot."
+  ],
+  [
+   "UPPER.PY",
+   "UPPER.PY",
+   "UPPER.PY",
+   "UPPER.PY",
+   ".PY",
+   "UPPER"
+  ],
+  [
+   "dir/",
+   "dir",
+   "dir",
+   "dir",
+   "",
+   "dir"
+  ],
+  [
+   "C:\\x\\y.txt",
+   "C:/x/y.txt",
+   "C:/x/y.txt",
+   "y.txt",
+   ".txt",
+   "y"
+  ],
+  [
+   ".//",
+   ".",
+   ".",
+   "",
+   "",
+   ""
+  ],
+  [
+   "a/.",
+   "a/.",
+   "a/.",
+   "a",
+   "",
+   "a"
+  ],
+  [
+   "a/./",
+   "a/.",
+   "a/.",
+   "a",
+   "",
+   "a"
+  ],
+  [
+   "/",
+   ".",
+   ".",
+   "",
+   "",
+   ""
+  ],
+  [
+   "C:\\",
+   "C:",
+   "C:",
+   "",
+   "",
+   ""
+  ],
+  [
+   "a//b.py",
+   "a//b.py",
+   "a//b.py",
+   "b.py",
+   ".py",
+   "b"
+  ],
+  [
+   "",
+   ".",
+   ".",
+   "",
+   "",
+   ""
+  ],
+  [
+   "a/..",
+   "a/..",
+   "a/..",
+   "..",
+   "",
+   ".."
+  ],
+  [
+   "././b",
+   "b",
+   "b",
+   "b",
+   "",
+   "b"
+  ],
+  [
+   "a/b/../c.txt",
+   "a/b/../c.txt",
+   "a/b/../c.txt",
+   "c.txt",
+   ".txt",
+   "c"
+  ],
+  [
+   "\\\\srv\\share\\f.txt",
+   "srv/share/f.txt",
+   "srv/share/f.txt",
+   "f.txt",
+   ".txt",
+   "f"
+  ],
+  [
+   "a b /c d.txt ",
+   "a b /c d.txt",
+   "a b /c d.txt",
+   "c d.txt ",
+   ".txt ",
+   "c d"
+  ]
+ ],
+ "file_change": [
+  {
+   "in": {
+    "path": "a.py",
+    "full_path": "C:\\w\\a.py",
+    "change_type": "Added"
+   },
+   "out": {
+    "path": "a.py",
+    "full_path": "C:\\w\\a.py",
+    "change_type": "Added",
+    "snapshot_id": null,
+    "original_exists": false,
+    "timestamp": "2026-10-21 18:25:14",
+    "detail": "",
+    "is_binary": false,
+    "what": [],
+    "why": []
+   },
+   "ct": "Added"
+  },
+  {
+   "in": {
+    "path": "b.md",
+    "full_path": "/w/b.md",
+    "change_type": "Document edited",
+    "snapshot_id": "deadbeefdeadbeef",
+    "original_exists": true,
+    "timestamp": "2026-10-21 03:07:09",
+    "detail": "Document edited: b.md",
+    "is_binary": true,
+    "what": [
+     "wrote"
+    ],
+    "why": [
+     "because"
+    ]
+   },
+   "out": {
+    "path": "b.md",
+    "full_path": "/w/b.md",
+    "change_type": "Document edited",
+    "snapshot_id": "deadbeefdeadbeef",
+    "original_exists": true,
+    "timestamp": "2026-10-21 03:07:09",
+    "detail": "Document edited: b.md",
+    "is_binary": true,
+    "what": [
+     "wrote"
+    ],
+    "why": [
+     "because"
+    ]
+   },
+   "ct": "Document edited"
+  },
+  {
+   "in": {
+    "path": "c",
+    "full_path": "c",
+    "change_type": "Bogus"
+   },
+   "out": {
+    "path": "c",
+    "full_path": "c",
+    "change_type": "Modified",
+    "snapshot_id": null,
+    "original_exists": false,
+    "timestamp": "2026-10-21 18:25:14",
+    "detail": "",
+    "is_binary": false,
+    "what": [],
+    "why": []
+   },
+   "ct": "Modified"
+  },
+  {
+   "in": {
+    "path": "d",
+    "full_path": "d",
+    "change_type": null
+   },
+   "out": {
+    "path": "d",
+    "full_path": "d",
+    "change_type": "Modified",
+    "snapshot_id": null,
+    "original_exists": false,
+    "timestamp": "2026-10-21 18:25:14",
+    "detail": "",
+    "is_binary": false,
+    "what": [],
+    "why": []
+   },
+   "ct": "Modified"
+  }
+ ],
+ "parse_unified_diff": [
+  {
+   "unified": [],
+   "hunks": [],
+   "line_summary": "",
+   "total_added": 0,
+   "total_removed": 0
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,2 +1,2 @@",
+    " def add(a, b):",
+    "-    return a + b",
+    "+    return a - b"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,2 +1,2 @@",
+     "lines": [
+      {
+       "content": "def add(a, b):",
+       "line_number": 1,
+       "line_type": "context",
+       "old_line_number": 1
+      },
+      {
+       "content": "    return a + b",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 2
+      },
+      {
+       "content": "    return a - b",
+       "line_number": 2,
+       "line_type": "added",
+       "old_line_number": null
+      }
+     ],
+     "old_start": 1,
+     "old_count": 2,
+     "new_start": 1,
+     "new_count": 2,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+1 -1",
+   "total_added": 1,
+   "total_removed": 1
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,2 +1,8 @@",
+    "-def add(a, b):",
+    "-    return a + b",
+    "+line1",
+    "+line2",
+    "+line3",
+    "+line4",
+    "+line5",
+    "+line6",
+    "+line7",
+    "+line8"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,2 +1,8 @@",
+     "lines": [
+      {
+       "content": "def add(a, b):",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 1
+      },
+      {
+       "content": "    return a + b",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 2
+      },
+      {
+       "content": "line1",
+       "line_number": 1,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line2",
+       "line_number": 2,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line3",
+       "line_number": 3,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line4",
+       "line_number": 4,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line5",
+       "line_number": 5,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line6",
+       "line_number": 6,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line7",
+       "line_number": 7,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line8",
+       "line_number": 8,
+       "line_type": "added",
+       "old_line_number": null
+      }
+     ],
+     "old_start": 1,
+     "old_count": 2,
+     "new_start": 1,
+     "new_count": 8,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+8 -2",
+   "total_added": 8,
+   "total_removed": 2
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,2 +1,8 @@",
+    "-def add(a, b):",
+    "-    return a + b",
+    "+line1",
+    "+line2",
+    "+CHANGED",
+    "+line4",
+    "+line5",
+    "+line6",
+    "+line7",
+    "+line8"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,2 +1,8 @@",
+     "lines": [
+      {
+       "content": "def add(a, b):",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 1
+      },
+      {
+       "content": "    return a + b",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 2
+      },
+      {
+       "content": "line1",
+       "line_number": 1,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line2",
+       "line_number": 2,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "CHANGED",
+       "line_number": 3,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line4",
+       "line_number": 4,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line5",
+       "line_number": 5,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line6",
+       "line_number": 6,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line7",
+       "line_number": 7,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line8",
+       "line_number": 8,
+       "line_type": "added",
+       "old_line_number": null
+      }
+     ],
+     "old_start": 1,
+     "old_count": 2,
+     "new_start": 1,
+     "new_count": 8,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+8 -2",
+   "total_added": 8,
+   "total_removed": 2
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,2 +1,2 @@",
+    " def add(a, b):",
+    "-    return a - b",
+    "+    return a + b"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,2 +1,2 @@",
+     "lines": [
+      {
+       "content": "def add(a, b):",
+       "line_number": 1,
+       "line_type": "context",
+       "old_line_number": 1
+      },
+      {
+       "content": "    return a - b",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 2
+      },
+      {
+       "content": "    return a + b",
+       "line_number": 2,
+       "line_type": "added",
+       "old_line_number": null
+      }
+     ],
+     "old_start": 1,
+     "old_count": 2,
+     "new_start": 1,
+     "new_count": 2,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+1 -1",
+   "total_added": 1,
+   "total_removed": 1
+  },
+  {
+   "unified": [],
+   "hunks": [],
+   "line_summary": "",
+   "total_added": 0,
+   "total_removed": 0
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,2 +1,8 @@",
+    "-def add(a, b):",
+    "-    return a - b",
+    "+line1",
+    "+line2",
+    "+line3",
+    "+line4",
+    "+line5",
+    "+line6",
+    "+line7",
+    "+line8"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,2 +1,8 @@",
+     "lines": [
+      {
+       "content": "def add(a, b):",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 1
+      },
+      {
+       "content": "    return a - b",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 2
+      },
+      {
+       "content": "line1",
+       "line_number": 1,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line2",
+       "line_number": 2,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line3",
+       "line_number": 3,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line4",
+       "line_number": 4,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line5",
+       "line_number": 5,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line6",
+       "line_number": 6,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line7",
+       "line_number": 7,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line8",
+       "line_number": 8,
+       "line_type": "added",
+       "old_line_number": null
+      }
+     ],
+     "old_start": 1,
+     "old_count": 2,
+     "new_start": 1,
+     "new_count": 8,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+8 -2",
+   "total_added": 8,
+   "total_removed": 2
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,2 +1,8 @@",
+    "-def add(a, b):",
+    "-    return a - b",
+    "+line1",
+    "+line2",
+    "+CHANGED",
+    "+line4",
+    "+line5",
+    "+line6",
+    "+line7",
+    "+line8"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,2 +1,8 @@",
+     "lines": [
+      {
+       "content": "def add(a, b):",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 1
+      },
+      {
+       "content": "    return a - b",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 2
+      },
+      {
+       "content": "line1",
+       "line_number": 1,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line2",
+       "line_number": 2,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "CHANGED",
+       "line_number": 3,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line4",
+       "line_number": 4,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line5",
+       "line_number": 5,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line6",
+       "line_number": 6,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line7",
+       "line_number": 7,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line8",
+       "line_number": 8,
+       "line_type": "added",
+       "old_line_number": null
+      }
+     ],
+     "old_start": 1,
+     "old_count": 2,
+     "new_start": 1,
+     "new_count": 8,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+8 -2",
+   "total_added": 8,
+   "total_removed": 2
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,8 +1,2 @@",
+    "-line1",
+    "-line2",
+    "-line3",
+    "-line4",
+    "-line5",
+    "-line6",
+    "-line7",
+    "-line8",
+    "+def add(a, b):",
+    "+    return a + b"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,8 +1,2 @@",
+     "lines": [
+      {
+       "content": "line1",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 1
+      },
+      {
+       "content": "line2",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 2
+      },
+      {
+       "content": "line3",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 3
+      },
+      {
+       "content": "line4",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 4
+      },
+      {
+       "content": "line5",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 5
+      },
+      {
+       "content": "line6",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 6
+      },
+      {
+       "content": "line7",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 7
+      },
+      {
+       "content": "line8",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 8
+      },
+      {
+       "content": "def add(a, b):",
+       "line_number": 1,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "    return a + b",
+       "line_number": 2,
+       "line_type": "added",
+       "old_line_number": null
+      }
+     ],
+     "old_start": 1,
+     "old_count": 8,
+     "new_start": 1,
+     "new_count": 2,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+2 -8",
+   "total_added": 2,
+   "total_removed": 8
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,8 +1,2 @@",
+    "-line1",
+    "-line2",
+    "-line3",
+    "-line4",
+    "-line5",
+    "-line6",
+    "-line7",
+    "-line8",
+    "+def add(a, b):",
+    "+    return a - b"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,8 +1,2 @@",
+     "lines": [
+      {
+       "content": "line1",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 1
+      },
+      {
+       "content": "line2",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 2
+      },
+      {
+       "content": "line3",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 3
+      },
+      {
+       "content": "line4",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 4
+      },
+      {
+       "content": "line5",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 5
+      },
+      {
+       "content": "line6",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 6
+      },
+      {
+       "content": "line7",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 7
+      },
+      {
+       "content": "line8",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 8
+      },
+      {
+       "content": "def add(a, b):",
+       "line_number": 1,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "    return a - b",
+       "line_number": 2,
+       "line_type": "added",
+       "old_line_number": null
+      }
+     ],
+     "old_start": 1,
+     "old_count": 8,
+     "new_start": 1,
+     "new_count": 2,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+2 -8",
+   "total_added": 2,
+   "total_removed": 8
+  },
+  {
+   "unified": [],
+   "hunks": [],
+   "line_summary": "",
+   "total_added": 0,
+   "total_removed": 0
+  },
+  {
+   "unified": [
+    "--- a/rel.py",
+    "+++ b/rel.py",
+    "@@ -1,6 +1,6 @@",
+    " line1",
+    " line2",
+    "-line3",
+    "+CHANGED",
+    " line4",
+    " line5",
+    " line6"
+   ],
+   "hunks": [
+    {
+     "header": "@@ -1,6 +1,6 @@",
+     "lines": [
+      {
+       "content": "line1",
+       "line_number": 1,
+       "line_type": "context",
+       "old_line_number": 1
+      },
+      {
+       "content": "line2",
+       "line_number": 2,
+       "line_type": "context",
+       "old_line_number": 2
+      },
+      {
+       "content": "line3",
+       "line_number": null,
+       "line_type": "removed",
+       "old_line_number": 3
+      },
+      {
+       "content": "CHANGED",
+       "line_number": 3,
+       "line_type": "added",
+       "old_line_number": null
+      },
+      {
+       "content": "line4",
+       "line_number": 4,
+       "line_type": "context",
+       "old_line_number": 4
+      },
+      {
+       "content": "line5",
+       "line_number": 5,
+       "line_type": "context",
+       "old_line_number": 5
+      },
+      {
+       "content": "line6",
+       "line_number": 6,
+       "line_type": "context",
+       "old_line_number": 6
+      }
+     ],
+     "old_start": 1,
+     "old_count": 6,
+     "new_start": 1,
+     "new_count": 6,
+     "collapsed_unchanged": 0
+    }
+   ],
+   "line_summary": "+1 -1",
+   "total_added": 1,
+   "total_removed": 1
+  }
+ ],
+ "snapshots": {
+  "cases": [
+   {
+    "rel": "a.py",
+    "content_hex": "7072696e742827686927290a",
+    "id": "8cce67e0cf20c383",
+    "exists": true,
+    "is_binary": false,
+    "expected": "8cce67e0cf20c383"
+   },
+   {
+    "rel": "a.py",
+    "content_hex": "7072696e74282762796527290a",
+    "id": "f75e17ca9398afd0",
+    "exists": true,
+    "is_binary": false,
+    "expected": "f75e17ca9398afd0"
+   },
+   {
+    "rel": "émoji/ü.py",
+    "content_hex": "78203d2027c3bcc3b1c3aec3a7c3b66465270a",
+    "id": "5eb8b9e2d9b51e34",
+    "exists": true,
+    "is_binary": false,
+    "expected": "5eb8b9e2d9b51e34"
+   },
+   {
+    "rel": "bin.dat",
+    "content_hex": "000102ff",
+    "id": "b212c9f47363d8a1",
+    "exists": true,
+    "is_binary": true,
+    "expected": "b212c9f47363d8a1"
+   }
+  ],
+  "missing": [
+   null,
+   false,
+   false
+  ],
+  "listing": [
+   "5eb8b9e2d9b51e34",
+   "8cce67e0cf20c383",
+   "b212c9f47363d8a1",
+   "f75e17ca9398afd0"
+  ],
+  "load_default": {
+   "changes": {},
+   "reads": {}
+  },
+  "manifest_roundtrip": "{\n  \"changes\": {\n    \"x.py\": {\n      \"path\": \"x.py\"\n    }\n  },\n  \"reads\": {\n    \"x.py\": \"<TIME>\"\n  }\n}",
+  "manifest_paths": [
+   ".gemibot/pending/manifest.json",
+   ".gemibot/pending/manifest.tmp"
+  ]
+ },
+ "tracker": {
+  "manifest": "{\n  \"changes\": {\n    \"src/app.py\": {\n      \"path\": \"src/app.py\",\n      \"full_path\": \"<WS>\\\\src\\\\app.py\",\n      \"change_type\": \"Added\",\n      \"snapshot_id\": null,\n      \"original_exists\": false,\n      \"timestamp\": \"<TS>\",\n      \"detail\": \"Replaced text in src/app.py\",\n      \"is_binary\": false,\n      \"what\": [],\n      \"why\": []\n    },\n    \"img/logo.png\": {\n      \"path\": \"img/logo.png\",\n      \"full_path\": \"<WS>\\\\img\\\\logo.png\",\n      \"change_type\": \"Added\",\n      \"snapshot_id\": null,\n      \"original_exists\": false,\n      \"timestamp\": \"<TS>\",\n      \"detail\": \"\",\n      \"is_binary\": true,\n      \"what\": [],\n      \"why\": []\n    },\n    \"docs/note.txt\": {\n      \"path\": \"docs/note.txt\",\n      \"full_path\": \"<WS>\\\\docs\\\\note.txt\",\n      \"change_type\": \"Added\",\n      \"snapshot_id\": null,\n      \"original_exists\": false,\n      \"timestamp\": \"<TS>\",\n      \"detail\": \"\",\n      \"is_binary\": false,\n      \"what\": [],\n      \"why\": []\n    }\n  },\n  \"reads\": {\n    \"src/app.py\": \"<TIME>\",\n    \"docs/note.txt\": \"<TIME>\"\n  }\n}",
+  "snapshots": [],
+  "summary_changes": [
+   "docs/note.txt",
+   "img/logo.png",
+   "src/app.py"
+  ],
+  "summary_counts": {
+   "Added": 3,
+   "Modified": 0,
+   "Deleted": 0,
+   "Generated": 0,
+   "Document edited": 0
+  },
+  "summary_reads": [
+   {
+    "path": "docs/note.txt",
+    "time": "<TIME>"
+   },
+   {
+    "path": "src/app.py",
+    "time": "<TIME>"
+   }
+  ],
+  "tree": [
+   "docs/note.txt",
+   "img/logo.png",
+   "src/app.py"
+  ]
+ },
+ "images": [
+  {
+   "name": "sample-7x5.png",
+   "size": 77,
+   "pil_format": "PNG",
+   "metadata": {
+    "size_bytes": 77,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "PNG",
+    "mime_type": "image/png"
+   }
+  },
+  {
+   "name": "sample-7x5.jpg",
+   "size": 633,
+   "pil_format": "JPEG",
+   "metadata": {
+    "size_bytes": 633,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "JPEG",
+    "mime_type": "image/jpeg"
+   }
+  },
+  {
+   "name": "sample-7x5.gif",
+   "size": 51,
+   "pil_format": "GIF",
+   "metadata": {
+    "size_bytes": 51,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "GIF",
+    "mime_type": "image/gif"
+   }
+  },
+  {
+   "name": "sample-7x5.bmp",
+   "size": 174,
+   "pil_format": "BMP",
+   "metadata": {
+    "size_bytes": 174,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "BMP",
+    "mime_type": "image/bmp"
+   }
+  },
+  {
+   "name": "sample-7x5.webp",
+   "size": 64,
+   "pil_format": "WEBP",
+   "metadata": {
+    "size_bytes": 64,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "WEBP",
+    "mime_type": "image/webp"
+   }
+  },
+  {
+   "name": "sample-7x5.tiff",
+   "size": 245,
+   "pil_format": "TIFF",
+   "metadata": {
+    "size_bytes": 245,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "TIFF",
+    "mime_type": "image/tiff"
+   }
+  },
+  {
+   "name": "sample-16x16.ico",
+   "size": 113,
+   "pil_format": "ICO",
+   "metadata": {
+    "size_bytes": 113,
+    "is_image": true,
+    "width": 16,
+    "height": 16,
+    "format": "ICO",
+    "mime_type": "image/x-icon"
+   }
+  },
+  {
+   "name": "sample-7x5.ppm",
+   "size": 116,
+   "pil_format": "PPM",
+   "metadata": {
+    "size_bytes": 116,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "PPM",
+    "mime_type": "image/x-portable-anymap"
+   }
+  },
+  {
+   "name": "variant-lossless.webp",
+   "size": 38,
+   "pil_format": "WEBP",
+   "metadata": {
+    "size_bytes": 38,
+    "is_image": true,
+    "width": 9,
+    "height": 6,
+    "format": "WEBP",
+    "mime_type": "image/webp"
+   }
+  },
+  {
+   "name": "variant-animated.webp",
+   "size": 214,
+   "pil_format": "WEBP",
+   "metadata": {
+    "size_bytes": 214,
+    "is_image": true,
+    "width": 9,
+    "height": 6,
+    "format": "WEBP",
+    "mime_type": "image/webp"
+   }
+  },
+  {
+   "name": "variant-gray.pgm",
+   "size": 46,
+   "pil_format": "PPM",
+   "metadata": {
+    "size_bytes": 46,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "PPM",
+    "mime_type": "image/x-portable-anymap"
+   }
+  },
+  {
+   "name": "variant-bit.pbm",
+   "size": 12,
+   "pil_format": "PPM",
+   "metadata": {
+    "size_bytes": 12,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "PPM",
+    "mime_type": "image/x-portable-anymap"
+   }
+  },
+  {
+   "name": "variant-rgba.png",
+   "size": 77,
+   "pil_format": "PNG",
+   "metadata": {
+    "size_bytes": 77,
+    "is_image": true,
+    "width": 3,
+    "height": 2,
+    "format": "PNG",
+    "mime_type": "image/png"
+   }
+  },
+  {
+   "name": "variant-palette.png",
+   "size": 86,
+   "pil_format": "PNG",
+   "metadata": {
+    "size_bytes": 86,
+    "is_image": true,
+    "width": 4,
+    "height": 3,
+    "format": "PNG",
+    "mime_type": "image/png"
+   }
+  },
+  {
+   "name": "variant-progressive.jpg",
+   "size": 521,
+   "pil_format": "JPEG",
+   "metadata": {
+    "size_bytes": 521,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "JPEG",
+    "mime_type": "image/jpeg"
+   }
+  },
+  {
+   "name": "variant-cmyk.jpg",
+   "size": 350,
+   "pil_format": "JPEG",
+   "metadata": {
+    "size_bytes": 350,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "JPEG",
+    "mime_type": "image/jpeg"
+   }
+  },
+  {
+   "name": "variant-32.bmp",
+   "size": 194,
+   "pil_format": "BMP",
+   "metadata": {
+    "size_bytes": 194,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "BMP",
+    "mime_type": "image/bmp"
+   }
+  },
+  {
+   "name": "variant-p8.bmp",
+   "size": 94,
+   "pil_format": "BMP",
+   "metadata": {
+    "size_bytes": 94,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "BMP",
+    "mime_type": "image/bmp"
+   }
+  },
+  {
+   "name": "variant.dib",
+   "size": 160,
+   "pil_format": "DIB",
+   "metadata": {
+    "size_bytes": 160,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "DIB",
+    "mime_type": "image/bmp"
+   }
+  },
+  {
+   "name": "variant-rgba.tif",
+   "size": 202,
+   "pil_format": "TIFF",
+   "metadata": {
+    "size_bytes": 202,
+    "is_image": true,
+    "width": 4,
+    "height": 3,
+    "format": "TIFF",
+    "mime_type": "image/tiff"
+   }
+  },
+  {
+   "name": "variant-jpeg.tif",
+   "size": 485,
+   "pil_format": "TIFF",
+   "metadata": {
+    "size_bytes": 485,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "TIFF",
+    "mime_type": "image/tiff"
+   }
+  },
+  {
+   "name": "variant-multi.ico",
+   "size": 245,
+   "pil_format": "ICO",
+   "metadata": {
+    "size_bytes": 245,
+    "is_image": true,
+    "width": 32,
+    "height": 32,
+    "format": "ICO",
+    "mime_type": "image/x-icon"
+   }
+  },
+  {
+   "name": "variant-alpha.gif",
+   "size": 45,
+   "pil_format": "GIF",
+   "metadata": {
+    "size_bytes": 45,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "GIF",
+    "mime_type": "image/gif"
+   }
+  },
+  {
+   "name": "variant.cur",
+   "size": 446,
+   "metadata": {
+    "size_bytes": 446,
+    "is_image": true,
+    "width": 8,
+    "height": 8,
+    "format": "CUR",
+    "mime_type": null
+   }
+  },
+  {
+   "name": "variant-topdown.bmp",
+   "size": 174,
+   "metadata": {
+    "size_bytes": 174,
+    "is_image": true,
+    "width": 7,
+    "height": 5,
+    "format": "BMP",
+    "mime_type": "image/bmp"
+   }
+  },
+  {
+   "name": "variant-comment.pbm",
+   "size": 26,
+   "metadata": {
+    "size_bytes": 26,
+    "is_image": true,
+    "width": 3,
+    "height": 2,
+    "format": "PPM",
+    "mime_type": "image/x-portable-anymap"
+   }
+  },
+  {
+   "name": "variant-maxval.pgm",
+   "size": 20,
+   "metadata": {
+    "size_bytes": 20,
+    "is_image": true,
+    "width": 2,
+    "height": 3,
+    "format": "PPM",
+    "mime_type": "image/x-portable-anymap"
+   }
+  },
+  {
+   "name": "variant-longtoken.ppm",
+   "size": 324,
+   "metadata": {
+    "size_bytes": 324,
+    "is_image": false,
+    "width": null,
+    "height": null,
+    "format": null,
+    "mime_type": null
+   }
+  },
+  {
+   "name": "variant-nomaxval.ppm",
+   "size": 19,
+   "metadata": {
+    "size_bytes": 19,
+    "is_image": false,
+    "width": null,
+    "height": null,
+    "format": null,
+    "mime_type": null
+   }
+  },
+  {
+   "name": "variant-badbits.bmp",
+   "size": 46,
+   "metadata": {
+    "size_bytes": 46,
+    "is_image": false,
+    "width": null,
+    "height": null,
+    "format": null,
+    "mime_type": null
+   }
+  },
+  {
+   "name": "notes.md.txt",
+   "metadata": {
+    "size_bytes": 26,
+    "is_image": false,
+    "width": null,
+    "height": null,
+    "format": null,
+    "mime_type": null
+   },
+   "size": 26
+  },
+  {
+   "name": "truncated.png",
+   "metadata": {
+    "size_bytes": 26,
+    "is_image": false,
+    "width": null,
+    "height": null,
+    "format": null,
+    "mime_type": null
+   },
+   "size": 26
+  }
+ ],
+ "compute_diff": {
+  "script": [
+   {
+    "op": "write",
+    "rel": "src/app.py",
+    "hex_text": "646566206628293a0a2020202072657475726e20310a0a0a61203d20310a62203d20320a63203d20330a64203d20340a65203d20350a7072696e742827686927290a7072696e742832290a"
+   },
+   {
+    "op": "snapshot",
+    "rel": "src/app.py",
+    "id": "5f9664cb71ece267",
+    "exists": true,
+    "binary": false
+   },
+   {
+    "op": "write",
+    "rel": "src/app.py",
+    "hex_text": "646566206628293a0a2020202072657475726e20320a0a61203d20310a62203d20320a63203d20330a64203d20340a65203d20350a7072696e74282762796527290a7072696e742833290a"
+   },
+   {
+    "op": "diff",
+    "name": "modified",
+    "rel": "src/app.py",
+    "change_type": "Modified",
+    "snapshot_id": "5f9664cb71ece267",
+    "original_exists": true,
+    "is_binary": false
+   },
+   {
+    "op": "write",
+    "rel": "gone.py",
+    "hex_text": "6f6e650a74776f0a"
+   },
+   {
+    "op": "snapshot",
+    "rel": "gone.py",
+    "id": "a5facaedd290c0c5",
+    "exists": true,
+    "binary": false
+   },
+   {
+    "op": "remove",
+    "rel": "gone.py"
+   },
+   {
+    "op": "diff",
+    "name": "deleted",
+    "rel": "gone.py",
+    "change_type": "Deleted",
+    "snapshot_id": "a5facaedd290c0c5",
+    "original_exists": true,
+    "is_binary": false
+   },
+   {
+    "op": "write",
+    "rel": "gone.png",
+    "source": "images/diff-a.png"
+   },
+   {
+    "op": "snapshot",
+    "rel": "gone.png",
+    "id": "773208e5a652d1cd",
+    "exists": true,
+    "binary": true
+   },
+   {
+    "op": "remove",
+    "rel": "gone.png"
+   },
+   {
+    "op": "diff",
+    "name": "deleted_binary",
+    "rel": "gone.png",
+    "change_type": "Deleted",
+    "snapshot_id": "773208e5a652d1cd",
+    "original_exists": true,
+    "is_binary": true
+   },
+   {
+    "op": "diff",
+    "name": "deleted_no_snapshot",
+    "rel": "never.py",
+    "change_type": "Deleted",
+    "snapshot_id": null,
+    "original_exists": false,
+    "is_binary": false
+   },
+   {
+    "op": "snapshot",
+    "rel": "new.py",
+    "id": null,
+    "exists": false,
+    "binary": false
+   },
+   {
+    "op": "write",
+    "rel": "new.py",
+    "hex_text": "7072696e7428276e657727290a"
+   },
+   {
+    "op": "diff",
+    "name": "added",
+    "rel": "new.py",
+    "change_type": "Added",
+    "snapshot_id": null,
+    "original_exists": false,
+    "is_binary": false
+   },
+   {
+    "op": "snapshot",
+    "rel": "empty.py",
+    "id": null,
+    "exists": false,
+    "binary": false
+   },
+   {
+    "op": "write",
+    "rel": "empty.py",
+    "hex_text": ""
+   },
+   {
+    "op": "diff",
+    "name": "added_empty",
+    "rel": "empty.py",
+    "change_type": "Added",
+    "snapshot_id": null,
+    "original_exists": false,
+    "is_binary": false
+   },
+   {
+    "op": "write",
+    "rel": "logo.png",
+    "source": "images/diff-b.png"
+   },
+   {
+    "op": "diff",
+    "name": "generated_binary",
+    "rel": "logo.png",
+    "change_type": "Generated",
+    "snapshot_id": null,
+    "original_exists": false,
+    "is_binary": true
+   },
+   {
+    "op": "write",
+    "rel": "swap.png",
+    "source": "images/diff-a.png"
+   },
+   {
+    "op": "snapshot",
+    "rel": "swap.png",
+    "id": "bafc2c32fbd1081b",
+    "exists": true,
+    "binary": true
+   },
+   {
+    "op": "write",
+    "rel": "swap.png",
+    "source": "images/diff-b.png"
+   },
+   {
+    "op": "diff",
+    "name": "modified_binary",
+    "rel": "swap.png",
+    "change_type": "Modified",
+    "snapshot_id": "bafc2c32fbd1081b",
+    "original_exists": true,
+    "is_binary": true
+   },
+   {
+    "op": "write",
+    "rel": "crlf.txt",
+    "hex_text": "6c696e65206f6e650d0a6c696e652074776f0d0a"
+   },
+   {
+    "op": "snapshot",
+    "rel": "crlf.txt",
+    "id": "a6a0c1737f9bcfa3",
+    "exists": true,
+    "binary": false
+   },
+   {
+    "op": "write",
+    "rel": "crlf.txt",
+    "hex_text": "6c696e65206f6e650d0a6c696e652074726f69730d0a"
+   },
+   {
+    "op": "diff",
+    "name": "modified_crlf",
+    "rel": "crlf.txt",
+    "change_type": "Modified",
+    "snapshot_id": "a6a0c1737f9bcfa3",
+    "original_exists": true,
+    "is_binary": false
+   },
+   {
+    "op": "diff",
+    "name": "snapshot_missing",
+    "rel": "src/app.py",
+    "change_type": "Modified",
+    "snapshot_id": "0000000000000000",
+    "original_exists": true,
+    "is_binary": false
+   },
+   {
+    "op": "write",
+    "rel": "émoji/ü.py",
+    "hex_text": "78203d2027c3bcc3b1c3aec3a7c3b66465270a"
+   },
+   {
+    "op": "diff",
+    "name": "added_unicode",
+    "rel": "émoji/ü.py",
+    "change_type": "Added",
+    "snapshot_id": null,
+    "original_exists": false,
+    "is_binary": false
+   },
+   {
+    "op": "write",
+    "rel": "big.txt",
+    "fill": 97,
+    "size": 10485761
+   },
+   {
+    "op": "diff",
+    "name": "too_large",
+    "rel": "big.txt",
+    "change_type": "Modified",
+    "snapshot_id": null,
+    "original_exists": false,
+    "is_binary": false
+   },
+   {
+    "op": "remove",
+    "rel": "big.txt"
+   },
+   {
+    "op": "write",
+    "rel": "report.docx",
+    "source": "documents/report-original.docx"
+   },
+   {
+    "op": "snapshot",
+    "rel": "report.docx",
+    "id": "c0b02b6466d57e1a",
+    "exists": true,
+    "binary": true
+   },
+   {
+    "op": "write",
+    "rel": "report.docx",
+    "source": "documents/report-current.docx"
+   },
+   {
+    "op": "diff",
+    "name": "docx_edited",
+    "rel": "report.docx",
+    "change_type": "Document edited",
+    "snapshot_id": "c0b02b6466d57e1a",
+    "original_exists": true,
+    "is_binary": true
+   },
+   {
+    "op": "diff",
+    "name": "docx_missing_original",
+    "rel": "report.docx",
+    "change_type": "Document edited",
+    "snapshot_id": "0000000000000000",
+    "original_exists": true,
+    "is_binary": true
+   }
+  ],
+  "cases": [
+   {
+    "name": "modified",
+    "diff": {
+     "path": "src/app.py",
+     "change_type": "Modified",
+     "hunks": [
+      {
+       "header": "@@ -1,11 +1,10 @@",
+       "lines": [
+        {
+         "content": "def f():",
+         "line_number": 1,
+         "line_type": "context",
+         "old_line_number": 1
+        },
+        {
+         "content": "    return 1",
+         "line_number": null,
+         "line_type": "removed",
+         "old_line_number": 2
+        },
+        {
+         "content": "",
+         "line_number": null,
+         "line_type": "removed",
+         "old_line_number": 3
+        },
+        {
+         "content": "    return 2",
+         "line_number": 2,
+         "line_type": "added",
+         "old_line_number": null
+        },
+        {
+         "content": "",
+         "line_number": 3,
+         "line_type": "context",
+         "old_line_number": 4
+        },
+        {
+         "content": "a = 1",
+         "line_number": 4,
+         "line_type": "context",
+         "old_line_number": 5
+        },
+        {
+         "content": "b = 2",
+         "line_number": 5,
+         "line_type": "context",
+         "old_line_number": 6
+        },
+        {
+         "content": "c = 3",
+         "line_number": 6,
+         "line_type": "context",
+         "old_line_number": 7
+        },
+        {
+         "content": "d = 4",
+         "line_number": 7,
+         "line_type": "context",
+         "old_line_number": 8
+        },
+        {
+         "content": "e = 5",
+         "line_number": 8,
+         "line_type": "context",
+         "old_line_number": 9
+        },
+        {
+         "content": "print('hi')",
+         "line_number": null,
+         "line_type": "removed",
+         "old_line_number": 10
+        },
+        {
+         "content": "print(2)",
+         "line_number": null,
+         "line_type": "removed",
+         "old_line_number": 11
+        },
+        {
+         "content": "print('bye')",
+         "line_number": 9,
+         "line_type": "added",
+         "old_line_number": null
+        },
+        {
+         "content": "print(3)",
+         "line_number": 10,
+         "line_type": "added",
+         "old_line_number": null
+        }
+       ],
+       "old_start": 1,
+       "old_count": 11,
+       "new_start": 1,
+       "new_count": 10,
+       "collapsed_unchanged": 0
+      }
+     ],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "deleted",
+    "diff": {
+     "path": "gone.py",
+     "change_type": "Deleted",
+     "hunks": [
+      {
+       "header": "@@ -1,2 +0,0 @@",
+       "lines": [
+        {
+         "content": "one",
+         "line_number": null,
+         "line_type": "removed",
+         "old_line_number": 1
+        },
+        {
+         "content": "two",
+         "line_number": null,
+         "line_type": "removed",
+         "old_line_number": 2
+        }
+       ],
+       "old_start": 1,
+       "old_count": 2,
+       "new_start": 0,
+       "new_count": 0,
+       "collapsed_unchanged": 0
+      }
+     ],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "deleted_binary",
+    "diff": {
+     "path": "gone.png",
+     "change_type": "Deleted",
+     "hunks": [],
+     "is_binary": true,
+     "binary_metadata": {
+      "size_bytes": 77,
+      "is_image": true,
+      "width": 7,
+      "height": 5,
+      "format": "PNG",
+      "mime_type": "image/png"
+     },
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "deleted_no_snapshot",
+    "diff": {
+     "path": "never.py",
+     "change_type": "Deleted",
+     "hunks": [],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": true,
+     "error_message": "Snapshot not found"
+    }
+   },
+   {
+    "name": "added",
+    "diff": {
+     "path": "new.py",
+     "change_type": "Added",
+     "hunks": [
+      {
+       "header": "@@ -0,0 +1,1 @@",
+       "lines": [
+        {
+         "content": "print('new')",
+         "line_number": 1,
+         "line_type": "added",
+         "old_line_number": null
+        }
+       ],
+       "old_start": 0,
+       "old_count": 0,
+       "new_start": 1,
+       "new_count": 1,
+       "collapsed_unchanged": 0
+      }
+     ],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "added_empty",
+    "diff": {
+     "path": "empty.py",
+     "change_type": "Added",
+     "hunks": [
+      {
+       "header": "@@ -0,0 +1,0 @@",
+       "lines": [],
+       "old_start": 0,
+       "old_count": 0,
+       "new_start": 1,
+       "new_count": 0,
+       "collapsed_unchanged": 0
+      }
+     ],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "generated_binary",
+    "diff": {
+     "path": "logo.png",
+     "change_type": "Added",
+     "hunks": [],
+     "is_binary": true,
+     "binary_metadata": {
+      "size_bytes": 77,
+      "is_image": true,
+      "width": 7,
+      "height": 5,
+      "format": "PNG",
+      "mime_type": "image/png"
+     },
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "modified_binary",
+    "diff": {
+     "path": "swap.png",
+     "change_type": "Modified",
+     "hunks": [],
+     "is_binary": true,
+     "binary_metadata": {
+      "size_bytes": 77,
+      "is_image": true,
+      "width": 7,
+      "height": 5,
+      "format": "PNG",
+      "mime_type": "image/png"
+     },
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "modified_crlf",
+    "diff": {
+     "path": "crlf.txt",
+     "change_type": "Modified",
+     "hunks": [
+      {
+       "header": "@@ -1,2 +1,2 @@",
+       "lines": [
+        {
+         "content": "line one",
+         "line_number": 1,
+         "line_type": "context",
+         "old_line_number": 1
+        },
+        {
+         "content": "line two",
+         "line_number": null,
+         "line_type": "removed",
+         "old_line_number": 2
+        },
+        {
+         "content": "line trois",
+         "line_number": 2,
+         "line_type": "added",
+         "old_line_number": null
+        }
+       ],
+       "old_start": 1,
+       "old_count": 2,
+       "new_start": 1,
+       "new_count": 2,
+       "collapsed_unchanged": 0
+      }
+     ],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "snapshot_missing",
+    "diff": {
+     "path": "src/app.py",
+     "change_type": "Modified",
+     "hunks": [],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": true,
+     "error_message": "Snapshot not found"
+    }
+   },
+   {
+    "name": "added_unicode",
+    "diff": {
+     "path": "émoji/ü.py",
+     "change_type": "Added",
+     "hunks": [
+      {
+       "header": "@@ -0,0 +1,1 @@",
+       "lines": [
+        {
+         "content": "x = 'üñîçöde'",
+         "line_number": 1,
+         "line_type": "added",
+         "old_line_number": null
+        }
+       ],
+       "old_start": 0,
+       "old_count": 0,
+       "new_start": 1,
+       "new_count": 1,
+       "collapsed_unchanged": 0
+      }
+     ],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "too_large",
+    "diff": {
+     "path": "big.txt",
+     "change_type": "Modified",
+     "hunks": [],
+     "is_binary": false,
+     "binary_metadata": null,
+     "docx_diff": null,
+     "has_error": true,
+     "error_message": "File too large for diff (10485761 bytes > 10485760 bytes)"
+    }
+   },
+   {
+    "name": "docx_edited",
+    "diff": {
+     "path": "report.docx",
+     "change_type": "Document edited",
+     "hunks": [],
+     "is_binary": true,
+     "binary_metadata": null,
+     "docx_diff": {
+      "original_text": "Quarterly Report\nBold then plain\nfirst half\nafter the break\nleft\tright\n\ntrailing line",
+      "current_text": "Quarterly Report (final)\nBold then plain\nfirst half\nafter the break\nleft\tright\n\ntrailing line changed\nsecond line",
+      "hunks": [
+       {
+        "header": "@@ -1,7 +1,8 @@",
+        "lines": [
+         {
+          "content": "Quarterly Report",
+          "line_number": null,
+          "line_type": "removed",
+          "old_line_number": 1
+         },
+         {
+          "content": "Quarterly Report (final)",
+          "line_number": 1,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "Bold then plain",
+          "line_number": 2,
+          "line_type": "context",
+          "old_line_number": 2
+         },
+         {
+          "content": "first half",
+          "line_number": 3,
+          "line_type": "context",
+          "old_line_number": 3
+         },
+         {
+          "content": "after the break",
+          "line_number": 4,
+          "line_type": "context",
+          "old_line_number": 4
+         },
+         {
+          "content": "left\tright",
+          "line_number": 5,
+          "line_type": "context",
+          "old_line_number": 5
+         },
+         {
+          "content": "",
+          "line_number": 6,
+          "line_type": "context",
+          "old_line_number": 6
+         },
+         {
+          "content": "trailing line",
+          "line_number": null,
+          "line_type": "removed",
+          "old_line_number": 7
+         },
+         {
+          "content": "trailing line changed",
+          "line_number": 7,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "second line",
+          "line_number": 8,
+          "line_type": "added",
+          "old_line_number": null
+         }
+        ],
+        "old_start": 1,
+        "old_count": 7,
+        "new_start": 1,
+        "new_count": 8,
+        "collapsed_unchanged": 0
+       }
+      ]
+     },
+     "has_error": false,
+     "error_message": ""
+    }
+   },
+   {
+    "name": "docx_missing_original",
+    "diff": {
+     "path": "report.docx",
+     "change_type": "Document edited",
+     "hunks": [],
+     "is_binary": true,
+     "binary_metadata": null,
+     "docx_diff": {
+      "original_text": "",
+      "current_text": "Quarterly Report (final)\nBold then plain\nfirst half\nafter the break\nleft\tright\n\ntrailing line changed\nsecond line",
+      "hunks": [
+       {
+        "header": "@@ -0,0 +1,8 @@",
+        "lines": [
+         {
+          "content": "Quarterly Report (final)",
+          "line_number": 1,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "Bold then plain",
+          "line_number": 2,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "first half",
+          "line_number": 3,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "after the break",
+          "line_number": 4,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "left\tright",
+          "line_number": 5,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "",
+          "line_number": 6,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "trailing line changed",
+          "line_number": 7,
+          "line_type": "added",
+          "old_line_number": null
+         },
+         {
+          "content": "second line",
+          "line_number": 8,
+          "line_type": "added",
+          "old_line_number": null
+         }
+        ],
+        "old_start": 0,
+        "old_count": 0,
+        "new_start": 1,
+        "new_count": 8,
+        "collapsed_unchanged": 0
+       }
+      ]
+     },
+     "has_error": false,
+     "error_message": ""
+    }
+   }
+  ]
+ },
+ "settings": {
+  "default_file": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n- **model:** `gemini-3.5-flash`\n- **effort_level:** `medium`\n- **function_suite:** `all`\n- **mode:** `build`\n- **ui_scale:** `13px`\n- **ui_scale_label:** `UI Scale: 13px (Normal)`\n- **theme:** `pure_dark`\n- **window_geometry:** `1240x800`\n- **target_directory:** ``\n",
+  "default_dict": {
+   "model": "gemini-3.5-flash",
+   "effort_level": "medium",
+   "function_suite": "all",
+   "mode": "build",
+   "ui_scale": "13px",
+   "ui_scale_label": "UI Scale: 13px (Normal)",
+   "theme": "pure_dark",
+   "window_geometry": "1240x800",
+   "target_directory": ""
+  },
+  "after_save": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n- **model:** `gemini-3.5-flash`\n- **effort_level:** `medium`\n- **function_suite:** `all`\n- **mode:** `build`\n- **ui_scale:** `13px`\n- **ui_scale_label:** `UI Scale: 13px (Normal)`\n- **theme:** `not_so_dark`\n- **window_geometry:** `1240x800`\n- **target_directory:** ``\n- **zz_extra:** `42`\n",
+  "after_save_dict": {
+   "model": "gemini-3.5-flash",
+   "effort_level": "medium",
+   "function_suite": "all",
+   "mode": "build",
+   "ui_scale": "13px",
+   "ui_scale_label": "UI Scale: 13px (Normal)",
+   "theme": "not_so_dark",
+   "window_geometry": "1240x800",
+   "target_directory": "",
+   "zz_extra": "42"
+  },
+  "odd_dict": {
+   "model": "gemini-3.5-flash",
+   "effort_level": "HIGH",
+   "theme": "pure_dark",
+   "plain dash": "value",
+   "target_directory": "C:\\Users\\me\\proj"
+  },
+  "odd_source": "# Header\n\n- **model:** `gemini-3.5-flash`\n- **effort_level:** `HIGH`\ntheme: pure_dark\n> quoted: ignored\n- plain dash: value\n   \n- **target_directory:** `C:\\Users\\me\\proj`\nno colon here\n"
+ },
+ "memory": {
+  "header": "# System Development Progress & Interaction Memory\n\n> This file (`/memory/memory.md`) stores the complete, unabbreviated chronological record of all user prompts, AI responses, tool/command executions, and exact file diffs/contents across sessions.\n\n",
+  "entry": "# System Development Progress & Interaction Memory\n\n> This file (`/memory/memory.md`) stores the complete, unabbreviated chronological record of all user prompts, AI responses, tool/command executions, and exact file diffs/contents across sessions.\n\n\n---\n\n## Interaction Log - <TS> (<DAYDATE>)\n\n- **Mode:** `BUILD`\n- **Active Function Suite:** `all`\n- **Model:** `gemini-3.5-flash`\n\n### 1. Exact User Prompt\n````text\nbro fix ```this``` please\n````\n\n### 2. Complete AI Response\n````markdown\nSure thing bro.\n\n```python\nx = 1\n```\n\ntail\n````\n\n### 3. Executed Tools & Terminal Commands (Complete Unabbreviated Outputs)\n#### 3.1 `write_file` [OK]\n**Arguments:**\n```json\n{\n  \"path\": \"src/app.py\",\n  \"content\": \"def f():\\n    return 1\\n\",\n  \"why\": \"start\"\n}\n```\n**Complete Output:**\n```text\nWrote src/app.py\n```\n\n#### 3.2 `run_command` [ERROR]\n**Arguments:**\n```json\n{\n  \"command\": \"pytest -q\"\n}\n```\n**Complete Output:**\n````text\nüñî code ``` block\n1 passed\n\n````\n\n### 4. System Changes, Exact Code Diffs & Full File Contents\n#### 4.1 CREATED: `src/app.py`\n**Exact Code Diff:**\n```diff\n--- a/src/app.py\n+++ b/src/app.py\n@@ -0,0 +1,2 @@\n+def f():\n+    return 1\n\n```\n**Full Unabbreviated File Content (`src/app.py`):**\n```py\ndef f():\n    return 1\n\n```\n\n#### 4.2 DELETED: `oldé.txt`\n**Deleted File Original Content (`oldé.txt`):**\n```txt\ngone\n\n```\n\n#### 4.3 MODIFIED: `notes.md`\n**Full Unabbreviated File Content (`notes.md`):**\n````md\n```\nfence inside\n```\n\n````\n\n",
+  "empty_entry": "# System Development Progress & Interaction Memory\n\n> This file (`/memory/memory.md`) stores the complete, unabbreviated chronological record of all user prompts, AI responses, tool/command executions, and exact file diffs/contents across sessions.\n\n\n---\n\n## Interaction Log - <TS> (<DAYDATE>)\n\n- **Mode:** `BUILD`\n- **Active Function Suite:** `all`\n- **Model:** `gemini-3.5-flash`\n\n### 1. Exact User Prompt\n````text\nbro fix ```this``` please\n````\n\n### 2. Complete AI Response\n````markdown\nSure thing bro.\n\n```python\nx = 1\n```\n\ntail\n````\n\n### 3. Executed Tools & Terminal Commands (Complete Unabbreviated Outputs)\n#### 3.1 `write_file` [OK]\n**Arguments:**\n```json\n{\n  \"path\": \"src/app.py\",\n  \"content\": \"def f():\\n    return 1\\n\",\n  \"why\": \"start\"\n}\n```\n**Complete Output:**\n```text\nWrote src/app.py\n```\n\n#### 3.2 `run_command` [ERROR]\n**Arguments:**\n```json\n{\n  \"command\": \"pytest -q\"\n}\n```\n**Complete Output:**\n````text\nüñî code ``` block\n1 passed\n\n````\n\n### 4. System Changes, Exact Code Diffs & Full File Contents\n#### 4.1 CREATED: `src/app.py`\n**Exact Code Diff:**\n```diff\n--- a/src/app.py\n+++ b/src/app.py\n@@ -0,0 +1,2 @@\n+def f():\n+    return 1\n\n```\n**Full Unabbreviated File Content (`src/app.py`):**\n```py\ndef f():\n    return 1\n\n```\n\n#### 4.2 DELETED: `oldé.txt`\n**Deleted File Original Content (`oldé.txt`):**\n```txt\ngone\n\n```\n\n#### 4.3 MODIFIED: `notes.md`\n**Full Unabbreviated File Content (`notes.md`):**\n````md\n```\nfence inside\n```\n\n````\n\n\n---\n\n## Interaction Log - <TS> (<DAYDATE>)\n\n- **Mode:** `BUILD`\n- **Active Function Suite:** `all`\n- **Model:** `gemini-3.5-flash`\n\n### 1. Exact User Prompt\n```text\nempty turn\n```\n\n### 2. Complete AI Response\n```markdown\n(No text response)\n```\n\n### 3. Executed Tools & Terminal Commands (Complete Unabbreviated Outputs)\n_No tools or terminal commands were executed during this turn._\n\n### 4. System Changes, Exact Code Diffs & Full File Contents\n_No files were created, modified, or deleted during this turn._\n\n",
+  "cleared": "# System Development Progress & Interaction Memory\n\n> This file (`/memory/memory.md`) stores the complete, unabbreviated chronological record of all user prompts, AI responses, tool/command executions, and exact file diffs/contents across sessions.\n\n",
+  "crlf_entry": "# System Development Progress & Interaction Memory\r\n\r\n> This file (`/memory/memory.md`) stores the complete, unabbreviated chronological record of all user prompts, AI responses, tool/command executions, and exact file diffs/contents across sessions.\r\n\r\n\r\n---\r\n\r\n## Interaction Log - <TS> (<DAYDATE>)\r\n\r\n- **Mode:** `BUILD`\r\n- **Active Function Suite:** `all`\r\n- **Model:** `gemini-3.5-flash`\r\n\r\n### 1. Exact User Prompt\r\n```text\r\ncrlf prompt\r\n```\r\n\r\n### 2. Complete AI Response\r\n```markdown\r\ncrlf reply\r\n```\r\n\r\n### 3. Executed Tools & Terminal Commands (Complete Unabbreviated Outputs)\r\n_No tools or terminal commands were executed during this turn._\r\n\r\n### 4. System Changes, Exact Code Diffs & Full File Contents\r\n_No files were created, modified, or deleted during this turn._\r\n\r\n",
+  "inputs": {
+   "state": {
+    "model": "gemini-3.5-flash",
+    "active_function": "all",
+    "mode": "build"
+   },
+   "tool_logs": [
+    {
+     "tool": "write_file",
+     "args": {
+      "path": "src/app.py",
+      "content": "def f():\n    return 1\n",
+      "why": "start"
+     },
+     "raw_output": "Wrote src/app.py",
+     "is_error": false
+    },
+    {
+     "tool": "run_command",
+     "args": {
+      "command": "pytest -q"
+     },
+     "raw_output": "üñî code ``` block\n1 passed\n",
+     "is_error": true
+    }
+   ],
+   "file_changes": [
+    {
+     "action": "created",
+     "path": "src/app.py",
+     "diff": "--- a/src/app.py\n+++ b/src/app.py\n@@ -0,0 +1,2 @@\n+def f():\n+    return 1\n",
+     "new_content": "def f():\n    return 1\n",
+     "old_content": null
+    },
+    {
+     "action": "deleted",
+     "path": "oldé.txt",
+     "diff": "",
+     "new_content": null,
+     "old_content": "gone\n"
+    },
+    {
+     "action": "modified",
+     "path": "notes.md",
+     "diff": "",
+     "new_content": "```\nfence inside\n```\n",
+     "old_content": "before\n"
+    }
+   ],
+   "turns": [
+    {
+     "prompt": "bro fix ```this``` please",
+     "responses": [
+      "Sure thing bro.\n\n```python\nx = 1\n```",
+      "   ",
+      "tail"
+     ]
+    },
+    {
+     "prompt": "empty turn",
+     "responses": [
+      "   "
+     ]
+    },
+    {
+     "prompt": "crlf prompt",
+     "responses": [
+      "crlf reply"
+     ]
+    }
+   ]
+  }
+ }
+}

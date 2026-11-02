@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-verify
+out
+.DS_Store
+.eslintcache
+*.log*
+
+test + build artifacts
+artifacts/
+test-results/
+playwright-report/
+coverage/
+
+# local environment
+.env
+.env.local

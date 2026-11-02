@@ -1,0 +1,1199 @@
+{
+ "singleton_same": true,
+ "constants": {
+  "items": [
+   [
+    "gemini-3.1-flash-lite",
+    "Gemini 3.1 Flash Lite [FASTEST - 6-7s]"
+   ],
+   [
+    "gemini-3.5-flash-lite",
+    "Gemini 3.5 Flash Lite [Fast - 20-25s]"
+   ],
+   [
+    "gemini-3.8-flash",
+    "Gemini 3.8 Flash"
+   ],
+   [
+    "gemini-3.7-flash",
+    "Gemini 3.7 Flash"
+   ],
+   [
+    "gemini-3.6-flash",
+    "Gemini 3.6 Flash"
+   ],
+   [
+    "gemini-3.5-flash",
+    "Gemini 3.5 Flash"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "Gemini 3.1 Pro"
+   ],
+   [
+    "gemini-3-flash-preview",
+    "Gemini 3 Flash"
+   ],
+   [
+    "gemini-4-argon",
+    "Gemini 4 Argon"
+   ],
+   [
+    "gemini-flash-latest",
+    "Gemini Flash Latest"
+   ],
+   [
+    "gemini-pro-latest",
+    "Gemini Pro Latest"
+   ],
+   [
+    "gemini-flash-lite-latest",
+    "Gemini Flash-Lite Latest"
+   ],
+   [
+    "antigravity-preview-latest",
+    "Antigravity (Latest Preview)"
+   ],
+   [
+    "antigravity",
+    "Antigravity (Default)"
+   ],
+   [
+    "antigravity-preview-09-2026",
+    "Antigravity (09-2026 Preview)"
+   ],
+   [
+    "antigravity-preview-05-2026",
+    "Antigravity (05-2026 Preview)"
+   ],
+   [
+    "antigravity-latest",
+    "Antigravity Latest"
+   ],
+   [
+    "deep-research-pro-preview-12-2025",
+    "Deep Research Pro Preview"
+   ],
+   [
+    "deep-research-preview-04-2026",
+    "Deep Research Preview"
+   ],
+   [
+    "deep-research-max-preview-04-2026",
+    "Deep Research Max Preview"
+   ],
+   [
+    "gemma-4-31b-it",
+    "Gemma 4 31B"
+   ],
+   [
+    "gemma-4-26b-a4b-it",
+    "Gemma 4 26B"
+   ]
+  ],
+  "details": [
+   {
+    "id": "gemini-3.1-flash-lite",
+    "display": "Gemini 3.1 Flash Lite [FASTEST - 6-7s]",
+    "category": "Flash",
+    "badge": "⚡ FASTEST • 6-7s response • 500 RPD • Multimodal",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.1 flash lite [fastest - 6-7s] gemini-3.1-flash-lite flash ⚡ fastest • 6-7s response • 500 rpd • multimodal"
+   },
+   {
+    "id": "gemini-3.5-flash-lite",
+    "display": "Gemini 3.5 Flash Lite [Fast - 20-25s]",
+    "category": "Flash",
+    "badge": "⚡ Fast • 20-25s response • 500 RPD • Multimodal",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.5 flash lite [fast - 20-25s] gemini-3.5-flash-lite flash ⚡ fast • 20-25s response • 500 rpd • multimodal"
+   },
+   {
+    "id": "gemini-3.8-flash",
+    "display": "Gemini 3.8 Flash",
+    "category": "Flash",
+    "badge": "⚡ Ultra Fast • Latest Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.8 flash gemini-3.8-flash flash ⚡ ultra fast • latest generation"
+   },
+   {
+    "id": "gemini-3.7-flash",
+    "display": "Gemini 3.7 Flash",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.7 flash gemini-3.7-flash flash ⚡ general ai generation"
+   },
+   {
+    "id": "gemini-3.6-flash",
+    "display": "Gemini 3.6 Flash",
+    "category": "Flash",
+    "badge": "⚡ High Speed • High Context",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.6 flash gemini-3.6-flash flash ⚡ high speed • high context"
+   },
+   {
+    "id": "gemini-3.5-flash",
+    "display": "Gemini 3.5 Flash",
+    "category": "Flash",
+    "badge": "⚡ High Capacity • Flagship Flash",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.5 flash gemini-3.5-flash flash ⚡ high capacity • flagship flash"
+   },
+   {
+    "id": "gemini-3.1-pro-preview",
+    "display": "Gemini 3.1 Pro",
+    "category": "Pro & Frontier",
+    "badge": "🧠 Complex Reasoning & Code Architecture",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.1 pro gemini-3.1-pro-preview pro & frontier 🧠 complex reasoning & code architecture"
+   },
+   {
+    "id": "gemini-3-flash-preview",
+    "display": "Gemini 3 Flash",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3 flash gemini-3-flash-preview flash ⚡ general ai generation"
+   },
+   {
+    "id": "gemini-4-argon",
+    "display": "Gemini 4 Argon",
+    "category": "Pro & Frontier",
+    "badge": "🧠 Flagship Reasoning Frontier Model",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 4 argon gemini-4-argon pro & frontier 🧠 flagship reasoning frontier model"
+   },
+   {
+    "id": "gemini-flash-latest",
+    "display": "Gemini Flash Latest",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini flash latest gemini-flash-latest flash ⚡ general ai generation"
+   },
+   {
+    "id": "gemini-pro-latest",
+    "display": "Gemini Pro Latest",
+    "category": "Pro & Frontier",
+    "badge": "🧠 Complex Reasoning & Code Architecture",
+    "supports_thinking": true,
+    "searchable_blob": "gemini pro latest gemini-pro-latest pro & frontier 🧠 complex reasoning & code architecture"
+   },
+   {
+    "id": "gemini-flash-lite-latest",
+    "display": "Gemini Flash-Lite Latest",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini flash-lite latest gemini-flash-lite-latest flash ⚡ general ai generation"
+   },
+   {
+    "id": "antigravity-preview-latest",
+    "display": "Antigravity (Latest Preview)",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity (latest preview) antigravity-preview-latest antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "antigravity",
+    "display": "Antigravity (Default)",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity (default) antigravity antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "antigravity-preview-09-2026",
+    "display": "Antigravity (09-2026 Preview)",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity (09-2026 preview) antigravity-preview-09-2026 antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "antigravity-preview-05-2026",
+    "display": "Antigravity (05-2026 Preview)",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity (05-2026 preview) antigravity-preview-05-2026 antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "antigravity-latest",
+    "display": "Antigravity Latest",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity latest antigravity-latest antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "deep-research-pro-preview-12-2025",
+    "display": "Deep Research Pro Preview",
+    "category": "Deep Research",
+    "badge": "🔍 Autonomous Deep Web Research Agent",
+    "supports_thinking": false,
+    "searchable_blob": "deep research pro preview deep-research-pro-preview-12-2025 deep research 🔍 autonomous deep web research agent"
+   },
+   {
+    "id": "deep-research-preview-04-2026",
+    "display": "Deep Research Preview",
+    "category": "Deep Research",
+    "badge": "🔍 Autonomous Deep Web Research Agent",
+    "supports_thinking": false,
+    "searchable_blob": "deep research preview deep-research-preview-04-2026 deep research 🔍 autonomous deep web research agent"
+   },
+   {
+    "id": "deep-research-max-preview-04-2026",
+    "display": "Deep Research Max Preview",
+    "category": "Deep Research",
+    "badge": "🔍 Autonomous Deep Web Research Agent",
+    "supports_thinking": false,
+    "searchable_blob": "deep research max preview deep-research-max-preview-04-2026 deep research 🔍 autonomous deep web research agent"
+   },
+   {
+    "id": "gemma-4-31b-it",
+    "display": "Gemma 4 31B",
+    "category": "Gemma",
+    "badge": "💎 Open Model • Direct Reasoning",
+    "supports_thinking": false,
+    "searchable_blob": "gemma 4 31b gemma-4-31b-it gemma 💎 open model • direct reasoning"
+   },
+   {
+    "id": "gemma-4-26b-a4b-it",
+    "display": "Gemma 4 26B",
+    "category": "Gemma",
+    "badge": "💎 Open Model • Direct Reasoning",
+    "supports_thinking": false,
+    "searchable_blob": "gemma 4 26b gemma-4-26b-a4b-it gemma 💎 open model • direct reasoning"
+   }
+  ]
+ },
+ "info_known": {
+  "id": "gemini-3.5-flash",
+  "display": "Gemini 3.5 Flash",
+  "category": "Flash",
+  "badge": "⚡ High Capacity • Flagship Flash",
+  "supports_thinking": true,
+  "searchable_blob": "gemini 3.5 flash gemini-3.5-flash flash ⚡ high capacity • flagship flash"
+ },
+ "info_unknown": {
+  "id": "some-brand-new-model",
+  "display": "some-brand-new-model",
+  "category": "Flash",
+  "badge": "⚡ General AI Generation",
+  "supports_thinking": false,
+  "searchable_blob": "some-brand-new-model some-brand-new-model flash ⚡ general ai generation"
+ },
+ "info_empty": {
+  "id": "",
+  "display": "",
+  "category": "Flash",
+  "badge": "⚡ General AI Generation",
+  "supports_thinking": false,
+  "searchable_blob": "  flash ⚡ general ai generation"
+ },
+ "after_refresh": {
+  "items": [
+   [
+    "gemini-3.1-flash-lite",
+    "Gemini 3.1 Flash Lite [FASTEST - 6-7s]"
+   ],
+   [
+    "gemini-3.5-flash-lite",
+    "Gemini 3.5 Flash Lite [Fast - 20-25s]"
+   ],
+   [
+    "gemini-3.8-flash",
+    "Gemini 3.8 Flash"
+   ],
+   [
+    "gemini-3.7-flash",
+    "Gemini 3.7 Flash"
+   ],
+   [
+    "gemini-3.6-flash",
+    "Gemini 3.6 Flash"
+   ],
+   [
+    "gemini-3.5-flash",
+    "Gemini 3.5 Flash (remote)"
+   ],
+   [
+    "gemini-3.1-pro-preview",
+    "Gemini 3.1 Pro"
+   ],
+   [
+    "gemini-3-flash-preview",
+    "Gemini 3 Flash"
+   ],
+   [
+    "gemini-4-argon",
+    "Gemini 4 Argon"
+   ],
+   [
+    "gemini-flash-latest",
+    "Gemini Flash Latest"
+   ],
+   [
+    "gemini-pro-latest",
+    "Gemini Pro Latest"
+   ],
+   [
+    "gemini-flash-lite-latest",
+    "Gemini Flash-Lite Latest"
+   ],
+   [
+    "antigravity-preview-latest",
+    "Antigravity (Latest Preview)"
+   ],
+   [
+    "antigravity",
+    "Antigravity (Default)"
+   ],
+   [
+    "antigravity-preview-09-2026",
+    "Antigravity (09-2026 Preview)"
+   ],
+   [
+    "antigravity-preview-05-2026",
+    "Antigravity (05-2026 Preview)"
+   ],
+   [
+    "antigravity-latest",
+    "Antigravity Latest"
+   ],
+   [
+    "deep-research-pro-preview-12-2025",
+    "Deep Research Pro Preview"
+   ],
+   [
+    "deep-research-preview-04-2026",
+    "Deep Research Preview"
+   ],
+   [
+    "deep-research-max-preview-04-2026",
+    "Deep Research Max Preview"
+   ],
+   [
+    "gemma-4-31b-it",
+    "Gemma 4 31B"
+   ],
+   [
+    "gemma-4-26b-a4b-it",
+    "Gemma 4 26B"
+   ],
+   [
+    "brand-new-model",
+    "Brand New"
+   ],
+   [
+    "empty-display",
+    ""
+   ],
+   [
+    "imagen-3.0-generate-002",
+    "Imagen remote"
+   ],
+   [
+    "unknown-no-display",
+    ""
+   ]
+  ],
+  "details": [
+   {
+    "id": "gemini-3.1-flash-lite",
+    "display": "Gemini 3.1 Flash Lite [FASTEST - 6-7s]",
+    "category": "Flash",
+    "badge": "⚡ FASTEST • 6-7s response • 500 RPD • Multimodal",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.1 flash lite [fastest - 6-7s] gemini-3.1-flash-lite flash ⚡ fastest • 6-7s response • 500 rpd • multimodal"
+   },
+   {
+    "id": "gemini-3.5-flash-lite",
+    "display": "Gemini 3.5 Flash Lite [Fast - 20-25s]",
+    "category": "Flash",
+    "badge": "⚡ Fast • 20-25s response • 500 RPD • Multimodal",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.5 flash lite [fast - 20-25s] gemini-3.5-flash-lite flash ⚡ fast • 20-25s response • 500 rpd • multimodal"
+   },
+   {
+    "id": "gemini-3.8-flash",
+    "display": "Gemini 3.8 Flash",
+    "category": "Flash",
+    "badge": "⚡ Ultra Fast • Latest Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.8 flash gemini-3.8-flash flash ⚡ ultra fast • latest generation"
+   },
+   {
+    "id": "gemini-3.7-flash",
+    "display": "Gemini 3.7 Flash",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.7 flash gemini-3.7-flash flash ⚡ general ai generation"
+   },
+   {
+    "id": "gemini-3.6-flash",
+    "display": "Gemini 3.6 Flash",
+    "category": "Flash",
+    "badge": "⚡ High Speed • High Context",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.6 flash gemini-3.6-flash flash ⚡ high speed • high context"
+   },
+   {
+    "id": "gemini-3.5-flash",
+    "display": "Gemini 3.5 Flash (remote)",
+    "category": "Flash",
+    "badge": "⚡ High Capacity • Flagship Flash",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.5 flash (remote) gemini-3.5-flash flash ⚡ high capacity • flagship flash"
+   },
+   {
+    "id": "gemini-3.1-pro-preview",
+    "display": "Gemini 3.1 Pro",
+    "category": "Pro & Frontier",
+    "badge": "🧠 Complex Reasoning & Code Architecture",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3.1 pro gemini-3.1-pro-preview pro & frontier 🧠 complex reasoning & code architecture"
+   },
+   {
+    "id": "gemini-3-flash-preview",
+    "display": "Gemini 3 Flash",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 3 flash gemini-3-flash-preview flash ⚡ general ai generation"
+   },
+   {
+    "id": "gemini-4-argon",
+    "display": "Gemini 4 Argon",
+    "category": "Pro & Frontier",
+    "badge": "🧠 Flagship Reasoning Frontier Model",
+    "supports_thinking": true,
+    "searchable_blob": "gemini 4 argon gemini-4-argon pro & frontier 🧠 flagship reasoning frontier model"
+   },
+   {
+    "id": "gemini-flash-latest",
+    "display": "Gemini Flash Latest",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini flash latest gemini-flash-latest flash ⚡ general ai generation"
+   },
+   {
+    "id": "gemini-pro-latest",
+    "display": "Gemini Pro Latest",
+    "category": "Pro & Frontier",
+    "badge": "🧠 Complex Reasoning & Code Architecture",
+    "supports_thinking": true,
+    "searchable_blob": "gemini pro latest gemini-pro-latest pro & frontier 🧠 complex reasoning & code architecture"
+   },
+   {
+    "id": "gemini-flash-lite-latest",
+    "display": "Gemini Flash-Lite Latest",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": true,
+    "searchable_blob": "gemini flash-lite latest gemini-flash-lite-latest flash ⚡ general ai generation"
+   },
+   {
+    "id": "antigravity-preview-latest",
+    "display": "Antigravity (Latest Preview)",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity (latest preview) antigravity-preview-latest antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "antigravity",
+    "display": "Antigravity (Default)",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity (default) antigravity antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "antigravity-preview-09-2026",
+    "display": "Antigravity (09-2026 Preview)",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity (09-2026 preview) antigravity-preview-09-2026 antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "antigravity-preview-05-2026",
+    "display": "Antigravity (05-2026 Preview)",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity (05-2026 preview) antigravity-preview-05-2026 antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "antigravity-latest",
+    "display": "Antigravity Latest",
+    "category": "Antigravity",
+    "badge": "🤖 Autonomous Coding Agent • Interactions API",
+    "supports_thinking": true,
+    "searchable_blob": "antigravity latest antigravity-latest antigravity 🤖 autonomous coding agent • interactions api"
+   },
+   {
+    "id": "deep-research-pro-preview-12-2025",
+    "display": "Deep Research Pro Preview",
+    "category": "Deep Research",
+    "badge": "🔍 Autonomous Deep Web Research Agent",
+    "supports_thinking": false,
+    "searchable_blob": "deep research pro preview deep-research-pro-preview-12-2025 deep research 🔍 autonomous deep web research agent"
+   },
+   {
+    "id": "deep-research-preview-04-2026",
+    "display": "Deep Research Preview",
+    "category": "Deep Research",
+    "badge": "🔍 Autonomous Deep Web Research Agent",
+    "supports_thinking": false,
+    "searchable_blob": "deep research preview deep-research-preview-04-2026 deep research 🔍 autonomous deep web research agent"
+   },
+   {
+    "id": "deep-research-max-preview-04-2026",
+    "display": "Deep Research Max Preview",
+    "category": "Deep Research",
+    "badge": "🔍 Autonomous Deep Web Research Agent",
+    "supports_thinking": false,
+    "searchable_blob": "deep research max preview deep-research-max-preview-04-2026 deep research 🔍 autonomous deep web research agent"
+   },
+   {
+    "id": "gemma-4-31b-it",
+    "display": "Gemma 4 31B",
+    "category": "Gemma",
+    "badge": "💎 Open Model • Direct Reasoning",
+    "supports_thinking": false,
+    "searchable_blob": "gemma 4 31b gemma-4-31b-it gemma 💎 open model • direct reasoning"
+   },
+   {
+    "id": "gemma-4-26b-a4b-it",
+    "display": "Gemma 4 26B",
+    "category": "Gemma",
+    "badge": "💎 Open Model • Direct Reasoning",
+    "supports_thinking": false,
+    "searchable_blob": "gemma 4 26b gemma-4-26b-a4b-it gemma 💎 open model • direct reasoning"
+   },
+   {
+    "id": "brand-new-model",
+    "display": "Brand New",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": false,
+    "searchable_blob": "brand new brand-new-model flash ⚡ general ai generation"
+   },
+   {
+    "id": "empty-display",
+    "display": "",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": false,
+    "searchable_blob": " empty-display flash ⚡ general ai generation"
+   },
+   {
+    "id": "imagen-3.0-generate-002",
+    "display": "Imagen remote",
+    "category": "Image & Video",
+    "badge": "🎨 Multimodal Image Generation & Vision",
+    "supports_thinking": false,
+    "searchable_blob": "imagen remote imagen-3.0-generate-002 image & video 🎨 multimodal image generation & vision"
+   },
+   {
+    "id": "unknown-no-display",
+    "display": "",
+    "category": "Flash",
+    "badge": "⚡ General AI Generation",
+    "supports_thinking": false,
+    "searchable_blob": " unknown-no-display flash ⚡ general ai generation"
+   }
+  ]
+ },
+ "refresh_events": [
+  "updated"
+ ],
+ "listener_error_kept_merge": [
+  [
+   "gemini-3.1-flash-lite",
+   "Gemini 3.1 Flash Lite [FASTEST - 6-7s]"
+  ],
+  [
+   "gemini-3.5-flash-lite",
+   "Gemini 3.5 Flash Lite [Fast - 20-25s]"
+  ],
+  [
+   "gemini-3.8-flash",
+   "Gemini 3.8 Flash"
+  ],
+  [
+   "gemini-3.7-flash",
+   "Gemini 3.7 Flash"
+  ],
+  [
+   "gemini-3.6-flash",
+   "Gemini 3.6 Flash"
+  ],
+  [
+   "gemini-3.5-flash",
+   "Gemini 3.5 Flash (remote)"
+  ],
+  [
+   "gemini-3.1-pro-preview",
+   "Gemini 3.1 Pro"
+  ],
+  [
+   "gemini-3-flash-preview",
+   "Gemini 3 Flash"
+  ],
+  [
+   "gemini-4-argon",
+   "Gemini 4 Argon"
+  ],
+  [
+   "gemini-flash-latest",
+   "Gemini Flash Latest"
+  ],
+  [
+   "gemini-pro-latest",
+   "Gemini Pro Latest"
+  ],
+  [
+   "gemini-flash-lite-latest",
+   "Gemini Flash-Lite Latest"
+  ],
+  [
+   "antigravity-preview-latest",
+   "Antigravity (Latest Preview)"
+  ],
+  [
+   "antigravity",
+   "Antigravity (Default)"
+  ],
+  [
+   "antigravity-preview-09-2026",
+   "Antigravity (09-2026 Preview)"
+  ],
+  [
+   "antigravity-preview-05-2026",
+   "Antigravity (05-2026 Preview)"
+  ],
+  [
+   "antigravity-latest",
+   "Antigravity Latest"
+  ],
+  [
+   "deep-research-pro-preview-12-2025",
+   "Deep Research Pro Preview"
+  ],
+  [
+   "deep-research-preview-04-2026",
+   "Deep Research Preview"
+  ],
+  [
+   "deep-research-max-preview-04-2026",
+   "Deep Research Max Preview"
+  ],
+  [
+   "gemma-4-31b-it",
+   "Gemma 4 31B"
+  ],
+  [
+   "gemma-4-26b-a4b-it",
+   "Gemma 4 26B"
+  ],
+  [
+   "brand-new-model",
+   "Brand New"
+  ],
+  [
+   "empty-display",
+   ""
+  ],
+  [
+   "imagen-3.0-generate-002",
+   "Imagen remote"
+  ],
+  [
+   "unknown-no-display",
+   ""
+  ]
+ ],
+ "listener_error_count": [
+  1
+ ],
+ "empty_remote": [
+  [
+   "gemini-3.1-flash-lite",
+   "Gemini 3.1 Flash Lite [FASTEST - 6-7s]"
+  ],
+  [
+   "gemini-3.5-flash-lite",
+   "Gemini 3.5 Flash Lite [Fast - 20-25s]"
+  ],
+  [
+   "gemini-3.8-flash",
+   "Gemini 3.8 Flash"
+  ],
+  [
+   "gemini-3.7-flash",
+   "Gemini 3.7 Flash"
+  ],
+  [
+   "gemini-3.6-flash",
+   "Gemini 3.6 Flash"
+  ],
+  [
+   "gemini-3.5-flash",
+   "Gemini 3.5 Flash"
+  ],
+  [
+   "gemini-3.1-pro-preview",
+   "Gemini 3.1 Pro"
+  ],
+  [
+   "gemini-3-flash-preview",
+   "Gemini 3 Flash"
+  ],
+  [
+   "gemini-4-argon",
+   "Gemini 4 Argon"
+  ],
+  [
+   "gemini-flash-latest",
+   "Gemini Flash Latest"
+  ],
+  [
+   "gemini-pro-latest",
+   "Gemini Pro Latest"
+  ],
+  [
+   "gemini-flash-lite-latest",
+   "Gemini Flash-Lite Latest"
+  ],
+  [
+   "antigravity-preview-latest",
+   "Antigravity (Latest Preview)"
+  ],
+  [
+   "antigravity",
+   "Antigravity (Default)"
+  ],
+  [
+   "antigravity-preview-09-2026",
+   "Antigravity (09-2026 Preview)"
+  ],
+  [
+   "antigravity-preview-05-2026",
+   "Antigravity (05-2026 Preview)"
+  ],
+  [
+   "antigravity-latest",
+   "Antigravity Latest"
+  ],
+  [
+   "deep-research-pro-preview-12-2025",
+   "Deep Research Pro Preview"
+  ],
+  [
+   "deep-research-preview-04-2026",
+   "Deep Research Preview"
+  ],
+  [
+   "deep-research-max-preview-04-2026",
+   "Deep Research Max Preview"
+  ],
+  [
+   "gemma-4-31b-it",
+   "Gemma 4 31B"
+  ],
+  [
+   "gemma-4-26b-a4b-it",
+   "Gemma 4 26B"
+  ]
+ ],
+ "empty_remote_called": [],
+ "error_remote": [
+  [
+   "gemini-3.1-flash-lite",
+   "Gemini 3.1 Flash Lite [FASTEST - 6-7s]"
+  ],
+  [
+   "gemini-3.5-flash-lite",
+   "Gemini 3.5 Flash Lite [Fast - 20-25s]"
+  ],
+  [
+   "gemini-3.8-flash",
+   "Gemini 3.8 Flash"
+  ],
+  [
+   "gemini-3.7-flash",
+   "Gemini 3.7 Flash"
+  ],
+  [
+   "gemini-3.6-flash",
+   "Gemini 3.6 Flash"
+  ],
+  [
+   "gemini-3.5-flash",
+   "Gemini 3.5 Flash"
+  ],
+  [
+   "gemini-3.1-pro-preview",
+   "Gemini 3.1 Pro"
+  ],
+  [
+   "gemini-3-flash-preview",
+   "Gemini 3 Flash"
+  ],
+  [
+   "gemini-4-argon",
+   "Gemini 4 Argon"
+  ],
+  [
+   "gemini-flash-latest",
+   "Gemini Flash Latest"
+  ],
+  [
+   "gemini-pro-latest",
+   "Gemini Pro Latest"
+  ],
+  [
+   "gemini-flash-lite-latest",
+   "Gemini Flash-Lite Latest"
+  ],
+  [
+   "antigravity-preview-latest",
+   "Antigravity (Latest Preview)"
+  ],
+  [
+   "antigravity",
+   "Antigravity (Default)"
+  ],
+  [
+   "antigravity-preview-09-2026",
+   "Antigravity (09-2026 Preview)"
+  ],
+  [
+   "antigravity-preview-05-2026",
+   "Antigravity (05-2026 Preview)"
+  ],
+  [
+   "antigravity-latest",
+   "Antigravity Latest"
+  ],
+  [
+   "deep-research-pro-preview-12-2025",
+   "Deep Research Pro Preview"
+  ],
+  [
+   "deep-research-preview-04-2026",
+   "Deep Research Preview"
+  ],
+  [
+   "deep-research-max-preview-04-2026",
+   "Deep Research Max Preview"
+  ],
+  [
+   "gemma-4-31b-it",
+   "Gemma 4 31B"
+  ],
+  [
+   "gemma-4-26b-a4b-it",
+   "Gemma 4 26B"
+  ]
+ ],
+ "error_remote_called": [],
+ "no_client": [
+  [
+   "gemini-3.1-flash-lite",
+   "Gemini 3.1 Flash Lite [FASTEST - 6-7s]"
+  ],
+  [
+   "gemini-3.5-flash-lite",
+   "Gemini 3.5 Flash Lite [Fast - 20-25s]"
+  ],
+  [
+   "gemini-3.8-flash",
+   "Gemini 3.8 Flash"
+  ],
+  [
+   "gemini-3.7-flash",
+   "Gemini 3.7 Flash"
+  ],
+  [
+   "gemini-3.6-flash",
+   "Gemini 3.6 Flash"
+  ],
+  [
+   "gemini-3.5-flash",
+   "Gemini 3.5 Flash"
+  ],
+  [
+   "gemini-3.1-pro-preview",
+   "Gemini 3.1 Pro"
+  ],
+  [
+   "gemini-3-flash-preview",
+   "Gemini 3 Flash"
+  ],
+  [
+   "gemini-4-argon",
+   "Gemini 4 Argon"
+  ],
+  [
+   "gemini-flash-latest",
+   "Gemini Flash Latest"
+  ],
+  [
+   "gemini-pro-latest",
+   "Gemini Pro Latest"
+  ],
+  [
+   "gemini-flash-lite-latest",
+   "Gemini Flash-Lite Latest"
+  ],
+  [
+   "antigravity-preview-latest",
+   "Antigravity (Latest Preview)"
+  ],
+  [
+   "antigravity",
+   "Antigravity (Default)"
+  ],
+  [
+   "antigravity-preview-09-2026",
+   "Antigravity (09-2026 Preview)"
+  ],
+  [
+   "antigravity-preview-05-2026",
+   "Antigravity (05-2026 Preview)"
+  ],
+  [
+   "antigravity-latest",
+   "Antigravity Latest"
+  ],
+  [
+   "deep-research-pro-preview-12-2025",
+   "Deep Research Pro Preview"
+  ],
+  [
+   "deep-research-preview-04-2026",
+   "Deep Research Preview"
+  ],
+  [
+   "deep-research-max-preview-04-2026",
+   "Deep Research Max Preview"
+  ],
+  [
+   "gemma-4-31b-it",
+   "Gemma 4 31B"
+  ],
+  [
+   "gemma-4-26b-a4b-it",
+   "Gemma 4 26B"
+  ]
+ ],
+ "client_backfill": [
+  true,
+  true
+ ],
+ "client_attach": true,
+ "controller": {
+  "initial_model": "gemini-3.5-flash-lite",
+  "initial_effort": "medium",
+  "initial_badge": "gemini-3.5-flash-lite • ⚖️ Medium Effort",
+  "initial_config": [
+   2048,
+   false
+  ],
+  "settings_before": null,
+  "badges": [
+   [
+    "turbo",
+    "gemini-3.5-flash-lite • 🏎️ Turbo Effort"
+   ],
+   [
+    "low",
+    "gemini-3.5-flash-lite • ⚡ Low Effort"
+   ],
+   [
+    "medium",
+    "gemini-3.5-flash-lite • ⚖️ Medium Effort"
+   ],
+   [
+    "high",
+    "gemini-3.5-flash-lite • 🧠 High Effort"
+   ],
+   [
+    "extra_high",
+    "gemini-3.5-flash-lite • 🚀 Extra High Effort"
+   ]
+  ],
+  "configs": [
+   [
+    "turbo",
+    null
+   ],
+   [
+    "low",
+    512
+   ],
+   [
+    "medium",
+    2048
+   ],
+   [
+    "high",
+    8192
+   ],
+   [
+    "extra_high",
+    16384
+   ]
+  ],
+  "supports": [
+   [
+    null,
+    true
+   ],
+   [
+    "veo-3.1-generate-preview",
+    false
+   ],
+   [
+    "",
+    true
+   ]
+  ],
+  "notifications": [
+   [
+    "gemini-3.5-pro",
+    "extra_high"
+   ],
+   [
+    "gemini-3.5-pro",
+    "extra_high"
+   ],
+   [
+    "gemini-3.5-pro",
+    "extra_high"
+   ],
+   [
+    "gemini-3.5-pro",
+    "extra_high"
+   ],
+   [
+    "gemini-3.5-pro",
+    "medium"
+   ],
+   [
+    "gemini-3.5-pro",
+    "medium"
+   ],
+   [
+    "gemini-3.5-pro",
+    "medium"
+   ],
+   [
+    "gemini-3.5-pro",
+    "medium"
+   ]
+  ],
+  "badges_std": [
+   [
+    "turbo",
+    "gemini-2.5-flash-image • Standard"
+   ],
+   [
+    "low",
+    "gemini-2.5-flash-image • Standard"
+   ],
+   [
+    "medium",
+    "gemini-2.5-flash-image • Standard"
+   ],
+   [
+    "high",
+    "gemini-2.5-flash-image • Standard"
+   ],
+   [
+    "extra_high",
+    "gemini-2.5-flash-image • Standard"
+   ]
+  ],
+  "dedupe": [
+   2,
+   2
+  ],
+  "after": {
+   "model": "gemini-3.5-pro",
+   "effort": "medium",
+   "badge": "gemini-3.5-pro • ⚖️ Medium Effort",
+   "store_model": "gemini-3.5-pro",
+   "store_effort": "medium",
+   "store_all": {
+    "effort_level": "medium",
+    "model": "gemini-3.5-pro"
+   }
+  },
+  "settings_after": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n\n- **effort_level:** `medium`\n- **model:** `gemini-3.5-pro`\n"
+ },
+ "settings": {
+  "missing_path": "memory/settings.md",
+  "missing_dict": {},
+  "missing_still_absent": false,
+  "default_file": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n- **model:** `gemini-3.5-flash`\n- **effort_level:** `medium`\n- **function_suite:** `all`\n- **mode:** `build`\n- **ui_scale:** `13px`\n- **ui_scale_label:** `UI Scale: 13px (Normal)`\n- **theme:** `pure_dark`\n- **window_geometry:** `1240x800`\n- **target_directory:** `.`\n",
+  "default_dict": {
+   "model": "gemini-3.5-flash",
+   "effort_level": "medium",
+   "function_suite": "all",
+   "mode": "build",
+   "ui_scale": "13px",
+   "ui_scale_label": "UI Scale: 13px (Normal)",
+   "theme": "pure_dark",
+   "window_geometry": "1240x800",
+   "target_directory": "."
+  },
+  "ensure_again_unchanged": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n- **model:** `gemini-3.5-flash`\n- **effort_level:** `medium`\n- **function_suite:** `all`\n- **mode:** `build`\n- **ui_scale:** `13px`\n- **ui_scale_label:** `UI Scale: 13px (Normal)`\n- **theme:** `pure_dark`\n- **window_geometry:** `1240x800`\n- **target_directory:** `.`\n",
+  "after_save": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n\n- **model:** `gemini-3.5-flash`\n- **effort_level:** `medium`\n- **function_suite:** `all`\n- **mode:** `build`\n- **ui_scale:** `13px`\n- **ui_scale_label:** `UI Scale: 13px (Normal)`\n- **theme:** `not_so_dark`\n- **window_geometry:** `1240x800`\n- **target_directory:** `.`\n- **zz_extra:** `42`\n",
+  "after_reorder": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n\n- **model:** `gemini-2.5-pro`\n- **effort_level:** `turbo`\n- **function_suite:** `all`\n- **mode:** `build`\n- **ui_scale:** `13px`\n- **ui_scale_label:** `UI Scale: 13px (Normal)`\n- **theme:** `not_so_dark`\n- **window_geometry:** `1240x800`\n- **target_directory:** `.`\n- **zz_extra:** `42`\n",
+  "after_reorder_dict": {
+   "model": "gemini-2.5-pro",
+   "effort_level": "turbo",
+   "function_suite": "all",
+   "mode": "build",
+   "ui_scale": "13px",
+   "ui_scale_label": "UI Scale: 13px (Normal)",
+   "theme": "not_so_dark",
+   "window_geometry": "1240x800",
+   "target_directory": ".",
+   "zz_extra": "42"
+  },
+  "sparse_saved": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n\n- **zz_extra:** `42`\n- **model:** `gemini-3.5-flash`\n- **custom:** `value`\n- **mode:** `plan`\n",
+  "wrapped_path": "memory/settings.md",
+  "nested_path": "gemibot-cli/src/memory/settings.md",
+  "lonely_path": "no-memory-here/gemibot/memory/settings.md",
+  "store_model": "gemini-3.5-flash",
+  "store_effort": "medium",
+  "set_model_empty": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n\n- **zz_extra:** `42`\n- **model:** `gemini-3.5-flash`\n- **custom:** `value`\n- **mode:** `plan`\n",
+  "store_after": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n\n- **zz_extra:** `42`\n- **model:** `gemini-3.5-flash-lite`\n- **custom:** `value`\n- **mode:** `plan`\n- **effort_level:** `medium`\n- **target_directory:** ``\n- **ui_scale:** `13px`\n",
+  "store_effort_after": "medium",
+  "store_all_after": {
+   "zz_extra": "42",
+   "model": "gemini-3.5-flash-lite",
+   "custom": "value",
+   "mode": "plan",
+   "effort_level": "medium",
+   "target_directory": "",
+   "ui_scale": "13px"
+  },
+  "fresh_model": "gemini-3.5-flash-lite",
+  "fresh_effort": "medium",
+  "fresh_all": {},
+  "fresh_created": false,
+  "fresh_saved": "# Gemibot User Settings & Preferences\n\n> This file (`/memory/settings.md`) automatically stores persistent user preferences for Gemibot (CLI and Window GUI). When you reopen Gemibot, these preferences are restored automatically.\n\n\n- **model:** `gemini-3.5-flash`\n"
+ }
+}

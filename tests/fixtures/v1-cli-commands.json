@@ -1,0 +1,1198 @@
+{
+ "width": 96,
+ "cases": [
+  {
+   "label": "help",
+   "line": "/help",
+   "answers": [],
+   "prompts": [],
+   "out": "\n\u001b[1mGemibot.py // GemiBot AI Commands\u001b[0m\n  \u001b[96m/model\u001b[0m            open interactive model selector (1, 2, 3...)\n  \u001b[96m/function\u001b[0m         open interactive Function & Mode Selector (Build, Read, Plan, Image UHD, DOCX, Excel, Voice...)\n  \u001b[96m/build\u001b[0m            switch to BUILD mode (full read, write, multimodal & shell access)\n  \u001b[96m/plan\u001b[0m             switch to PLAN mode (read-only architectural analysis, no edits/commands)\n  \u001b[96m/read\u001b[0m             switch to READ mode (strict read & media inspection mode)\n  \u001b[96m/todos\u001b[0m            display active task checklist\n  \u001b[96m/undo\u001b[0m             revert the last single file change made by the agent\n  \u001b[96m/revert\u001b[0m           pick a previous prompt checkpoint and roll back code, history and memory\n  \u001b[96m/target <path>\u001b[0m   set or inspect target project directory (use /target clear to reset)\n  \u001b[96m/settings\u001b[0m         view /memory/settings.md saved user preferences\n  \u001b[96m/memory\u001b[0m           show /memory/memory.md logs and interaction history\n  \u001b[96m/pip\u001b[0m              check or auto-install all required Python multimedia libraries in .venv\n  \u001b[96m/clear\u001b[0m            clear active chat context and reset /memory/memory.md\n  \u001b[96m/usage\u001b[0m            show session token consumption metrics\n  \u001b[96m/help\u001b[0m             show this help menu\n  \u001b[96m/exit\u001b[0m             shutdown and exit Gemibot CLI\n\n\u001b[1mCommand Chaining (+)\u001b[0m\n  You can combine 2 or more commands using '+' with spaces or without spaces:\n  - \u001b[93m/plan + /build\u001b[0m\n  - \u001b[93m/plan+/build\u001b[0m\n  - \u001b[93m/clear + /todos + /usage + /build\u001b[0m\n  - \u001b[93m/1 + /3 + /6\u001b[0m (Numeric chaining works too!)\n\n\u001b[1mKeybinds & Shortcuts\u001b[0m\n  \u001b[93mEsc\u001b[0m               interrupt AI generation, reply output, or running command\n  \u001b[96m@path\u001b[0m             attach a file inline, e.g. fix the bug in @src/app.py\n  \u001b[96m!command\u001b[0m          execute a shell command directly in project root (e.g. !git status)\n  \u001b[96m\\ (line end)\u001b[0m      continue your prompt on the next line\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "usage",
+   "line": "/usage",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[90mTokens:\u001b[0m 0 in * 0 out * 0 total\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "settings",
+   "line": "/settings",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[90m- \u001b[96m\u001b[1mUser Settings & Preferences\u001b[0m\n  \u001b[90m- Path:            <TMP>\\memory\\settings.md\n  \u001b[90m- model            \u001b[97mgemini-3.1-flash-lite\u001b[0m\n  \u001b[90m- effort_level     \u001b[97mmedium\u001b[0m\n  \u001b[90m- function_suite   \u001b[97mall\u001b[0m\n  \u001b[90m- mode             \u001b[97mbuild\u001b[0m\n  \u001b[90m- ui_scale         \u001b[97m13px\u001b[0m\n  \u001b[90m- ui_scale_label   \u001b[97mUI Scale: 13px (Normal)\u001b[0m\n  \u001b[90m- theme            \u001b[97mpure_dark\u001b[0m\n  \u001b[90m- window_geometry  \u001b[97m1240x800\u001b[0m\n  \u001b[90m- target_directory \u001b[97m\u001b[0m\n  \u001b[90m-\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "memory",
+   "line": "/memory",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[90m- \u001b[95m\u001b[1mMemory Status\u001b[0m\n  \u001b[90m- Path:    <TMP>\\memory\\memory.md\n  \u001b[90m- Entries: 0 interaction(s)\n  \u001b[90m- Size:    250 characters (4 lines)\n  \u001b[90m-\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "target_default",
+   "line": "/target",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[96m\u001b[1mCurrent Target Directory:\u001b[0m <TMP>\n  \u001b[90m(Using default application folder. Use /target <path> to change)\u001b[0m\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "target_clear",
+   "line": "/target clear",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[92m\u001b[1m- Success:\u001b[0m Target directory cleared. Defaulting to application folder:\n<TMP>\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "target_missing",
+   "line": "/target C:/definitely/not/here/nope",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[91m\u001b[1m- Error:\u001b[0m Target folder does not exist: C:\\definitely\\not\\here\\nope\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "target_sub",
+   "line": "/target <TMP>/sub",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[92m\u001b[1m- Success:\u001b[0m Target directory updated successfully!\nActive Target: <TMP>\\sub\nProject context, file map and AGENTS.md reloaded.\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>\\sub",
+    "pending": 0
+   }
+  },
+  {
+   "label": "target_file",
+   "line": "/target <TMP>/afile.txt",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[91m\u001b[1m- Error:\u001b[0m Path is not a directory: <TMP>\\afile.txt\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "target_weird",
+   "line": "/target 'clear'",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[92m\u001b[1m- Success:\u001b[0m Target directory cleared. Defaulting to application folder:\n<TMP>\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "plan",
+   "line": "/plan",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[48;5;136m\u001b[97m PLAN \u001b[0m \u001b[93mRead-only mode active. Edits and shell commands disabled.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "plan",
+    "active_function": "plan",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "read",
+   "line": "/read",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[48;5;24m\u001b[97m READ \u001b[0m \u001b[96mStrict read & media inspection mode active.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "read",
+    "active_function": "read",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "build",
+   "line": "/build",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[48;5;29m\u001b[97m BUILD \u001b[0m \u001b[92mFull agent access active.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "todos",
+   "line": "/todos",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mNo active todos.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "totos",
+   "line": "/totos",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mNo active todos.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "function_cancel",
+   "line": "/function",
+   "answers": [],
+   "prompts": [
+    "Enter number (1-17) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect Gemibot Function Suite or Mode\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mall\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- All Functions Unlocked - Coding + Image UHD + DOCX + Excel + PDF/PPTX + Voice + Video\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mbuild\u001b[0m \u001b[2m- Build Mode - Code reading, editing, writing, shell execution & full multimodal tools\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mplan\u001b[0m \u001b[2m- Plan Mode - Read-only architecture investigation & step-by-step planning\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mread\u001b[0m \u001b[2m- Read Mode - Strict read-only inspection across code, docs, images, audio & video\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mimage_reader\u001b[0m \u001b[2m- Image Reader & OCR - Vision analysis, UI inspection, EXIF & text extraction\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mimage_generator_uhd\u001b[0m \u001b[2m- Image Generator Ultra HD - 4K (3840x2160) AI image generation & upscaling\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mdocx_management\u001b[0m \u001b[2m- DOCX Management - Word .docx reader, structural analyzer, writer & editor\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mexcel_management\u001b[0m \u001b[2m- Excel Management - Spreadsheet .xlsx/.csv reader, stats analyzer & formula writer\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mpdf_management\u001b[0m \u001b[2m- PDF Management - PDF reader, page/metadata analyzer & PDF report generator\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mpptx_management\u001b[0m \u001b[2m- PPTX Management - PowerPoint slide reader, analyzer & presentation builder\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mvoice_analyzer\u001b[0m \u001b[2m- Voice Analyzer & Transcriber - Audio metrics, waveform stats & speech-to-text\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mvoice_generator\u001b[0m \u001b[2m- Voice Generator (TTS) - Neural & offline text-to-speech audio file synthesis\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mvideo_reader\u001b[0m \u001b[2m- Video Reader & Analyzer - Video metadata, frame extraction & Gemini scene analysis\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mdata_sql\u001b[0m \u001b[2m- Data Science & SQL - SQLite query runner, CSV statistical profiler & QR generator\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1msearch_grounding\u001b[0m \u001b[2m- Search Grounding - Live web search with real-time Google Search grounding (1.5K queries)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mmap_grounding\u001b[0m \u001b[2m- Map Grounding - Google Maps places, local business, directions & geographic grounding\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mpip_installer\u001b[0m \u001b[2m- Environment & .venv Pip Installer - Check or auto-install all required pip packages\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n\n  \u001b[2mCancelled. Active function suite: all\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "function_pick_3",
+   "line": "/function",
+   "answers": [
+    "3"
+   ],
+   "prompts": [
+    "Enter number (1-17) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect Gemibot Function Suite or Mode\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mall\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- All Functions Unlocked - Coding + Image UHD + DOCX + Excel + PDF/PPTX + Voice + Video\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mbuild\u001b[0m \u001b[2m- Build Mode - Code reading, editing, writing, shell execution & full multimodal tools\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mplan\u001b[0m \u001b[2m- Plan Mode - Read-only architecture investigation & step-by-step planning\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mread\u001b[0m \u001b[2m- Read Mode - Strict read-only inspection across code, docs, images, audio & video\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mimage_reader\u001b[0m \u001b[2m- Image Reader & OCR - Vision analysis, UI inspection, EXIF & text extraction\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mimage_generator_uhd\u001b[0m \u001b[2m- Image Generator Ultra HD - 4K (3840x2160) AI image generation & upscaling\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mdocx_management\u001b[0m \u001b[2m- DOCX Management - Word .docx reader, structural analyzer, writer & editor\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mexcel_management\u001b[0m \u001b[2m- Excel Management - Spreadsheet .xlsx/.csv reader, stats analyzer & formula writer\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mpdf_management\u001b[0m \u001b[2m- PDF Management - PDF reader, page/metadata analyzer & PDF report generator\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mpptx_management\u001b[0m \u001b[2m- PPTX Management - PowerPoint slide reader, analyzer & presentation builder\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mvoice_analyzer\u001b[0m \u001b[2m- Voice Analyzer & Transcriber - Audio metrics, waveform stats & speech-to-text\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mvoice_generator\u001b[0m \u001b[2m- Voice Generator (TTS) - Neural & offline text-to-speech audio file synthesis\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mvideo_reader\u001b[0m \u001b[2m- Video Reader & Analyzer - Video metadata, frame extraction & Gemini scene analysis\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mdata_sql\u001b[0m \u001b[2m- Data Science & SQL - SQLite query runner, CSV statistical profiler & QR generator\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1msearch_grounding\u001b[0m \u001b[2m- Search Grounding - Live web search with real-time Google Search grounding (1.5K queries)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mmap_grounding\u001b[0m \u001b[2m- Map Grounding - Google Maps places, local business, directions & geographic grounding\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mpip_installer\u001b[0m \u001b[2m- Environment & .venv Pip Installer - Check or auto-install all required pip packages\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n\n  \u001b[48;5;93m\u001b[97m FUNCTION \u001b[0m \u001b[92m\u001b[1mplan\u001b[0m \u001b[90m(mode: PLAN)\u001b[0m\n  \u001b[2mEnabled Tools (23): list_files, read_file, glob_files, grep_files, todo_write, image_read, image_ocr, docx_read, docx_analyze, excel_read, excel_analyze, pdf_read, pdf_analyze, pptx_read, voice_analyze, voice_transcribe, video_read, video_analyze, sqlite_query, csv_analyze, system_diagnostics, search_grounding, map_grounding\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "plan",
+    "active_function": "plan",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "function_pick_last",
+   "line": "/function",
+   "answers": [
+    "999",
+    "1"
+   ],
+   "prompts": [
+    "Enter number (1-17) or press Enter to cancel > ",
+    "Enter number (1-17) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect Gemibot Function Suite or Mode\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mall\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- All Functions Unlocked - Coding + Image UHD + DOCX + Excel + PDF/PPTX + Voice + Video\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mbuild\u001b[0m \u001b[2m- Build Mode - Code reading, editing, writing, shell execution & full multimodal tools\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mplan\u001b[0m \u001b[2m- Plan Mode - Read-only architecture investigation & step-by-step planning\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mread\u001b[0m \u001b[2m- Read Mode - Strict read-only inspection across code, docs, images, audio & video\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mimage_reader\u001b[0m \u001b[2m- Image Reader & OCR - Vision analysis, UI inspection, EXIF & text extraction\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mimage_generator_uhd\u001b[0m \u001b[2m- Image Generator Ultra HD - 4K (3840x2160) AI image generation & upscaling\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mdocx_management\u001b[0m \u001b[2m- DOCX Management - Word .docx reader, structural analyzer, writer & editor\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mexcel_management\u001b[0m \u001b[2m- Excel Management - Spreadsheet .xlsx/.csv reader, stats analyzer & formula writer\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mpdf_management\u001b[0m \u001b[2m- PDF Management - PDF reader, page/metadata analyzer & PDF report generator\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mpptx_management\u001b[0m \u001b[2m- PPTX Management - PowerPoint slide reader, analyzer & presentation builder\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mvoice_analyzer\u001b[0m \u001b[2m- Voice Analyzer & Transcriber - Audio metrics, waveform stats & speech-to-text\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mvoice_generator\u001b[0m \u001b[2m- Voice Generator (TTS) - Neural & offline text-to-speech audio file synthesis\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mvideo_reader\u001b[0m \u001b[2m- Video Reader & Analyzer - Video metadata, frame extraction & Gemini scene analysis\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mdata_sql\u001b[0m \u001b[2m- Data Science & SQL - SQLite query runner, CSV statistical profiler & QR generator\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1msearch_grounding\u001b[0m \u001b[2m- Search Grounding - Live web search with real-time Google Search grounding (1.5K queries)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mmap_grounding\u001b[0m \u001b[2m- Map Grounding - Google Maps places, local business, directions & geographic grounding\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mpip_installer\u001b[0m \u001b[2m- Environment & .venv Pip Installer - Check or auto-install all required pip packages\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[91mInvalid number. Please enter between 1 and 17.\u001b[0m\n\n  \u001b[48;5;93m\u001b[97m FUNCTION \u001b[0m \u001b[92m\u001b[1mall\u001b[0m \u001b[90m(mode: BUILD)\u001b[0m\n  \u001b[2mEnabled Tools (39): list_files, read_file, glob_files, grep_files, todo_write, image_read, image_ocr, docx_read, docx_analyze, excel_read, excel_analyze, pdf_read, pdf_analyze, pptx_read, voice_analyze, voice_transcribe, video_read, video_analyze, sqlite_query, csv_analyze, system_diagnostics, search_grounding, map_grounding, edit_file, write_file, delete_file, run_command, web_fetch, image_generate_uhd, image_transform, docx_write, docx_edit, excel_write, pdf_write, pptx_write, voice_generate, video_extract_frames, archive_manage, qr_generate\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "function_direct_known",
+   "line": "/function docx_management",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[48;5;93m\u001b[97m FUNCTION \u001b[0m \u001b[92mActivated docx_management\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "docx_management",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "function_direct_bogus",
+   "line": "/function nope",
+   "answers": [],
+   "prompts": [
+    "Enter number (1-17) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect Gemibot Function Suite or Mode\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mall\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- All Functions Unlocked - Coding + Image UHD + DOCX + Excel + PDF/PPTX + Voice + Video\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mbuild\u001b[0m \u001b[2m- Build Mode - Code reading, editing, writing, shell execution & full multimodal tools\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mplan\u001b[0m \u001b[2m- Plan Mode - Read-only architecture investigation & step-by-step planning\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mread\u001b[0m \u001b[2m- Read Mode - Strict read-only inspection across code, docs, images, audio & video\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mimage_reader\u001b[0m \u001b[2m- Image Reader & OCR - Vision analysis, UI inspection, EXIF & text extraction\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mimage_generator_uhd\u001b[0m \u001b[2m- Image Generator Ultra HD - 4K (3840x2160) AI image generation & upscaling\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mdocx_management\u001b[0m \u001b[2m- DOCX Management - Word .docx reader, structural analyzer, writer & editor\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mexcel_management\u001b[0m \u001b[2m- Excel Management - Spreadsheet .xlsx/.csv reader, stats analyzer & formula writer\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mpdf_management\u001b[0m \u001b[2m- PDF Management - PDF reader, page/metadata analyzer & PDF report generator\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mpptx_management\u001b[0m \u001b[2m- PPTX Management - PowerPoint slide reader, analyzer & presentation builder\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mvoice_analyzer\u001b[0m \u001b[2m- Voice Analyzer & Transcriber - Audio metrics, waveform stats & speech-to-text\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mvoice_generator\u001b[0m \u001b[2m- Voice Generator (TTS) - Neural & offline text-to-speech audio file synthesis\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mvideo_reader\u001b[0m \u001b[2m- Video Reader & Analyzer - Video metadata, frame extraction & Gemini scene analysis\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mdata_sql\u001b[0m \u001b[2m- Data Science & SQL - SQLite query runner, CSV statistical profiler & QR generator\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1msearch_grounding\u001b[0m \u001b[2m- Search Grounding - Live web search with real-time Google Search grounding (1.5K queries)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mmap_grounding\u001b[0m \u001b[2m- Map Grounding - Google Maps places, local business, directions & geographic grounding\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mpip_installer\u001b[0m \u001b[2m- Environment & .venv Pip Installer - Check or auto-install all required pip packages\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n\n  \u001b[2mCancelled. Active function suite: all\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "function_alias_fn",
+   "line": "/fn",
+   "answers": [
+    "1"
+   ],
+   "prompts": [
+    "Enter number (1-17) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect Gemibot Function Suite or Mode\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mall\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- All Functions Unlocked - Coding + Image UHD + DOCX + Excel + PDF/PPTX + Voice + Video\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mbuild\u001b[0m \u001b[2m- Build Mode - Code reading, editing, writing, shell execution & full multimodal tools\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mplan\u001b[0m \u001b[2m- Plan Mode - Read-only architecture investigation & step-by-step planning\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mread\u001b[0m \u001b[2m- Read Mode - Strict read-only inspection across code, docs, images, audio & video\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mimage_reader\u001b[0m \u001b[2m- Image Reader & OCR - Vision analysis, UI inspection, EXIF & text extraction\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mimage_generator_uhd\u001b[0m \u001b[2m- Image Generator Ultra HD - 4K (3840x2160) AI image generation & upscaling\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mdocx_management\u001b[0m \u001b[2m- DOCX Management - Word .docx reader, structural analyzer, writer & editor\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mexcel_management\u001b[0m \u001b[2m- Excel Management - Spreadsheet .xlsx/.csv reader, stats analyzer & formula writer\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mpdf_management\u001b[0m \u001b[2m- PDF Management - PDF reader, page/metadata analyzer & PDF report generator\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mpptx_management\u001b[0m \u001b[2m- PPTX Management - PowerPoint slide reader, analyzer & presentation builder\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mvoice_analyzer\u001b[0m \u001b[2m- Voice Analyzer & Transcriber - Audio metrics, waveform stats & speech-to-text\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mvoice_generator\u001b[0m \u001b[2m- Voice Generator (TTS) - Neural & offline text-to-speech audio file synthesis\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mvideo_reader\u001b[0m \u001b[2m- Video Reader & Analyzer - Video metadata, frame extraction & Gemini scene analysis\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mdata_sql\u001b[0m \u001b[2m- Data Science & SQL - SQLite query runner, CSV statistical profiler & QR generator\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1msearch_grounding\u001b[0m \u001b[2m- Search Grounding - Live web search with real-time Google Search grounding (1.5K queries)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mmap_grounding\u001b[0m \u001b[2m- Map Grounding - Google Maps places, local business, directions & geographic grounding\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mpip_installer\u001b[0m \u001b[2m- Environment & .venv Pip Installer - Check or auto-install all required pip packages\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n\n  \u001b[48;5;93m\u001b[97m FUNCTION \u001b[0m \u001b[92m\u001b[1mall\u001b[0m \u001b[90m(mode: BUILD)\u001b[0m\n  \u001b[2mEnabled Tools (39): list_files, read_file, glob_files, grep_files, todo_write, image_read, image_ocr, docx_read, docx_analyze, excel_read, excel_analyze, pdf_read, pdf_analyze, pptx_read, voice_analyze, voice_transcribe, video_read, video_analyze, sqlite_query, csv_analyze, system_diagnostics, search_grounding, map_grounding, edit_file, write_file, delete_file, run_command, web_fetch, image_generate_uhd, image_transform, docx_write, docx_edit, excel_write, pdf_write, pptx_write, voice_generate, video_extract_frames, archive_manage, qr_generate\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "function_pip_entry",
+   "line": "/function",
+   "answers": [
+    "17"
+   ],
+   "prompts": [
+    "Enter number (1-17) or press Enter to cancel > ",
+    "  \u001b[93m- Install/Update all required packages into this environment now? [y/N] - \u001b[0m"
+   ],
+   "out": "\n\u001b[1mSelect Gemibot Function Suite or Mode\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mall\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- All Functions Unlocked - Coding + Image UHD + DOCX + Excel + PDF/PPTX + Voice + Video\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mbuild\u001b[0m \u001b[2m- Build Mode - Code reading, editing, writing, shell execution & full multimodal tools\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mplan\u001b[0m \u001b[2m- Plan Mode - Read-only architecture investigation & step-by-step planning\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mread\u001b[0m \u001b[2m- Read Mode - Strict read-only inspection across code, docs, images, audio & video\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mimage_reader\u001b[0m \u001b[2m- Image Reader & OCR - Vision analysis, UI inspection, EXIF & text extraction\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mimage_generator_uhd\u001b[0m \u001b[2m- Image Generator Ultra HD - 4K (3840x2160) AI image generation & upscaling\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mdocx_management\u001b[0m \u001b[2m- DOCX Management - Word .docx reader, structural analyzer, writer & editor\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mexcel_management\u001b[0m \u001b[2m- Excel Management - Spreadsheet .xlsx/.csv reader, stats analyzer & formula writer\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mpdf_management\u001b[0m \u001b[2m- PDF Management - PDF reader, page/metadata analyzer & PDF report generator\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mpptx_management\u001b[0m \u001b[2m- PPTX Management - PowerPoint slide reader, analyzer & presentation builder\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mvoice_analyzer\u001b[0m \u001b[2m- Voice Analyzer & Transcriber - Audio metrics, waveform stats & speech-to-text\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mvoice_generator\u001b[0m \u001b[2m- Voice Generator (TTS) - Neural & offline text-to-speech audio file synthesis\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mvideo_reader\u001b[0m \u001b[2m- Video Reader & Analyzer - Video metadata, frame extraction & Gemini scene analysis\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mdata_sql\u001b[0m \u001b[2m- Data Science & SQL - SQLite query runner, CSV statistical profiler & QR generator\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1msearch_grounding\u001b[0m \u001b[2m- Search Grounding - Live web search with real-time Google Search grounding (1.5K queries)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mmap_grounding\u001b[0m \u001b[2m- Map Grounding - Google Maps places, local business, directions & geographic grounding\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mpip_installer\u001b[0m \u001b[2m- Environment & .venv Pip Installer - Check or auto-install all required pip packages\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n\n  \u001b[90m- \u001b[96m\u001b[1mGemibot .venv Pip Manager\u001b[0m\n  \u001b[90m- Python Interpreter: <TMP>\\current.v1.0\\.venv\\Scripts\\python.exe\n  \u001b[90m- Packages: google-genai, pillow, python-docx, openpyxl, pandas, pypdf, pymupdf, reportlab, python-pptx, opencv-python, moviepy, pydub, SpeechRecognition, gTTS, pyttsx3, edge-tts, librosa, soundfile, numpy, qrcode, psutil, beautifulsoup4, lxml, requests\n",
+   "result": null,
+   "error": "EOFError: ",
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "model_cancel",
+   "line": "/model",
+   "answers": [],
+   "prompts": [
+    "Enter number (1-22) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect a Gemini Model\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mgemini-3.1-flash-lite\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- Gemini 3.1 Flash Lite [FASTEST - 6-7s]\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mgemini-3.5-flash-lite\u001b[0m \u001b[2m- Gemini 3.5 Flash Lite [Fast - 20-25s]\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mgemini-3.8-flash\u001b[0m \u001b[2m- Gemini 3.8 Flash\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mgemini-3.7-flash\u001b[0m \u001b[2m- Gemini 3.7 Flash\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mgemini-3.6-flash\u001b[0m \u001b[2m- Gemini 3.6 Flash\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mgemini-3.5-flash\u001b[0m \u001b[2m- Gemini 3.5 Flash\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mgemini-3.1-pro-preview\u001b[0m \u001b[2m- Gemini 3.1 Pro\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mgemini-3-flash-preview\u001b[0m \u001b[2m- Gemini 3 Flash\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mgemini-4-argon\u001b[0m \u001b[2m- Gemini 4 Argon\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mgemini-flash-latest\u001b[0m \u001b[2m- Gemini Flash Latest\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mgemini-pro-latest\u001b[0m \u001b[2m- Gemini Pro Latest\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mgemini-flash-lite-latest\u001b[0m \u001b[2m- Gemini Flash-Lite Latest\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mantigravity-preview-latest\u001b[0m \u001b[2m- Antigravity (Latest Preview)\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mantigravity\u001b[0m \u001b[2m- Antigravity (Default)\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1mantigravity-preview-09-2026\u001b[0m \u001b[2m- Antigravity (09-2026 Preview)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mantigravity-preview-05-2026\u001b[0m \u001b[2m- Antigravity (05-2026 Preview)\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mantigravity-latest\u001b[0m \u001b[2m- Antigravity Latest\u001b[0m\n  \u001b[96m18.\u001b[0m \u001b[1mdeep-research-pro-preview-12-2025\u001b[0m \u001b[2m- Deep Research Pro Preview\u001b[0m\n  \u001b[96m19.\u001b[0m \u001b[1mdeep-research-preview-04-2026\u001b[0m \u001b[2m- Deep Research Preview\u001b[0m\n  \u001b[96m20.\u001b[0m \u001b[1mdeep-research-max-preview-04-2026\u001b[0m \u001b[2m- Deep Research Max Preview\u001b[0m\n  \u001b[96m21.\u001b[0m \u001b[1mgemma-4-31b-it\u001b[0m \u001b[2m- Gemma 4 31B\u001b[0m\n  \u001b[96m22.\u001b[0m \u001b[1mgemma-4-26b-a4b-it\u001b[0m \u001b[2m- Gemma 4 26B\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n\n  \u001b[2mCancelled. Active model: gemini-3.1-flash-lite\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "model_pick_2",
+   "line": "/model",
+   "answers": [
+    "2"
+   ],
+   "prompts": [
+    "Enter number (1-22) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect a Gemini Model\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mgemini-3.1-flash-lite\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- Gemini 3.1 Flash Lite [FASTEST - 6-7s]\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mgemini-3.5-flash-lite\u001b[0m \u001b[2m- Gemini 3.5 Flash Lite [Fast - 20-25s]\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mgemini-3.8-flash\u001b[0m \u001b[2m- Gemini 3.8 Flash\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mgemini-3.7-flash\u001b[0m \u001b[2m- Gemini 3.7 Flash\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mgemini-3.6-flash\u001b[0m \u001b[2m- Gemini 3.6 Flash\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mgemini-3.5-flash\u001b[0m \u001b[2m- Gemini 3.5 Flash\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mgemini-3.1-pro-preview\u001b[0m \u001b[2m- Gemini 3.1 Pro\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mgemini-3-flash-preview\u001b[0m \u001b[2m- Gemini 3 Flash\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mgemini-4-argon\u001b[0m \u001b[2m- Gemini 4 Argon\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mgemini-flash-latest\u001b[0m \u001b[2m- Gemini Flash Latest\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mgemini-pro-latest\u001b[0m \u001b[2m- Gemini Pro Latest\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mgemini-flash-lite-latest\u001b[0m \u001b[2m- Gemini Flash-Lite Latest\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mantigravity-preview-latest\u001b[0m \u001b[2m- Antigravity (Latest Preview)\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mantigravity\u001b[0m \u001b[2m- Antigravity (Default)\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1mantigravity-preview-09-2026\u001b[0m \u001b[2m- Antigravity (09-2026 Preview)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mantigravity-preview-05-2026\u001b[0m \u001b[2m- Antigravity (05-2026 Preview)\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mantigravity-latest\u001b[0m \u001b[2m- Antigravity Latest\u001b[0m\n  \u001b[96m18.\u001b[0m \u001b[1mdeep-research-pro-preview-12-2025\u001b[0m \u001b[2m- Deep Research Pro Preview\u001b[0m\n  \u001b[96m19.\u001b[0m \u001b[1mdeep-research-preview-04-2026\u001b[0m \u001b[2m- Deep Research Preview\u001b[0m\n  \u001b[96m20.\u001b[0m \u001b[1mdeep-research-max-preview-04-2026\u001b[0m \u001b[2m- Deep Research Max Preview\u001b[0m\n  \u001b[96m21.\u001b[0m \u001b[1mgemma-4-31b-it\u001b[0m \u001b[2m- Gemma 4 31B\u001b[0m\n  \u001b[96m22.\u001b[0m \u001b[1mgemma-4-26b-a4b-it\u001b[0m \u001b[2m- Gemma 4 26B\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[92m- Model set to gemini-3.5-flash-lite\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.5-flash-lite",
+    "pinned": true,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "model_by_name",
+   "line": "/model",
+   "answers": [
+    "gemini-3.5-flash-lite"
+   ],
+   "prompts": [
+    "Enter number (1-22) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect a Gemini Model\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mgemini-3.1-flash-lite\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- Gemini 3.1 Flash Lite [FASTEST - 6-7s]\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mgemini-3.5-flash-lite\u001b[0m \u001b[2m- Gemini 3.5 Flash Lite [Fast - 20-25s]\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mgemini-3.8-flash\u001b[0m \u001b[2m- Gemini 3.8 Flash\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mgemini-3.7-flash\u001b[0m \u001b[2m- Gemini 3.7 Flash\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mgemini-3.6-flash\u001b[0m \u001b[2m- Gemini 3.6 Flash\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mgemini-3.5-flash\u001b[0m \u001b[2m- Gemini 3.5 Flash\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mgemini-3.1-pro-preview\u001b[0m \u001b[2m- Gemini 3.1 Pro\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mgemini-3-flash-preview\u001b[0m \u001b[2m- Gemini 3 Flash\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mgemini-4-argon\u001b[0m \u001b[2m- Gemini 4 Argon\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mgemini-flash-latest\u001b[0m \u001b[2m- Gemini Flash Latest\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mgemini-pro-latest\u001b[0m \u001b[2m- Gemini Pro Latest\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mgemini-flash-lite-latest\u001b[0m \u001b[2m- Gemini Flash-Lite Latest\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mantigravity-preview-latest\u001b[0m \u001b[2m- Antigravity (Latest Preview)\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mantigravity\u001b[0m \u001b[2m- Antigravity (Default)\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1mantigravity-preview-09-2026\u001b[0m \u001b[2m- Antigravity (09-2026 Preview)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mantigravity-preview-05-2026\u001b[0m \u001b[2m- Antigravity (05-2026 Preview)\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mantigravity-latest\u001b[0m \u001b[2m- Antigravity Latest\u001b[0m\n  \u001b[96m18.\u001b[0m \u001b[1mdeep-research-pro-preview-12-2025\u001b[0m \u001b[2m- Deep Research Pro Preview\u001b[0m\n  \u001b[96m19.\u001b[0m \u001b[1mdeep-research-preview-04-2026\u001b[0m \u001b[2m- Deep Research Preview\u001b[0m\n  \u001b[96m20.\u001b[0m \u001b[1mdeep-research-max-preview-04-2026\u001b[0m \u001b[2m- Deep Research Max Preview\u001b[0m\n  \u001b[96m21.\u001b[0m \u001b[1mgemma-4-31b-it\u001b[0m \u001b[2m- Gemma 4 31B\u001b[0m\n  \u001b[96m22.\u001b[0m \u001b[1mgemma-4-26b-a4b-it\u001b[0m \u001b[2m- Gemma 4 26B\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[92m- Model set to gemini-3.5-flash-lite\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.5-flash-lite",
+    "pinned": true,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "model_invalid_number",
+   "line": "/model",
+   "answers": [
+    "999",
+    ""
+   ],
+   "prompts": [
+    "Enter number (1-22) or press Enter to cancel > ",
+    "Enter number (1-22) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect a Gemini Model\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mgemini-3.1-flash-lite\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- Gemini 3.1 Flash Lite [FASTEST - 6-7s]\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mgemini-3.5-flash-lite\u001b[0m \u001b[2m- Gemini 3.5 Flash Lite [Fast - 20-25s]\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mgemini-3.8-flash\u001b[0m \u001b[2m- Gemini 3.8 Flash\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mgemini-3.7-flash\u001b[0m \u001b[2m- Gemini 3.7 Flash\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mgemini-3.6-flash\u001b[0m \u001b[2m- Gemini 3.6 Flash\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mgemini-3.5-flash\u001b[0m \u001b[2m- Gemini 3.5 Flash\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mgemini-3.1-pro-preview\u001b[0m \u001b[2m- Gemini 3.1 Pro\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mgemini-3-flash-preview\u001b[0m \u001b[2m- Gemini 3 Flash\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mgemini-4-argon\u001b[0m \u001b[2m- Gemini 4 Argon\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mgemini-flash-latest\u001b[0m \u001b[2m- Gemini Flash Latest\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mgemini-pro-latest\u001b[0m \u001b[2m- Gemini Pro Latest\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mgemini-flash-lite-latest\u001b[0m \u001b[2m- Gemini Flash-Lite Latest\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mantigravity-preview-latest\u001b[0m \u001b[2m- Antigravity (Latest Preview)\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mantigravity\u001b[0m \u001b[2m- Antigravity (Default)\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1mantigravity-preview-09-2026\u001b[0m \u001b[2m- Antigravity (09-2026 Preview)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mantigravity-preview-05-2026\u001b[0m \u001b[2m- Antigravity (05-2026 Preview)\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mantigravity-latest\u001b[0m \u001b[2m- Antigravity Latest\u001b[0m\n  \u001b[96m18.\u001b[0m \u001b[1mdeep-research-pro-preview-12-2025\u001b[0m \u001b[2m- Deep Research Pro Preview\u001b[0m\n  \u001b[96m19.\u001b[0m \u001b[1mdeep-research-preview-04-2026\u001b[0m \u001b[2m- Deep Research Preview\u001b[0m\n  \u001b[96m20.\u001b[0m \u001b[1mdeep-research-max-preview-04-2026\u001b[0m \u001b[2m- Deep Research Max Preview\u001b[0m\n  \u001b[96m21.\u001b[0m \u001b[1mgemma-4-31b-it\u001b[0m \u001b[2m- Gemma 4 31B\u001b[0m\n  \u001b[96m22.\u001b[0m \u001b[1mgemma-4-26b-a4b-it\u001b[0m \u001b[2m- Gemma 4 26B\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[91mInvalid number. Please enter between 1 and 22.\u001b[0m\n  \u001b[2mCancelled. Active model: gemini-3.1-flash-lite\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "model_invalid_name",
+   "line": "/model",
+   "answers": [
+    "nope",
+    ""
+   ],
+   "prompts": [
+    "Enter number (1-22) or press Enter to cancel > ",
+    "Enter number (1-22) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect a Gemini Model\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mgemini-3.1-flash-lite\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- Gemini 3.1 Flash Lite [FASTEST - 6-7s]\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mgemini-3.5-flash-lite\u001b[0m \u001b[2m- Gemini 3.5 Flash Lite [Fast - 20-25s]\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mgemini-3.8-flash\u001b[0m \u001b[2m- Gemini 3.8 Flash\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mgemini-3.7-flash\u001b[0m \u001b[2m- Gemini 3.7 Flash\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mgemini-3.6-flash\u001b[0m \u001b[2m- Gemini 3.6 Flash\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mgemini-3.5-flash\u001b[0m \u001b[2m- Gemini 3.5 Flash\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mgemini-3.1-pro-preview\u001b[0m \u001b[2m- Gemini 3.1 Pro\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mgemini-3-flash-preview\u001b[0m \u001b[2m- Gemini 3 Flash\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mgemini-4-argon\u001b[0m \u001b[2m- Gemini 4 Argon\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mgemini-flash-latest\u001b[0m \u001b[2m- Gemini Flash Latest\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mgemini-pro-latest\u001b[0m \u001b[2m- Gemini Pro Latest\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mgemini-flash-lite-latest\u001b[0m \u001b[2m- Gemini Flash-Lite Latest\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mantigravity-preview-latest\u001b[0m \u001b[2m- Antigravity (Latest Preview)\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mantigravity\u001b[0m \u001b[2m- Antigravity (Default)\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1mantigravity-preview-09-2026\u001b[0m \u001b[2m- Antigravity (09-2026 Preview)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mantigravity-preview-05-2026\u001b[0m \u001b[2m- Antigravity (05-2026 Preview)\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mantigravity-latest\u001b[0m \u001b[2m- Antigravity Latest\u001b[0m\n  \u001b[96m18.\u001b[0m \u001b[1mdeep-research-pro-preview-12-2025\u001b[0m \u001b[2m- Deep Research Pro Preview\u001b[0m\n  \u001b[96m19.\u001b[0m \u001b[1mdeep-research-preview-04-2026\u001b[0m \u001b[2m- Deep Research Preview\u001b[0m\n  \u001b[96m20.\u001b[0m \u001b[1mdeep-research-max-preview-04-2026\u001b[0m \u001b[2m- Deep Research Max Preview\u001b[0m\n  \u001b[96m21.\u001b[0m \u001b[1mgemma-4-31b-it\u001b[0m \u001b[2m- Gemma 4 31B\u001b[0m\n  \u001b[96m22.\u001b[0m \u001b[1mgemma-4-26b-a4b-it\u001b[0m \u001b[2m- Gemma 4 26B\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[91mInvalid input. Enter a number (1-22) or name.\u001b[0m\n  \u001b[2mCancelled. Active model: gemini-3.1-flash-lite\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "model_direct",
+   "line": "/model gemini-9.9-parity",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[92mModel set to gemini-9.9-parity\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-9.9-parity",
+    "pinned": true,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "models_alias_direct",
+   "line": "/models gemini-9.9-parity2",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[92mModel set to gemini-9.9-parity2\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-9.9-parity2",
+    "pinned": true,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "effort_cancel",
+   "line": "/effort",
+   "answers": [],
+   "prompts": [
+    "Enter number (1-5) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect AI Reasoning Effort Level\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mturbo\u001b[0m \u001b[2m- 🏎️ Turbo       - No thinking (fastest)\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mlow\u001b[0m \u001b[2m- ⚡ Low         - Fastest (~512 tokens)\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mmedium\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- ⚖️ Medium      - Balanced (~2k tokens)\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mhigh\u001b[0m \u001b[2m- 🧠 High        - Deep (~8k tokens)\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mextra_high\u001b[0m \u001b[2m- 🚀 Extra High  - Maximum (~16k tokens)\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n\n  \u001b[2mCancelled. Active effort: Medium\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "effort_pick_3",
+   "line": "/effort",
+   "answers": [
+    "3"
+   ],
+   "prompts": [
+    "Enter number (1-5) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect AI Reasoning Effort Level\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mturbo\u001b[0m \u001b[2m- 🏎️ Turbo       - No thinking (fastest)\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mlow\u001b[0m \u001b[2m- ⚡ Low         - Fastest (~512 tokens)\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mmedium\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- ⚖️ Medium      - Balanced (~2k tokens)\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mhigh\u001b[0m \u001b[2m- 🧠 High        - Deep (~8k tokens)\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mextra_high\u001b[0m \u001b[2m- 🚀 Extra High  - Maximum (~16k tokens)\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[92m- Reasoning effort set to ⚖️ Medium (Balanced (~2k tokens))\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "effort_direct_high",
+   "line": "/effort high",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[92m- Reasoning effort set to 🧠 High (Deep (~8k tokens))\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "high",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "effort_direct_bogus",
+   "line": "/effort bogus",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[92m- Reasoning effort set to ⚖️ Medium (Balanced (~2k tokens))\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "thinking_alias",
+   "line": "/thinking extra_high",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[92m- Reasoning effort set to 🚀 Extra High (Maximum (~16k tokens))\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "extra_high",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "reasoning_alias",
+   "line": "/reasoning low",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[92m- Reasoning effort set to ⚡ Low (Fastest (~512 tokens))\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "low",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "pip_eof",
+   "line": "/pip",
+   "answers": [],
+   "prompts": [
+    "  \u001b[93m- Install/Update all required packages into this environment now? [y/N] - \u001b[0m"
+   ],
+   "out": "\n  \u001b[90m- \u001b[96m\u001b[1mGemibot .venv Pip Manager\u001b[0m\n  \u001b[90m- Python Interpreter: <TMP>\\current.v1.0\\.venv\\Scripts\\python.exe\n  \u001b[90m- Packages: google-genai, pillow, python-docx, openpyxl, pandas, pypdf, pymupdf, reportlab, python-pptx, opencv-python, moviepy, pydub, SpeechRecognition, gTTS, pyttsx3, edge-tts, librosa, soundfile, numpy, qrcode, psutil, beautifulsoup4, lxml, requests\n",
+   "result": null,
+   "error": "EOFError: ",
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "pip_no",
+   "line": "/pip",
+   "answers": [
+    "n"
+   ],
+   "prompts": [
+    "  \u001b[93m- Install/Update all required packages into this environment now? [y/N] - \u001b[0m"
+   ],
+   "out": "\n  \u001b[90m- \u001b[96m\u001b[1mGemibot .venv Pip Manager\u001b[0m\n  \u001b[90m- Python Interpreter: <TMP>\\current.v1.0\\.venv\\Scripts\\python.exe\n  \u001b[90m- Packages: google-genai, pillow, python-docx, openpyxl, pandas, pypdf, pymupdf, reportlab, python-pptx, opencv-python, moviepy, pydub, SpeechRecognition, gTTS, pyttsx3, edge-tts, librosa, soundfile, numpy, qrcode, psutil, beautifulsoup4, lxml, requests\n  \u001b[2mSkipped pip installation.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "accept_empty",
+   "line": "/accept",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[92m✓ Accepted all pending changes (0 files kept).\u001b[0m\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "reject_empty",
+   "line": "/reject",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[91m✕ Rejected all pending changes (0 files restored to original state).\u001b[0m\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "changes_empty",
+   "line": "/changes",
+   "answers": [],
+   "prompts": [],
+   "out": "\n\u001b[1mPending Changes Review (0 files)\u001b[0m\n\u001b[90m-----------------------------------------------------------------\u001b[0m\n  \u001b[2mNo pending changes.\u001b[0m\n\u001b[90m-----------------------------------------------------------------\u001b[0m\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "accept_staged",
+   "line": "/accept",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[92m✓ Accepted all pending changes (5 files kept).\u001b[0m\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "accept_all_alias",
+   "line": "/accept_all",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mUnknown command 'accept_all'. Type /help or enter a number (1-14).\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 5
+   }
+  },
+  {
+   "label": "reject_staged",
+   "line": "/reject",
+   "answers": [],
+   "prompts": [],
+   "out": "\n  \u001b[91m✕ Rejected all pending changes (5 files restored to original state).\u001b[0m\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "reject_all_alias",
+   "line": "/reject_all",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mUnknown command 'reject_all'. Type /help or enter a number (1-14).\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 5
+   }
+  },
+  {
+   "label": "changes_staged",
+   "line": "/changes",
+   "answers": [],
+   "prompts": [],
+   "out": "\n\u001b[1mPending Changes Review (5 files)\u001b[0m\n\u001b[90m-----------------------------------------------------------------\u001b[0m\n  \u001b[95m[Generated      ]\u001b[0m \u001b[1mart.png                            \u001b[0m \u001b[2m<TIME>\u001b[0m\n  \u001b[91m[Deleted        ]\u001b[0m \u001b[1mgone.txt                           \u001b[0m \u001b[2m<TIME>\u001b[0m\n  \u001b[92m[Added          ]\u001b[0m \u001b[1mkept.txt                           \u001b[0m \u001b[2m<TIME>\u001b[0m\n  \u001b[95m[Document edited]\u001b[0m \u001b[1mnotes.md                           \u001b[0m \u001b[2m<TIME>\u001b[0m\n  \u001b[94m[Modified       ]\u001b[0m \u001b[1mwide-filename-that-overflows-the-column-padding-rule.txt\u001b[0m \u001b[2m<TIME>\u001b[0m\n\n\u001b[2mFiles read (6): art.png, extra.txt, gone.txt, kept.txt, notes.md, wide-filename-that-overflows-the-column-padding-rule.txt\u001b[0m\n\u001b[90m-----------------------------------------------------------------\u001b[0m\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 5
+   }
+  },
+  {
+   "label": "pending_alias",
+   "line": "/pending",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mUnknown command 'pending'. Type /help or enter a number (1-14).\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 5
+   }
+  },
+  {
+   "label": "clear_staged",
+   "line": "/clear",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[90mActive chat and /memory/memory.md cleared.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 5
+   }
+  },
+  {
+   "label": "undo_empty",
+   "line": "/undo",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mNothing to undo.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "revert_empty",
+   "line": "/revert",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mNo previous prompts to revert to yet.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "numeric_help",
+   "line": "/13",
+   "answers": [],
+   "prompts": [],
+   "out": "\n\u001b[1mGemibot.py // GemiBot AI Commands\u001b[0m\n  \u001b[96m/model\u001b[0m            open interactive model selector (1, 2, 3...)\n  \u001b[96m/function\u001b[0m         open interactive Function & Mode Selector (Build, Read, Plan, Image UHD, DOCX, Excel, Voice...)\n  \u001b[96m/build\u001b[0m            switch to BUILD mode (full read, write, multimodal & shell access)\n  \u001b[96m/plan\u001b[0m             switch to PLAN mode (read-only architectural analysis, no edits/commands)\n  \u001b[96m/read\u001b[0m             switch to READ mode (strict read & media inspection mode)\n  \u001b[96m/todos\u001b[0m            display active task checklist\n  \u001b[96m/undo\u001b[0m             revert the last single file change made by the agent\n  \u001b[96m/revert\u001b[0m           pick a previous prompt checkpoint and roll back code, history and memory\n  \u001b[96m/target <path>\u001b[0m   set or inspect target project directory (use /target clear to reset)\n  \u001b[96m/settings\u001b[0m         view /memory/settings.md saved user preferences\n  \u001b[96m/memory\u001b[0m           show /memory/memory.md logs and interaction history\n  \u001b[96m/pip\u001b[0m              check or auto-install all required Python multimedia libraries in .venv\n  \u001b[96m/clear\u001b[0m            clear active chat context and reset /memory/memory.md\n  \u001b[96m/usage\u001b[0m            show session token consumption metrics\n  \u001b[96m/help\u001b[0m             show this help menu\n  \u001b[96m/exit\u001b[0m             shutdown and exit Gemibot CLI\n\n\u001b[1mCommand Chaining (+)\u001b[0m\n  You can combine 2 or more commands using '+' with spaces or without spaces:\n  - \u001b[93m/plan + /build\u001b[0m\n  - \u001b[93m/plan+/build\u001b[0m\n  - \u001b[93m/clear + /todos + /usage + /build\u001b[0m\n  - \u001b[93m/1 + /3 + /6\u001b[0m (Numeric chaining works too!)\n\n\u001b[1mKeybinds & Shortcuts\u001b[0m\n  \u001b[93mEsc\u001b[0m               interrupt AI generation, reply output, or running command\n  \u001b[96m@path\u001b[0m             attach a file inline, e.g. fix the bug in @src/app.py\n  \u001b[96m!command\u001b[0m          execute a shell command directly in project root (e.g. !git status)\n  \u001b[96m\\ (line end)\u001b[0m      continue your prompt on the next line\n\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "numeric_usage",
+   "line": "/12",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[90mTokens:\u001b[0m 0 in * 0 out * 0 total\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "numeric_chain",
+   "line": "/1 + /3 + /6",
+   "answers": [],
+   "prompts": [
+    "Enter number (1-22) or press Enter to cancel > "
+   ],
+   "out": "\n\u001b[1mSelect a Gemini Model\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n  \u001b[96m 1.\u001b[0m \u001b[1mgemini-3.1-flash-lite\u001b[0m \u001b[92m(active)\u001b[0m \u001b[2m- Gemini 3.1 Flash Lite [FASTEST - 6-7s]\u001b[0m\n  \u001b[96m 2.\u001b[0m \u001b[1mgemini-3.5-flash-lite\u001b[0m \u001b[2m- Gemini 3.5 Flash Lite [Fast - 20-25s]\u001b[0m\n  \u001b[96m 3.\u001b[0m \u001b[1mgemini-3.8-flash\u001b[0m \u001b[2m- Gemini 3.8 Flash\u001b[0m\n  \u001b[96m 4.\u001b[0m \u001b[1mgemini-3.7-flash\u001b[0m \u001b[2m- Gemini 3.7 Flash\u001b[0m\n  \u001b[96m 5.\u001b[0m \u001b[1mgemini-3.6-flash\u001b[0m \u001b[2m- Gemini 3.6 Flash\u001b[0m\n  \u001b[96m 6.\u001b[0m \u001b[1mgemini-3.5-flash\u001b[0m \u001b[2m- Gemini 3.5 Flash\u001b[0m\n  \u001b[96m 7.\u001b[0m \u001b[1mgemini-3.1-pro-preview\u001b[0m \u001b[2m- Gemini 3.1 Pro\u001b[0m\n  \u001b[96m 8.\u001b[0m \u001b[1mgemini-3-flash-preview\u001b[0m \u001b[2m- Gemini 3 Flash\u001b[0m\n  \u001b[96m 9.\u001b[0m \u001b[1mgemini-4-argon\u001b[0m \u001b[2m- Gemini 4 Argon\u001b[0m\n  \u001b[96m10.\u001b[0m \u001b[1mgemini-flash-latest\u001b[0m \u001b[2m- Gemini Flash Latest\u001b[0m\n  \u001b[96m11.\u001b[0m \u001b[1mgemini-pro-latest\u001b[0m \u001b[2m- Gemini Pro Latest\u001b[0m\n  \u001b[96m12.\u001b[0m \u001b[1mgemini-flash-lite-latest\u001b[0m \u001b[2m- Gemini Flash-Lite Latest\u001b[0m\n  \u001b[96m13.\u001b[0m \u001b[1mantigravity-preview-latest\u001b[0m \u001b[2m- Antigravity (Latest Preview)\u001b[0m\n  \u001b[96m14.\u001b[0m \u001b[1mantigravity\u001b[0m \u001b[2m- Antigravity (Default)\u001b[0m\n  \u001b[96m15.\u001b[0m \u001b[1mantigravity-preview-09-2026\u001b[0m \u001b[2m- Antigravity (09-2026 Preview)\u001b[0m\n  \u001b[96m16.\u001b[0m \u001b[1mantigravity-preview-05-2026\u001b[0m \u001b[2m- Antigravity (05-2026 Preview)\u001b[0m\n  \u001b[96m17.\u001b[0m \u001b[1mantigravity-latest\u001b[0m \u001b[2m- Antigravity Latest\u001b[0m\n  \u001b[96m18.\u001b[0m \u001b[1mdeep-research-pro-preview-12-2025\u001b[0m \u001b[2m- Deep Research Pro Preview\u001b[0m\n  \u001b[96m19.\u001b[0m \u001b[1mdeep-research-preview-04-2026\u001b[0m \u001b[2m- Deep Research Preview\u001b[0m\n  \u001b[96m20.\u001b[0m \u001b[1mdeep-research-max-preview-04-2026\u001b[0m \u001b[2m- Deep Research Max Preview\u001b[0m\n  \u001b[96m21.\u001b[0m \u001b[1mgemma-4-31b-it\u001b[0m \u001b[2m- Gemma 4 31B\u001b[0m\n  \u001b[96m22.\u001b[0m \u001b[1mgemma-4-26b-a4b-it\u001b[0m \u001b[2m- Gemma 4 26B\u001b[0m\n\u001b[90m----------------------------------------------------------------------\u001b[0m\n\n  \u001b[2mCancelled. Active model: gemini-3.1-flash-lite\u001b[0m\n  \u001b[48;5;29m\u001b[97m BUILD \u001b[0m \u001b[92mFull agent access active.\u001b[0m\n  \u001b[2mNo active todos.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "chain_plan_build",
+   "line": "/plan+/build",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[48;5;136m\u001b[97m PLAN \u001b[0m \u001b[93mRead-only mode active. Edits and shell commands disabled.\u001b[0m\n  \u001b[48;5;29m\u001b[97m BUILD \u001b[0m \u001b[92mFull agent access active.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "chain_with_exit",
+   "line": "/plan + /exit",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[48;5;136m\u001b[97m PLAN \u001b[0m \u001b[93mRead-only mode active. Edits and shell commands disabled.\u001b[0m\n",
+   "result": "exit",
+   "error": null,
+   "state": {
+    "mode": "plan",
+    "active_function": "plan",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "slash_slash_plan",
+   "line": "//plan",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mUnknown command '/plan'. Type /help or enter a number (1-14).\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "slash_space_plan",
+   "line": "/ plan",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[48;5;136m\u001b[97m PLAN \u001b[0m \u001b[93mRead-only mode active. Edits and shell commands disabled.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "plan",
+    "active_function": "plan",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "unknown",
+   "line": "/bogus",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mUnknown command 'bogus'. Type /help or enter a number (1-14).\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "unknown_case",
+   "line": "/BOGUS Thing",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[2mUnknown command 'BOGUS Thing'. Type /help or enter a number (1-14).\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "exit",
+   "line": "/exit",
+   "answers": [],
+   "prompts": [],
+   "out": "",
+   "result": "exit",
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "quit",
+   "line": "/quit",
+   "answers": [],
+   "prompts": [],
+   "out": "",
+   "result": "exit",
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "q",
+   "line": "/q",
+   "answers": [],
+   "prompts": [],
+   "out": "",
+   "result": "exit",
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "bare_plus_noop",
+   "line": "/build+",
+   "answers": [],
+   "prompts": [],
+   "out": "  \u001b[48;5;29m\u001b[97m BUILD \u001b[0m \u001b[92mFull agent access active.\u001b[0m\n",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  },
+  {
+   "label": "plus_only",
+   "line": "+",
+   "answers": [],
+   "prompts": [],
+   "out": "",
+   "result": null,
+   "error": null,
+   "state": {
+    "mode": "build",
+    "active_function": "all",
+    "model": "gemini-3.1-flash-lite",
+    "pinned": false,
+    "effort_level": "medium",
+    "root": "<TMP>",
+    "pending": 0
+   }
+  }
+ ]
+}

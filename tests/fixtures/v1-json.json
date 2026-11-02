@@ -1,0 +1,2321 @@
+{
+ "floats": [
+  {
+   "py": "1.0",
+   "js": "1.0",
+   "out": "1.0"
+  },
+  {
+   "py": "0.125",
+   "js": "0.125",
+   "out": "0.125"
+  },
+  {
+   "py": "1e40",
+   "js": "1e+40",
+   "out": "1e+40"
+  },
+  {
+   "py": "-0.0",
+   "js": "-0.0",
+   "out": "-0.0"
+  },
+  {
+   "py": "0.0",
+   "js": "0.0",
+   "out": "0.0"
+  },
+  {
+   "py": "-1.0",
+   "js": "-1.0",
+   "out": "-1.0"
+  },
+  {
+   "py": "1e15",
+   "js": "1000000000000000.0",
+   "out": "1000000000000000.0"
+  },
+  {
+   "py": "1e16",
+   "js": "1e+16",
+   "out": "1e+16"
+  },
+  {
+   "py": "1e17",
+   "js": "1e+17",
+   "out": "1e+17"
+  },
+  {
+   "py": "1e21",
+   "js": "1e+21",
+   "out": "1e+21"
+  },
+  {
+   "py": "1e22",
+   "js": "1e+22",
+   "out": "1e+22"
+  },
+  {
+   "py": "100.0",
+   "js": "100.0",
+   "out": "100.0"
+  },
+  {
+   "py": "0.1",
+   "js": "0.1",
+   "out": "0.1"
+  },
+  {
+   "py": "0.0001",
+   "js": "0.0001",
+   "out": "0.0001"
+  },
+  {
+   "py": "0.00001",
+   "js": "1e-05",
+   "out": "1e-05"
+  },
+  {
+   "py": "1e-7",
+   "js": "1e-07",
+   "out": "1e-07"
+  },
+  {
+   "py": "3.141592653589793",
+   "js": "3.141592653589793",
+   "out": "3.141592653589793"
+  },
+  {
+   "py": "0.3333333333333333",
+   "js": "0.3333333333333333",
+   "out": "0.3333333333333333"
+  },
+  {
+   "py": "1.7976931348623157e308",
+   "js": "1.7976931348623157e+308",
+   "out": "1.7976931348623157e+308"
+  },
+  {
+   "py": "5e-324",
+   "js": "5e-324",
+   "out": "5e-324"
+  },
+  {
+   "py": "9007199254740993.0",
+   "js": "9007199254740992.0",
+   "out": "9007199254740992.0"
+  },
+  {
+   "py": "123456789012345678901234567890.0",
+   "js": "1.2345678901234568e+29",
+   "out": "1.2345678901234568e+29"
+  },
+  {
+   "py": "float('nan')",
+   "js": "NaN",
+   "out": "NaN"
+  },
+  {
+   "py": "float('inf')",
+   "js": "Infinity",
+   "out": "Infinity"
+  },
+  {
+   "py": "-float('inf')",
+   "js": "-Infinity",
+   "out": "-Infinity"
+  }
+ ],
+ "ints": [
+  {
+   "py": "0",
+   "js": "0",
+   "bigint": false,
+   "out": "0"
+  },
+  {
+   "py": "-0",
+   "js": "0",
+   "bigint": false,
+   "out": "0"
+  },
+  {
+   "py": "1",
+   "js": "1",
+   "bigint": false,
+   "out": "1"
+  },
+  {
+   "py": "-1",
+   "js": "-1",
+   "bigint": false,
+   "out": "-1"
+  },
+  {
+   "py": "2**31",
+   "js": "2147483648",
+   "bigint": false,
+   "out": "2147483648"
+  },
+  {
+   "py": "2**53",
+   "js": "9007199254740992",
+   "bigint": false,
+   "out": "9007199254740992"
+  },
+  {
+   "py": "2**63",
+   "js": "9223372036854775808",
+   "bigint": true,
+   "out": "9223372036854775808"
+  },
+  {
+   "py": "-(2**63)",
+   "js": "-9223372036854775808",
+   "bigint": true,
+   "out": "-9223372036854775808"
+  },
+  {
+   "py": "123456789012345678901234567890",
+   "js": "123456789012345678901234567890",
+   "bigint": true,
+   "out": "123456789012345678901234567890"
+  }
+ ],
+ "format": [
+  {
+   "kind": "float",
+   "py": "0.0",
+   "js": "0.0",
+   "f0": "0",
+   "f1": "0.0",
+   "f2": "0.00",
+   "f4": "0.0000",
+   "comma": "0.0"
+  },
+  {
+   "kind": "float",
+   "py": "-0.0",
+   "js": "-0.0",
+   "f0": "-0",
+   "f1": "-0.0",
+   "f2": "-0.00",
+   "f4": "-0.0000",
+   "comma": "-0.0"
+  },
+  {
+   "kind": "float",
+   "py": "0.5",
+   "js": "0.5",
+   "f0": "0",
+   "f1": "0.5",
+   "f2": "0.50",
+   "f4": "0.5000",
+   "comma": "0.5"
+  },
+  {
+   "kind": "float",
+   "py": "1.5",
+   "js": "1.5",
+   "f0": "2",
+   "f1": "1.5",
+   "f2": "1.50",
+   "f4": "1.5000",
+   "comma": "1.5"
+  },
+  {
+   "kind": "float",
+   "py": "2.5",
+   "js": "2.5",
+   "f0": "2",
+   "f1": "2.5",
+   "f2": "2.50",
+   "f4": "2.5000",
+   "comma": "2.5"
+  },
+  {
+   "kind": "float",
+   "py": "3.5",
+   "js": "3.5",
+   "f0": "4",
+   "f1": "3.5",
+   "f2": "3.50",
+   "f4": "3.5000",
+   "comma": "3.5"
+  },
+  {
+   "kind": "float",
+   "py": "0.125",
+   "js": "0.125",
+   "f0": "0",
+   "f1": "0.1",
+   "f2": "0.12",
+   "f4": "0.1250",
+   "comma": "0.125"
+  },
+  {
+   "kind": "float",
+   "py": "0.375",
+   "js": "0.375",
+   "f0": "0",
+   "f1": "0.4",
+   "f2": "0.38",
+   "f4": "0.3750",
+   "comma": "0.375"
+  },
+  {
+   "kind": "float",
+   "py": "0.25",
+   "js": "0.25",
+   "f0": "0",
+   "f1": "0.2",
+   "f2": "0.25",
+   "f4": "0.2500",
+   "comma": "0.25"
+  },
+  {
+   "kind": "float",
+   "py": "0.75",
+   "js": "0.75",
+   "f0": "1",
+   "f1": "0.8",
+   "f2": "0.75",
+   "f4": "0.7500",
+   "comma": "0.75"
+  },
+  {
+   "kind": "float",
+   "py": "1.005",
+   "js": "1.005",
+   "f0": "1",
+   "f1": "1.0",
+   "f2": "1.00",
+   "f4": "1.0050",
+   "comma": "1.005"
+  },
+  {
+   "kind": "float",
+   "py": "2.675",
+   "js": "2.675",
+   "f0": "3",
+   "f1": "2.7",
+   "f2": "2.67",
+   "f4": "2.6750",
+   "comma": "2.675"
+  },
+  {
+   "kind": "float",
+   "py": "0.145",
+   "js": "0.145",
+   "f0": "0",
+   "f1": "0.1",
+   "f2": "0.14",
+   "f4": "0.1450",
+   "comma": "0.145"
+  },
+  {
+   "kind": "float",
+   "py": "0.05",
+   "js": "0.05",
+   "f0": "0",
+   "f1": "0.1",
+   "f2": "0.05",
+   "f4": "0.0500",
+   "comma": "0.05"
+  },
+  {
+   "kind": "float",
+   "py": "0.04999999999999999",
+   "js": "0.04999999999999999",
+   "f0": "0",
+   "f1": "0.0",
+   "f2": "0.05",
+   "f4": "0.0500",
+   "comma": "0.04999999999999999"
+  },
+  {
+   "kind": "float",
+   "py": "1e16",
+   "js": "1e+16",
+   "f0": "10000000000000000",
+   "f1": "10000000000000000.0",
+   "f2": "10000000000000000.00",
+   "f4": "10000000000000000.0000",
+   "comma": "1e+16"
+  },
+  {
+   "kind": "float",
+   "py": "1e21",
+   "js": "1e+21",
+   "f0": "1000000000000000000000",
+   "f1": "1000000000000000000000.0",
+   "f2": "1000000000000000000000.00",
+   "f4": "1000000000000000000000.0000",
+   "comma": "1e+21"
+  },
+  {
+   "kind": "float",
+   "py": "3.141592653589793",
+   "js": "3.141592653589793",
+   "f0": "3",
+   "f1": "3.1",
+   "f2": "3.14",
+   "f4": "3.1416",
+   "comma": "3.141592653589793"
+  },
+  {
+   "kind": "float",
+   "py": "0.1",
+   "js": "0.1",
+   "f0": "0",
+   "f1": "0.1",
+   "f2": "0.10",
+   "f4": "0.1000",
+   "comma": "0.1"
+  },
+  {
+   "kind": "float",
+   "py": "0.3",
+   "js": "0.3",
+   "f0": "0",
+   "f1": "0.3",
+   "f2": "0.30",
+   "f4": "0.3000",
+   "comma": "0.3"
+  },
+  {
+   "kind": "float",
+   "py": "2.4999999999999996",
+   "js": "2.4999999999999996",
+   "f0": "2",
+   "f1": "2.5",
+   "f2": "2.50",
+   "f4": "2.5000",
+   "comma": "2.4999999999999996"
+  },
+  {
+   "kind": "float",
+   "py": "123456.7891",
+   "js": "123456.7891",
+   "f0": "123457",
+   "f1": "123456.8",
+   "f2": "123456.79",
+   "f4": "123456.7891",
+   "comma": "123,456.7891"
+  },
+  {
+   "kind": "float",
+   "py": "1.7976931348623157e308",
+   "js": "1.7976931348623157e+308",
+   "f0": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368",
+   "f1": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.0",
+   "f2": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.00",
+   "f4": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.0000",
+   "comma": "1.7976931348623157e+308"
+  },
+  {
+   "kind": "float",
+   "py": "5e-324",
+   "js": "5e-324",
+   "f0": "0",
+   "f1": "0.0",
+   "f2": "0.00",
+   "f4": "0.0000",
+   "comma": "5e-324"
+  },
+  {
+   "kind": "float",
+   "py": "2.5e-9",
+   "js": "2.5e-09",
+   "f0": "0",
+   "f1": "0.0",
+   "f2": "0.00",
+   "f4": "0.0000",
+   "comma": "2.5e-09"
+  },
+  {
+   "kind": "float",
+   "py": "0.9999999999999999",
+   "js": "0.9999999999999999",
+   "f0": "1",
+   "f1": "1.0",
+   "f2": "1.00",
+   "f4": "1.0000",
+   "comma": "0.9999999999999999"
+  },
+  {
+   "kind": "float",
+   "py": "49.99999999999999",
+   "js": "49.99999999999999",
+   "f0": "50",
+   "f1": "50.0",
+   "f2": "50.00",
+   "f4": "50.0000",
+   "comma": "49.99999999999999"
+  },
+  {
+   "kind": "float",
+   "py": "0.025",
+   "js": "0.025",
+   "f0": "0",
+   "f1": "0.0",
+   "f2": "0.03",
+   "f4": "0.0250",
+   "comma": "0.025"
+  },
+  {
+   "kind": "float",
+   "py": "0.075",
+   "js": "0.075",
+   "f0": "0",
+   "f1": "0.1",
+   "f2": "0.07",
+   "f4": "0.0750",
+   "comma": "0.075"
+  },
+  {
+   "kind": "float",
+   "py": "float('nan')",
+   "js": "NaN",
+   "f0": "nan",
+   "f1": "nan",
+   "f2": "nan",
+   "f4": "nan",
+   "comma": "nan"
+  },
+  {
+   "kind": "float",
+   "py": "float('inf')",
+   "js": "Infinity",
+   "f0": "inf",
+   "f1": "inf",
+   "f2": "inf",
+   "f4": "inf",
+   "comma": "inf"
+  },
+  {
+   "kind": "float",
+   "py": "-float('inf')",
+   "js": "-Infinity",
+   "f0": "-inf",
+   "f1": "-inf",
+   "f2": "-inf",
+   "f4": "-inf",
+   "comma": "-inf"
+  },
+  {
+   "kind": "int",
+   "py": "0",
+   "js": "0",
+   "bigint": false,
+   "comma": "0",
+   "w3d": "  0",
+   "d2": "00"
+  },
+  {
+   "kind": "int",
+   "py": "7",
+   "js": "7",
+   "bigint": false,
+   "comma": "7",
+   "w3d": "  7",
+   "d2": "07"
+  },
+  {
+   "kind": "int",
+   "py": "999",
+   "js": "999",
+   "bigint": false,
+   "comma": "999",
+   "w3d": "999",
+   "d2": "999"
+  },
+  {
+   "kind": "int",
+   "py": "1000",
+   "js": "1000",
+   "bigint": false,
+   "comma": "1,000",
+   "w3d": "1000",
+   "d2": "1000"
+  },
+  {
+   "kind": "int",
+   "py": "1234567",
+   "js": "1234567",
+   "bigint": false,
+   "comma": "1,234,567",
+   "w3d": "1234567",
+   "d2": "1234567"
+  },
+  {
+   "kind": "int",
+   "py": "-1234",
+   "js": "-1234",
+   "bigint": false,
+   "comma": "-1,234",
+   "w3d": "-1234",
+   "d2": "-1234"
+  },
+  {
+   "kind": "int",
+   "py": "-1",
+   "js": "-1",
+   "bigint": false,
+   "comma": "-1",
+   "w3d": " -1",
+   "d2": "-1"
+  },
+  {
+   "kind": "int",
+   "py": "2**53",
+   "js": "9007199254740992",
+   "bigint": false,
+   "comma": "9,007,199,254,740,992",
+   "w3d": "9007199254740992",
+   "d2": "9007199254740992"
+  },
+  {
+   "kind": "int",
+   "py": "10**20",
+   "js": "100000000000000000000",
+   "bigint": true,
+   "comma": "100,000,000,000,000,000,000",
+   "w3d": "100000000000000000000",
+   "d2": "100000000000000000000"
+  }
+ ],
+ "strings": [
+  {
+   "value": "hello\nworld",
+   "ascii": "\"hello\\nworld\"",
+   "utf8": "\"hello\\nworld\""
+  },
+  {
+   "value": "tab\there\r\ncr",
+   "ascii": "\"tab\\there\\r\\ncr\"",
+   "utf8": "\"tab\\there\\r\\ncr\""
+  },
+  {
+   "value": "quotes \" and ' single",
+   "ascii": "\"quotes \\\" and ' single\"",
+   "utf8": "\"quotes \\\" and ' single\""
+  },
+  {
+   "value": "back\\slash",
+   "ascii": "\"back\\\\slash\"",
+   "utf8": "\"back\\\\slash\""
+  },
+  {
+   "value": "\u0000\u0001\u001f control",
+   "ascii": "\"\\u0000\\u0001\\u001f\\u007f control\"",
+   "utf8": "\"\\u0000\\u0001\\u001f control\""
+  },
+  {
+   "value": "\b\f vertical",
+   "ascii": "\"\\b\\f vertical\"",
+   "utf8": "\"\\b\\f vertical\""
+  },
+  {
+   "value": "üñî çöde",
+   "ascii": "\"\\u00fc\\u00f1\\u00ee \\u00e7\\u00f6de\"",
+   "utf8": "\"üñî çöde\""
+  },
+  {
+   "value": "😀 astral emoji",
+   "ascii": "\"\\ud83d\\ude00 astral emoji\"",
+   "utf8": "\"😀 astral emoji\""
+  },
+  {
+   "value": "   line separators",
+   "ascii": "\"\\u2028\\u2029 line separators\"",
+   "utf8": "\"   line separators\""
+  },
+  {
+   "value": "soft­hyphen / solidus",
+   "ascii": "\"soft\\u00adhyphen / solidus\"",
+   "utf8": "\"soft­hyphen / solidus\""
+  },
+  {
+   "value": "",
+   "ascii": "\"\"",
+   "utf8": "\"\""
+  },
+  {
+   "value": "  nbsp",
+   "ascii": "\"\\u00a0 nbsp\"",
+   "utf8": "\"  nbsp\""
+  },
+  {
+   "value": "日本語のテキスト",
+   "ascii": "\"\\u65e5\\u672c\\u8a9e\\u306e\\u30c6\\u30ad\\u30b9\\u30c8\"",
+   "utf8": "\"日本語のテキスト\""
+  },
+  {
+   "value": "￿ max bmp",
+   "ascii": "\"\\uffff max bmp\"",
+   "utf8": "\"￿ max bmp\""
+  }
+ ],
+ "values": [
+  {
+   "label": "value-0",
+   "value": {
+    "a": 1,
+    "b": [
+     1,
+     2
+    ],
+    "c": {
+     "d": null
+    }
+   },
+   "out": "{\"a\": 1, \"b\": [1, 2], \"c\": {\"d\": null}}"
+  },
+  {
+   "label": "value-1",
+   "value": {},
+   "out": "{}"
+  },
+  {
+   "label": "value-2",
+   "value": [],
+   "out": "[]"
+  },
+  {
+   "label": "value-3",
+   "value": [
+    null,
+    true,
+    false,
+    1,
+    1.0,
+    "x"
+   ],
+   "out": "[null, true, false, 1, 1.0, \"x\"]"
+  },
+  {
+   "label": "value-4",
+   "value": {
+    "nested": {
+     "list": [
+      {
+       "k": "v"
+      },
+      [
+       1,
+       2
+      ]
+     ],
+     "empty": {},
+     "empty_list": []
+    }
+   },
+   "out": "{\"nested\": {\"list\": [{\"k\": \"v\"}, [1, 2]], \"empty\": {}, \"empty_list\": []}}"
+  },
+  {
+   "label": "value-5",
+   "value": {
+    "ü": "😀",
+    "key with space": "value\nnewline"
+   },
+   "out": "{\"\\u00fc\": \"\\ud83d\\ude00\", \"key with space\": \"value\\nnewline\"}"
+  },
+  {
+   "label": "value-6",
+   "value": [
+    1.0,
+    2,
+    3.5
+   ],
+   "out": "[1.0, 2, 3.5]"
+  },
+  {
+   "label": "value-7",
+   "value": {
+    "mode": "build",
+    "contents": [
+     "raw json string"
+    ],
+    "todos": [
+     {
+      "content": "ü",
+      "status": "pending"
+     }
+    ]
+   },
+   "out": "{\"mode\": \"build\", \"contents\": [\"raw json string\"], \"todos\": [{\"content\": \"\\u00fc\", \"status\": \"pending\"}]}"
+  },
+  {
+   "label": "value-8",
+   "value": {
+    "t": true,
+    "i": 0
+   },
+   "out": "{\"t\": true, \"i\": 0}"
+  }
+ ],
+ "indent": [
+  {
+   "label": "indent2",
+   "value": {
+    "a": 1,
+    "b": [
+     1,
+     2
+    ],
+    "c": {
+     "d": null
+    }
+   },
+   "out": "{\n  \"a\": 1,\n  \"b\": [\n    1,\n    2\n  ],\n  \"c\": {\n    \"d\": null\n  }\n}"
+  },
+  {
+   "label": "indent0",
+   "value": {
+    "a": 1,
+    "b": [
+     1,
+     2
+    ],
+    "c": {
+     "d": null
+    }
+   },
+   "out": "{\n\"a\": 1,\n\"b\": [\n1,\n2\n],\n\"c\": {\n\"d\": null\n}\n}"
+  },
+  {
+   "label": "indent4",
+   "value": {
+    "a": 1,
+    "b": [
+     1,
+     2
+    ],
+    "c": {
+     "d": null
+    }
+   },
+   "out": "{\n    \"a\": 1,\n    \"b\": [\n        1,\n        2\n    ],\n    \"c\": {\n        \"d\": null\n    }\n}"
+  },
+  {
+   "label": "indent_none",
+   "value": {
+    "a": 1,
+    "b": [
+     1,
+     2
+    ],
+    "c": {
+     "d": null
+    }
+   },
+   "out": "{\"a\": 1, \"b\": [1, 2], \"c\": {\"d\": null}}"
+  },
+  {
+   "label": "indent2",
+   "value": {},
+   "out": "{}"
+  },
+  {
+   "label": "indent0",
+   "value": {},
+   "out": "{}"
+  },
+  {
+   "label": "indent4",
+   "value": {},
+   "out": "{}"
+  },
+  {
+   "label": "indent_none",
+   "value": {},
+   "out": "{}"
+  },
+  {
+   "label": "indent2",
+   "value": [],
+   "out": "[]"
+  },
+  {
+   "label": "indent0",
+   "value": [],
+   "out": "[]"
+  },
+  {
+   "label": "indent4",
+   "value": [],
+   "out": "[]"
+  },
+  {
+   "label": "indent_none",
+   "value": [],
+   "out": "[]"
+  },
+  {
+   "label": "indent2",
+   "value": [
+    null,
+    true,
+    false,
+    1,
+    1.0,
+    "x"
+   ],
+   "out": "[\n  null,\n  true,\n  false,\n  1,\n  1.0,\n  \"x\"\n]"
+  },
+  {
+   "label": "indent0",
+   "value": [
+    null,
+    true,
+    false,
+    1,
+    1.0,
+    "x"
+   ],
+   "out": "[\nnull,\ntrue,\nfalse,\n1,\n1.0,\n\"x\"\n]"
+  },
+  {
+   "label": "indent4",
+   "value": [
+    null,
+    true,
+    false,
+    1,
+    1.0,
+    "x"
+   ],
+   "out": "[\n    null,\n    true,\n    false,\n    1,\n    1.0,\n    \"x\"\n]"
+  },
+  {
+   "label": "indent_none",
+   "value": [
+    null,
+    true,
+    false,
+    1,
+    1.0,
+    "x"
+   ],
+   "out": "[null, true, false, 1, 1.0, \"x\"]"
+  },
+  {
+   "label": "indent2",
+   "value": {
+    "nested": {
+     "list": [
+      {
+       "k": "v"
+      },
+      [
+       1,
+       2
+      ]
+     ],
+     "empty": {},
+     "empty_list": []
+    }
+   },
+   "out": "{\n  \"nested\": {\n    \"list\": [\n      {\n        \"k\": \"v\"\n      },\n      [\n        1,\n        2\n      ]\n    ],\n    \"empty\": {},\n    \"empty_list\": []\n  }\n}"
+  },
+  {
+   "label": "indent0",
+   "value": {
+    "nested": {
+     "list": [
+      {
+       "k": "v"
+      },
+      [
+       1,
+       2
+      ]
+     ],
+     "empty": {},
+     "empty_list": []
+    }
+   },
+   "out": "{\n\"nested\": {\n\"list\": [\n{\n\"k\": \"v\"\n},\n[\n1,\n2\n]\n],\n\"empty\": {},\n\"empty_list\": []\n}\n}"
+  },
+  {
+   "label": "indent4",
+   "value": {
+    "nested": {
+     "list": [
+      {
+       "k": "v"
+      },
+      [
+       1,
+       2
+      ]
+     ],
+     "empty": {},
+     "empty_list": []
+    }
+   },
+   "out": "{\n    \"nested\": {\n        \"list\": [\n            {\n                \"k\": \"v\"\n            },\n            [\n                1,\n                2\n            ]\n        ],\n        \"empty\": {},\n        \"empty_list\": []\n    }\n}"
+  },
+  {
+   "label": "indent_none",
+   "value": {
+    "nested": {
+     "list": [
+      {
+       "k": "v"
+      },
+      [
+       1,
+       2
+      ]
+     ],
+     "empty": {},
+     "empty_list": []
+    }
+   },
+   "out": "{\"nested\": {\"list\": [{\"k\": \"v\"}, [1, 2]], \"empty\": {}, \"empty_list\": []}}"
+  },
+  {
+   "label": "indent2",
+   "value": {
+    "ü": "😀",
+    "key with space": "value\nnewline"
+   },
+   "out": "{\n  \"ü\": \"😀\",\n  \"key with space\": \"value\\nnewline\"\n}"
+  },
+  {
+   "label": "indent0",
+   "value": {
+    "ü": "😀",
+    "key with space": "value\nnewline"
+   },
+   "out": "{\n\"ü\": \"😀\",\n\"key with space\": \"value\\nnewline\"\n}"
+  },
+  {
+   "label": "indent4",
+   "value": {
+    "ü": "😀",
+    "key with space": "value\nnewline"
+   },
+   "out": "{\n    \"ü\": \"😀\",\n    \"key with space\": \"value\\nnewline\"\n}"
+  },
+  {
+   "label": "indent_none",
+   "value": {
+    "ü": "😀",
+    "key with space": "value\nnewline"
+   },
+   "out": "{\"ü\": \"😀\", \"key with space\": \"value\\nnewline\"}"
+  },
+  {
+   "label": "indent2",
+   "value": [
+    1.0,
+    2,
+    3.5
+   ],
+   "out": "[\n  1.0,\n  2,\n  3.5\n]"
+  },
+  {
+   "label": "indent0",
+   "value": [
+    1.0,
+    2,
+    3.5
+   ],
+   "out": "[\n1.0,\n2,\n3.5\n]"
+  },
+  {
+   "label": "indent4",
+   "value": [
+    1.0,
+    2,
+    3.5
+   ],
+   "out": "[\n    1.0,\n    2,\n    3.5\n]"
+  },
+  {
+   "label": "indent_none",
+   "value": [
+    1.0,
+    2,
+    3.5
+   ],
+   "out": "[1.0, 2, 3.5]"
+  },
+  {
+   "label": "indent2",
+   "value": {
+    "mode": "build",
+    "contents": [
+     "raw json string"
+    ],
+    "todos": [
+     {
+      "content": "ü",
+      "status": "pending"
+     }
+    ]
+   },
+   "out": "{\n  \"mode\": \"build\",\n  \"contents\": [\n    \"raw json string\"\n  ],\n  \"todos\": [\n    {\n      \"content\": \"ü\",\n      \"status\": \"pending\"\n    }\n  ]\n}"
+  },
+  {
+   "label": "indent0",
+   "value": {
+    "mode": "build",
+    "contents": [
+     "raw json string"
+    ],
+    "todos": [
+     {
+      "content": "ü",
+      "status": "pending"
+     }
+    ]
+   },
+   "out": "{\n\"mode\": \"build\",\n\"contents\": [\n\"raw json string\"\n],\n\"todos\": [\n{\n\"content\": \"ü\",\n\"status\": \"pending\"\n}\n]\n}"
+  },
+  {
+   "label": "indent4",
+   "value": {
+    "mode": "build",
+    "contents": [
+     "raw json string"
+    ],
+    "todos": [
+     {
+      "content": "ü",
+      "status": "pending"
+     }
+    ]
+   },
+   "out": "{\n    \"mode\": \"build\",\n    \"contents\": [\n        \"raw json string\"\n    ],\n    \"todos\": [\n        {\n            \"content\": \"ü\",\n            \"status\": \"pending\"\n        }\n    ]\n}"
+  },
+  {
+   "label": "indent_none",
+   "value": {
+    "mode": "build",
+    "contents": [
+     "raw json string"
+    ],
+    "todos": [
+     {
+      "content": "ü",
+      "status": "pending"
+     }
+    ]
+   },
+   "out": "{\"mode\": \"build\", \"contents\": [\"raw json string\"], \"todos\": [{\"content\": \"ü\", \"status\": \"pending\"}]}"
+  },
+  {
+   "label": "indent2",
+   "value": {
+    "t": true,
+    "i": 0
+   },
+   "out": "{\n  \"t\": true,\n  \"i\": 0\n}"
+  },
+  {
+   "label": "indent0",
+   "value": {
+    "t": true,
+    "i": 0
+   },
+   "out": "{\n\"t\": true,\n\"i\": 0\n}"
+  },
+  {
+   "label": "indent4",
+   "value": {
+    "t": true,
+    "i": 0
+   },
+   "out": "{\n    \"t\": true,\n    \"i\": 0\n}"
+  },
+  {
+   "label": "indent_none",
+   "value": {
+    "t": true,
+    "i": 0
+   },
+   "out": "{\"t\": true, \"i\": 0}"
+  },
+  {
+   "label": "scalar",
+   "value": 1,
+   "out": "1"
+  },
+  {
+   "label": "scalar",
+   "value": 1.0,
+   "out": "1.0"
+  },
+  {
+   "label": "scalar",
+   "value": "x",
+   "out": "\"x\""
+  },
+  {
+   "label": "scalar",
+   "value": null,
+   "out": "null"
+  },
+  {
+   "label": "scalar",
+   "value": true,
+   "out": "true"
+  },
+  {
+   "label": "scalar",
+   "value": [
+    1,
+    [
+     2
+    ]
+   ],
+   "out": "[\n  1,\n  [\n    2\n  ]\n]"
+  },
+  {
+   "label": "scalar",
+   "value": {
+    "a": {
+     "b": []
+    }
+   },
+   "out": "{\n  \"a\": {\n    \"b\": []\n  }\n}"
+  },
+  {
+   "label": "floats",
+   "value": {
+    "limit": 3.0,
+    "n": 2,
+    "fps": 24.5,
+    "big": 1e+40,
+    "neg0": -0.0
+   },
+   "out": "{\n  \"limit\": 3.0,\n  \"n\": 2,\n  \"fps\": 24.5,\n  \"big\": 1e+40,\n  \"neg0\": -0.0\n}"
+  },
+  {
+   "label": "unicode",
+   "value": {
+    "prompt": "üñî 😀\nline",
+    "path": "a\\b"
+   },
+   "out": "{\n  \"prompt\": \"üñî 😀\\nline\",\n  \"path\": \"a\\\\b\"\n}"
+  },
+  {
+   "label": "ascii",
+   "value": {
+    "prompt": "üñî 😀",
+    "n": 1.0
+   },
+   "out": "{\n  \"prompt\": \"\\u00fc\\u00f1\\u00ee \\ud83d\\ude00\",\n  \"n\": 1.0\n}"
+  }
+ ],
+ "model": [
+  {
+   "in": "{\"parts\":[{\"text\":\"hello\\nworld\"}],\"role\":\"user\"}",
+   "out": "{\"parts\":[{\"text\":\"hello\\nworld\"}],\"role\":\"user\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"hello\\nworld\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"user\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"quotes \\\" back\\\\slash üñî 😀\"}],\"role\":\"user\"}",
+   "out": "{\"parts\":[{\"text\":\"quotes \\\" back\\\\slash üñî 😀\"}],\"role\":\"user\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"quotes \\\" back\\\\slash üñî 😀\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"user\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"thinking \",\"thought\":true},{\"text\":\"answer\"}],\"role\":\"model\"}",
+   "out": "{\"parts\":[{\"text\":\"thinking \",\"thought\":true},{\"text\":\"answer\"}],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"thinking \",\"thought\":true,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null},{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"answer\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_call\":{\"id\":\"abc\",\"args\":{\"path\":\"a.txt\",\"n\":3},\"name\":\"read_file\"}}],\"role\":\"model\"}",
+   "out": "{\"parts\":[{\"function_call\":{\"id\":\"abc\",\"args\":{\"path\":\"a.txt\",\"n\":3},\"name\":\"read_file\"}}],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":{\"id\":\"abc\",\"args\":{\"path\":\"a.txt\",\"n\":3},\"name\":\"read_file\",\"partial_args\":null,\"will_continue\":null},\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_call\":{\"args\":{},\"name\":\"list_files\"}}],\"role\":\"model\"}",
+   "out": "{\"parts\":[{\"function_call\":{\"args\":{},\"name\":\"list_files\"}}],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":{\"id\":null,\"args\":{},\"name\":\"list_files\",\"partial_args\":null,\"will_continue\":null},\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_response\":{\"id\":\"abc\",\"name\":\"read_file\",\"response\":{\"error\":\"boom\",\"n\":1.5,\"flag\":true,\"nil\":null}}}],\"role\":\"user\"}",
+   "out": "{\"parts\":[{\"function_response\":{\"id\":\"abc\",\"name\":\"read_file\",\"response\":{\"error\":\"boom\",\"n\":1.5,\"flag\":true,\"nil\":null}}}],\"role\":\"user\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":{\"will_continue\":null,\"scheduling\":null,\"parts\":null,\"id\":\"abc\",\"name\":\"read_file\",\"response\":{\"error\":\"boom\",\"n\":1.5,\"flag\":true,\"nil\":null}},\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"user\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"inline_data\":{\"data\":\"AAH_\",\"display_name\":\"x.png\",\"mime_type\":\"image/png\"}}],\"role\":\"user\"}",
+   "out": "{\"parts\":[{\"inline_data\":{\"data\":\"AAH_\",\"display_name\":\"x.png\",\"mime_type\":\"image/png\"}}],\"role\":\"user\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":{\"data\":\"AAH_\",\"display_name\":\"x.png\",\"mime_type\":\"image/png\"},\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"user\"}"
+  },
+  {
+   "in": "{\"parts\":[],\"role\":\"model\"}",
+   "out": "{\"parts\":[],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"no role\"}]}",
+   "out": "{\"parts\":[{\"text\":\"no role\"}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"no role\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{}",
+   "out": "{}",
+   "stable": true,
+   "full": "{\"parts\":null,\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[]}",
+   "out": "{\"parts\":[]}",
+   "stable": true,
+   "full": "{\"parts\":[],\"role\":null}"
+  },
+  {
+   "in": "{\"role\":\"user\"}",
+   "out": "{\"role\":\"user\"}",
+   "stable": true,
+   "full": "{\"parts\":null,\"role\":\"user\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\"}],\"role\":\"python\"}",
+   "out": "{\"parts\":[{\"text\":\"a\"}],\"role\":\"python\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"a\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"python\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\"}],\"role\":null}",
+   "out": "{\"parts\":[{\"text\":\"a\"}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"a\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_call\":{\"name\":\"f\",\"args\":{\"n\":1.0,\"big\":1e40,\"deep\":{\"x\":[1,2.5,null]}}}}],\"role\":\"model\"}",
+   "out": "{\"parts\":[{\"function_call\":{\"args\":{\"n\":1.0,\"big\":1e+40,\"deep\":{\"x\":[1,2.5,null]}},\"name\":\"f\"}}],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":{\"id\":null,\"args\":{\"n\":1.0,\"big\":1e+40,\"deep\":{\"x\":[1,2.5,null]}},\"name\":\"f\",\"partial_args\":null,\"will_continue\":null},\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_call\":{\"name\":\"f\",\"args\":null}}],\"role\":\"model\"}",
+   "out": "{\"parts\":[{\"function_call\":{\"name\":\"f\"}}],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":{\"id\":null,\"args\":null,\"name\":\"f\",\"partial_args\":null,\"will_continue\":null},\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_response\":{\"name\":\"f\",\"response\":{\"a\":null,\"b\":[1,2]}}}],\"role\":\"user\"}",
+   "out": "{\"parts\":[{\"function_response\":{\"name\":\"f\",\"response\":{\"a\":null,\"b\":[1,2]}}}],\"role\":\"user\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":{\"will_continue\":null,\"scheduling\":null,\"parts\":null,\"id\":null,\"name\":\"f\",\"response\":{\"a\":null,\"b\":[1,2]}},\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"user\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"file_data\":{\"file_uri\":\"gs://x\",\"mime_type\":\"text/plain\"}}],\"role\":\"user\"}",
+   "out": "{\"parts\":[{\"file_data\":{\"file_uri\":\"gs://x\",\"mime_type\":\"text/plain\"}}],\"role\":\"user\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":{\"display_name\":null,\"file_uri\":\"gs://x\",\"mime_type\":\"text/plain\"},\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"user\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\",\"thought\":null}],\"role\":\"model\"}",
+   "out": "{\"parts\":[{\"text\":\"a\"}],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"a\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\",\"thought\":\"yes\"}],\"role\":\"model\"}",
+   "out": "{\"parts\":[{\"text\":\"a\",\"thought\":true}],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"a\",\"thought\":true,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\",\"thought_signature\":\"sig\"}],\"role\":\"model\"}",
+   "out": "{\"parts\":[{\"text\":\"a\",\"thought_signature\":\"sig=\"}],\"role\":\"model\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"a\",\"thought\":null,\"thought_signature\":\"sig=\",\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"model\"}"
+  },
+  {
+   "in": "{\"parts\":[{\"functionCall\":{\"name\":\"camel\"},\"text\":\"x\"}]}",
+   "out": "{\"parts\":[{\"function_call\":{\"name\":\"camel\"},\"text\":\"x\"}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":{\"id\":null,\"args\":null,\"name\":\"camel\",\"partial_args\":null,\"will_continue\":null},\"function_response\":null,\"inline_data\":null,\"text\":\"x\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"media_resolution\":{\"resolution\":\"MEDIA_RESOLUTION_HIGH\"}}]}",
+   "error": "ValidationError",
+   "error_head": "parts.0.media_resolution.resolution"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\"},{\"function_call\":{\"id\":null,\"args\":{},\"name\":\"b\",\"partial_args\":null,\"will_continue\":true}}]}",
+   "out": "{\"parts\":[{\"text\":\"a\"},{\"function_call\":{\"args\":{},\"name\":\"b\",\"will_continue\":true}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"a\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null},{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":{\"id\":null,\"args\":{},\"name\":\"b\",\"partial_args\":null,\"will_continue\":true},\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_response\":{\"will_continue\":false,\"scheduling\":null,\"parts\":null,\"id\":\"i\",\"name\":\"n\",\"response\":{}}}]}",
+   "out": "{\"parts\":[{\"function_response\":{\"will_continue\":false,\"id\":\"i\",\"name\":\"n\",\"response\":{}}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":{\"will_continue\":false,\"scheduling\":null,\"parts\":null,\"id\":\"i\",\"name\":\"n\",\"response\":{}},\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"inline_data\":{\"data\":\"-_8=\"}}]}",
+   "out": "{\"parts\":[{\"inline_data\":{\"data\":\"-_8=\"}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":{\"data\":\"-_8=\",\"display_name\":null,\"mime_type\":null},\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\",\"unknown\":9}],\"role\":\"user\"}",
+   "error": "ValidationError",
+   "error_head": "parts.0.unknown"
+  },
+  {
+   "in": "{\"parts\":[],\"role\":\"user\",\"extra_field\":1}",
+   "error": "ValidationError",
+   "error_head": "extra_field"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":5}],\"role\":\"user\"}",
+   "error": "ValidationError",
+   "error_head": "parts.0.text"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\"}],\"role\":5}",
+   "error": "ValidationError",
+   "error_head": "role"
+  },
+  {
+   "in": "{\"parts\":[{\"function_response\":{\"name\":\"f\",\"response\":\"plain string\"}}],\"role\":\"user\"}",
+   "error": "ValidationError",
+   "error_head": "parts.0.function_response.response"
+  },
+  {
+   "in": "{\"parts\":[{\"inline_data\":{\"data\":\"a!b@\"}}],\"role\":\"user\"}",
+   "error": "ValidationError",
+   "error_head": "parts.0.inline_data.data"
+  },
+  {
+   "in": "{\"parts\":[{\"inline_data\":{\"data\":\"AAH\"}}],\"role\":\"user\"}",
+   "error": "ValidationError",
+   "error_head": "parts.0.inline_data.data"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\"},\"plain string\"]}",
+   "error": "ValidationError",
+   "error_head": "parts.1"
+  },
+  {
+   "in": "{\"parts\":\"not a list\"}",
+   "error": "ValidationError",
+   "error_head": "parts"
+  },
+  {
+   "in": "[{\"parts\":[]}]",
+   "error": "ValidationError",
+   "error_head": "Input should be an object [type=model_attributes_type, input_value=[{'parts': []}], input_type=list]"
+  },
+  {
+   "in": "{\"parts\":[{\"executable_code\":{\"code\":\"print(1)\",\"language\":\"PYTHON\"}}]}",
+   "out": "{\"parts\":[{\"executable_code\":{\"code\":\"print(1)\",\"language\":\"PYTHON\"}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":{\"code\":\"print(1)\",\"language\":\"PYTHON\",\"id\":null},\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"code_execution_result\":{\"output\":\"1\\n\"}}]}",
+   "out": "{\"parts\":[{\"code_execution_result\":{\"output\":\"1\\n\"}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":{\"outcome\":null,\"output\":\"1\\n\",\"id\":null},\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_call\":{\"name\":\"snake\"},\"functionCall\":{\"name\":\"camel\"}}]}",
+   "error": "ValidationError",
+   "error_head": "parts.0.function_call"
+  },
+  {
+   "in": "{\"parts\":[{\"video_metadata\":{\"fps\":24}}]}",
+   "out": "{\"parts\":[{\"video_metadata\":{\"fps\":24.0}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":{\"end_offset\":null,\"fps\":24.0,\"start_offset\":null},\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"video_metadata\":{\"fps\":\"24.5\"}}]}",
+   "out": "{\"parts\":[{\"video_metadata\":{\"fps\":24.5}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":{\"end_offset\":null,\"fps\":24.5,\"start_offset\":null},\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"video_metadata\":{\"fps\":24.7}}]}",
+   "out": "{\"parts\":[{\"video_metadata\":{\"fps\":24.7}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":{\"end_offset\":null,\"fps\":24.7,\"start_offset\":null},\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"media_resolution\":{\"num_tokens\":3.0}}]}",
+   "out": "{\"parts\":[{\"media_resolution\":{\"num_tokens\":3}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":{\"level\":null,\"num_tokens\":3},\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"media_resolution\":{\"num_tokens\":3.5}}]}",
+   "error": "ValidationError",
+   "error_head": "parts.0.media_resolution.num_tokens"
+  },
+  {
+   "in": "{\"parts\":[{\"media_resolution\":{\"level\":\"MEDIA_RESOLUTION_HIGH\",\"num_tokens\":1024}}]}",
+   "out": "{\"parts\":[{\"media_resolution\":{\"level\":\"MEDIA_RESOLUTION_HIGH\",\"num_tokens\":1024}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":{\"level\":\"MEDIA_RESOLUTION_HIGH\",\"num_tokens\":1024},\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"thought\":1}]}",
+   "out": "{\"parts\":[{\"thought\":true}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":true,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"thought\":\"no\"}]}",
+   "out": "{\"parts\":[{\"thought\":false}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":false,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"thought\":\"maybe\"}]}",
+   "error": "ValidationError",
+   "error_head": "parts.0.thought"
+  },
+  {
+   "in": "{\"parts\":[{\"code_execution_result\":{\"outcome\":\"NOPE\"}}]}",
+   "out": "{\"parts\":[{\"code_execution_result\":{\"outcome\":\"NOPE\"}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":{\"outcome\":\"NOPE\",\"output\":null,\"id\":null},\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"part_metadata\":{\"a\":1.0,\"b\":[1,2],\"deep\":{\"c\":\"\\u00fc\"}}}]}",
+   "out": "{\"parts\":[{\"part_metadata\":{\"a\":1.0,\"b\":[1,2],\"deep\":{\"c\":\"ü\"}}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":{\"a\":1.0,\"b\":[1,2],\"deep\":{\"c\":\"ü\"}},\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":null}]}",
+   "out": "{\"parts\":[{}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[null]}",
+   "error": "ValidationError",
+   "error_head": "parts.0"
+  },
+  {
+   "in": "{\"parts\":[{\"audio_transcription\":{\"text\":\"t\",\"words\":[{\"word\":\"w\",\"start_offset\":\"0s\"}]}}]}",
+   "out": "{\"parts\":[{\"audio_transcription\":{\"text\":\"t\",\"words\":[{\"word\":\"w\",\"start_offset\":\"0s\"}]}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":{\"text\":\"t\",\"finished\":null,\"language_code\":null,\"speaker_label\":null,\"words\":[{\"word\":\"w\",\"start_offset\":\"0s\",\"end_offset\":null}],\"start_offset\":null,\"end_offset\":null},\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"speech_metadata\":{\"speaker\":\"s\",\"style\":\"calm\"}}]}",
+   "out": "{\"parts\":[{\"speech_metadata\":{\"speaker\":\"s\",\"style\":\"calm\"}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":{\"speaker\":\"s\",\"style\":\"calm\"}}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"tool_call\":{\"id\":\"t\",\"tool_type\":\"URL_CONTEXT\",\"args\":{\"q\":\"x\"}}}]}",
+   "out": "{\"parts\":[{\"tool_call\":{\"id\":\"t\",\"tool_type\":\"URL_CONTEXT\",\"args\":{\"q\":\"x\"}}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":{\"id\":\"t\",\"tool_type\":\"URL_CONTEXT\",\"args\":{\"q\":\"x\"}},\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"tool_response\":{\"id\":\"t\",\"response\":{\"a\":1}}}]}",
+   "out": "{\"parts\":[{\"tool_response\":{\"id\":\"t\",\"response\":{\"a\":1}}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":{\"id\":\"t\",\"tool_type\":null,\"response\":{\"a\":1}},\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_response\":{\"scheduling\":\"SILENT\",\"parts\":[{\"inline_data\":{\"data\":\"AA==\",\"mime_type\":\"image/png\"}},{\"file_data\":{\"file_uri\":\"gs://x\"}}],\"name\":\"f\",\"response\":{}}}]}",
+   "out": "{\"parts\":[{\"function_response\":{\"scheduling\":\"SILENT\",\"parts\":[{\"inline_data\":{\"mime_type\":\"image/png\",\"data\":\"AA==\"}},{\"file_data\":{\"file_uri\":\"gs://x\"}}],\"name\":\"f\",\"response\":{}}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":{\"will_continue\":null,\"scheduling\":\"SILENT\",\"parts\":[{\"inline_data\":{\"mime_type\":\"image/png\",\"data\":\"AA==\",\"display_name\":null},\"file_data\":null},{\"inline_data\":null,\"file_data\":{\"file_uri\":\"gs://x\",\"mime_type\":null,\"display_name\":null}}],\"id\":null,\"name\":\"f\",\"response\":{}},\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"function_call\":{\"partial_args\":[{\"json_path\":\"$.a\",\"string_value\":\"v\",\"will_continue\":false}]}}]}",
+   "out": "{\"parts\":[{\"function_call\":{\"partial_args\":[{\"json_path\":\"$.a\",\"string_value\":\"v\",\"will_continue\":false}]}}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":{\"id\":null,\"args\":null,\"name\":null,\"partial_args\":[{\"bool_value\":null,\"json_path\":\"$.a\",\"null_value\":null,\"number_value\":null,\"string_value\":\"v\",\"will_continue\":false}],\"will_continue\":null},\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"media_processing\":\"STATIC\"}]}",
+   "out": "{\"parts\":[{\"media_processing\":\"STATIC\"}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":null,\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":\"STATIC\",\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"a\",\"thought_signature\":\"+/8=\"}]}",
+   "out": "{\"parts\":[{\"text\":\"a\",\"thought_signature\":\"-_8=\"}]}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"a\",\"thought\":null,\"thought_signature\":\"-_8=\",\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":null}"
+  },
+  {
+   "in": "{\"role\":true}",
+   "error": "ValidationError",
+   "error_head": "role"
+  },
+  {
+   "in": "{\"parts\":[{\"text\":\"tab\\there\"}],\"role\":\"user\"}",
+   "out": "{\"parts\":[{\"text\":\"tab\\there\"}],\"role\":\"user\"}",
+   "stable": true,
+   "full": "{\"parts\":[{\"media_resolution\":null,\"code_execution_result\":null,\"executable_code\":null,\"file_data\":null,\"function_call\":null,\"function_response\":null,\"inline_data\":null,\"text\":\"tab\\there\",\"thought\":null,\"thought_signature\":null,\"video_metadata\":null,\"tool_call\":null,\"tool_response\":null,\"part_metadata\":null,\"audio_transcription\":null,\"media_processing\":null,\"speech_metadata\":null}],\"role\":\"user\"}"
+  }
+ ],
+ "base64": [
+  {
+   "in": "AAH_",
+   "out": "{\"data\":\"AAH_\"}",
+   "bytes": [
+    0,
+    1,
+    255
+   ]
+  },
+  {
+   "in": "AA==",
+   "out": "{\"data\":\"AA==\"}",
+   "bytes": [
+    0
+   ]
+  },
+  {
+   "in": "",
+   "out": "{\"data\":\"\"}",
+   "bytes": []
+  },
+  {
+   "in": "sig",
+   "out": "{\"data\":\"sig=\"}",
+   "bytes": [
+    178,
+    40
+   ]
+  },
+  {
+   "in": "AAH",
+   "error": "ValidationError"
+  },
+  {
+   "in": "a!b@",
+   "error": "ValidationError"
+  },
+  {
+   "in": "-_8=",
+   "out": "{\"data\":\"-_8=\"}",
+   "bytes": [
+    251,
+    255
+   ]
+  },
+  {
+   "in": "AAAA====",
+   "error": "ValidationError"
+  },
+  {
+   "in": "A",
+   "error": "ValidationError"
+  },
+  {
+   "in": "AB",
+   "error": "ValidationError"
+  },
+  {
+   "in": "ABC",
+   "error": "ValidationError"
+  },
+  {
+   "in": "ABCD",
+   "out": "{\"data\":\"ABCD\"}",
+   "bytes": [
+    0,
+    16,
+    131
+   ]
+  },
+  {
+   "in": "+/8=",
+   "out": "{\"data\":\"-_8=\"}",
+   "bytes": [
+    251,
+    255
+   ]
+  },
+  {
+   "in": "AAH=",
+   "error": "ValidationError"
+  },
+  {
+   "in": "AAB=",
+   "error": "ValidationError"
+  },
+  {
+   "in": "_-8=",
+   "out": "{\"data\":\"_-8=\"}",
+   "bytes": [
+    255,
+    239
+   ]
+  },
+  {
+   "in": "A=",
+   "error": "ValidationError"
+  },
+  {
+   "in": "AA=",
+   "out": "{\"data\":\"AA==\"}",
+   "bytes": [
+    0
+   ]
+  },
+  {
+   "in": "AAA=",
+   "out": "{\"data\":\"AAA=\"}",
+   "bytes": [
+    0,
+    0
+   ]
+  },
+  {
+   "in": "ab+/",
+   "out": "{\"data\":\"ab-_\"}",
+   "bytes": [
+    105,
+    191,
+    191
+   ]
+  },
+  {
+   "in": "  ",
+   "error": "ValidationError"
+  },
+  {
+   "in": "AA IH",
+   "error": "ValidationError"
+  },
+  {
+   "in": "AAAA",
+   "out": "{\"data\":\"AAAA\"}",
+   "bytes": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "in": "AAA",
+   "out": "{\"data\":\"AAA=\"}",
+   "bytes": [
+    0,
+    0
+   ]
+  },
+  {
+   "in": "AAAAA",
+   "error": "ValidationError"
+  },
+  {
+   "in": "~~",
+   "error": "ValidationError"
+  },
+  {
+   "in": "-_8",
+   "out": "{\"data\":\"-_8=\"}",
+   "bytes": [
+    251,
+    255
+   ]
+  },
+  {
+   "in": "+/8",
+   "out": "{\"data\":\"-_8=\"}",
+   "bytes": [
+    251,
+    255
+   ]
+  },
+  {
+   "in": "0-_8=",
+   "error": "ValidationError"
+  }
+ ],
+ "schema": {
+  "Content": {
+   "model": "Content",
+   "fields": [
+    {
+     "name": "parts",
+     "alias": "parts",
+     "annotation": "typing.Optional[list[google.genai.types.Part]]",
+     "default": null
+    },
+    {
+     "name": "role",
+     "alias": "role",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "Part": {
+   "model": "Part",
+   "fields": [
+    {
+     "name": "media_resolution",
+     "alias": "mediaResolution",
+     "annotation": "typing.Optional[google.genai.types.PartMediaResolution]",
+     "default": null
+    },
+    {
+     "name": "code_execution_result",
+     "alias": "codeExecutionResult",
+     "annotation": "typing.Optional[google.genai.types.CodeExecutionResult]",
+     "default": null
+    },
+    {
+     "name": "executable_code",
+     "alias": "executableCode",
+     "annotation": "typing.Optional[google.genai.types.ExecutableCode]",
+     "default": null
+    },
+    {
+     "name": "file_data",
+     "alias": "fileData",
+     "annotation": "typing.Optional[google.genai.types.FileData]",
+     "default": null
+    },
+    {
+     "name": "function_call",
+     "alias": "functionCall",
+     "annotation": "typing.Optional[google.genai.types.FunctionCall]",
+     "default": null
+    },
+    {
+     "name": "function_response",
+     "alias": "functionResponse",
+     "annotation": "typing.Optional[google.genai.types.FunctionResponse]",
+     "default": null
+    },
+    {
+     "name": "inline_data",
+     "alias": "inlineData",
+     "annotation": "typing.Optional[google.genai.types.Blob]",
+     "default": null
+    },
+    {
+     "name": "text",
+     "alias": "text",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "thought",
+     "alias": "thought",
+     "annotation": "typing.Optional[bool]",
+     "default": null
+    },
+    {
+     "name": "thought_signature",
+     "alias": "thoughtSignature",
+     "annotation": "typing.Optional[bytes]",
+     "default": null
+    },
+    {
+     "name": "video_metadata",
+     "alias": "videoMetadata",
+     "annotation": "typing.Optional[google.genai.types.VideoMetadata]",
+     "default": null
+    },
+    {
+     "name": "tool_call",
+     "alias": "toolCall",
+     "annotation": "typing.Optional[google.genai.types.ToolCall]",
+     "default": null
+    },
+    {
+     "name": "tool_response",
+     "alias": "toolResponse",
+     "annotation": "typing.Optional[google.genai.types.ToolResponse]",
+     "default": null
+    },
+    {
+     "name": "part_metadata",
+     "alias": "partMetadata",
+     "annotation": "typing.Optional[dict[str, typing.Any]]",
+     "default": null
+    },
+    {
+     "name": "audio_transcription",
+     "alias": "audioTranscription",
+     "annotation": "typing.Optional[google.genai.types.Transcription]",
+     "default": null
+    },
+    {
+     "name": "media_processing",
+     "alias": "mediaProcessing",
+     "annotation": "typing.Optional[google.genai.types.MediaProcessing]",
+     "default": null
+    },
+    {
+     "name": "speech_metadata",
+     "alias": "speechMetadata",
+     "annotation": "typing.Optional[google.genai.types.SpeechMetadata]",
+     "default": null
+    }
+   ]
+  },
+  "Blob": {
+   "model": "Blob",
+   "fields": [
+    {
+     "name": "data",
+     "alias": "data",
+     "annotation": "typing.Optional[bytes]",
+     "default": null
+    },
+    {
+     "name": "display_name",
+     "alias": "displayName",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "mime_type",
+     "alias": "mimeType",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "FileData": {
+   "model": "FileData",
+   "fields": [
+    {
+     "name": "display_name",
+     "alias": "displayName",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "file_uri",
+     "alias": "fileUri",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "mime_type",
+     "alias": "mimeType",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "FunctionCall": {
+   "model": "FunctionCall",
+   "fields": [
+    {
+     "name": "id",
+     "alias": "id",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "args",
+     "alias": "args",
+     "annotation": "typing.Optional[dict[str, typing.Any]]",
+     "default": null
+    },
+    {
+     "name": "name",
+     "alias": "name",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "partial_args",
+     "alias": "partialArgs",
+     "annotation": "typing.Optional[list[google.genai.types.PartialArg]]",
+     "default": null
+    },
+    {
+     "name": "will_continue",
+     "alias": "willContinue",
+     "annotation": "typing.Optional[bool]",
+     "default": null
+    }
+   ]
+  },
+  "FunctionResponse": {
+   "model": "FunctionResponse",
+   "fields": [
+    {
+     "name": "will_continue",
+     "alias": "willContinue",
+     "annotation": "typing.Optional[bool]",
+     "default": null
+    },
+    {
+     "name": "scheduling",
+     "alias": "scheduling",
+     "annotation": "typing.Optional[google.genai.types.FunctionResponseScheduling]",
+     "default": null
+    },
+    {
+     "name": "parts",
+     "alias": "parts",
+     "annotation": "typing.Optional[list[google.genai.types.FunctionResponsePart]]",
+     "default": null
+    },
+    {
+     "name": "id",
+     "alias": "id",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "name",
+     "alias": "name",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "response",
+     "alias": "response",
+     "annotation": "typing.Optional[dict[str, typing.Any]]",
+     "default": null
+    }
+   ]
+  },
+  "PartMediaResolution": {
+   "model": "PartMediaResolution",
+   "fields": [
+    {
+     "name": "level",
+     "alias": "level",
+     "annotation": "typing.Optional[google.genai.types.PartMediaResolutionLevel]",
+     "default": null
+    },
+    {
+     "name": "num_tokens",
+     "alias": "numTokens",
+     "annotation": "typing.Optional[int]",
+     "default": null
+    }
+   ]
+  },
+  "CodeExecutionResult": {
+   "model": "CodeExecutionResult",
+   "fields": [
+    {
+     "name": "outcome",
+     "alias": "outcome",
+     "annotation": "typing.Optional[google.genai.types.Outcome]",
+     "default": null
+    },
+    {
+     "name": "output",
+     "alias": "output",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "id",
+     "alias": "id",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "ExecutableCode": {
+   "model": "ExecutableCode",
+   "fields": [
+    {
+     "name": "code",
+     "alias": "code",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "language",
+     "alias": "language",
+     "annotation": "typing.Optional[google.genai.types.Language]",
+     "default": null
+    },
+    {
+     "name": "id",
+     "alias": "id",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "VideoMetadata": {
+   "model": "VideoMetadata",
+   "fields": [
+    {
+     "name": "end_offset",
+     "alias": "endOffset",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "fps",
+     "alias": "fps",
+     "annotation": "typing.Optional[float]",
+     "default": null
+    },
+    {
+     "name": "start_offset",
+     "alias": "startOffset",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "ToolCall": {
+   "model": "ToolCall",
+   "fields": [
+    {
+     "name": "id",
+     "alias": "id",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "tool_type",
+     "alias": "toolType",
+     "annotation": "typing.Optional[google.genai.types.ToolType]",
+     "default": null
+    },
+    {
+     "name": "args",
+     "alias": "args",
+     "annotation": "typing.Optional[dict[str, typing.Any]]",
+     "default": null
+    }
+   ]
+  },
+  "ToolResponse": {
+   "model": "ToolResponse",
+   "fields": [
+    {
+     "name": "id",
+     "alias": "id",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "tool_type",
+     "alias": "toolType",
+     "annotation": "typing.Optional[google.genai.types.ToolType]",
+     "default": null
+    },
+    {
+     "name": "response",
+     "alias": "response",
+     "annotation": "typing.Optional[dict[str, typing.Any]]",
+     "default": null
+    }
+   ]
+  },
+  "Transcription": {
+   "model": "Transcription",
+   "fields": [
+    {
+     "name": "text",
+     "alias": "text",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "finished",
+     "alias": "finished",
+     "annotation": "typing.Optional[bool]",
+     "default": null
+    },
+    {
+     "name": "language_code",
+     "alias": "languageCode",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "speaker_label",
+     "alias": "speakerLabel",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "words",
+     "alias": "words",
+     "annotation": "typing.Optional[list[google.genai.types.WordInfo]]",
+     "default": null
+    },
+    {
+     "name": "start_offset",
+     "alias": "startOffset",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "end_offset",
+     "alias": "endOffset",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "SpeechMetadata": {
+   "model": "SpeechMetadata",
+   "fields": [
+    {
+     "name": "speaker",
+     "alias": "speaker",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "style",
+     "alias": "style",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "PartialArg": {
+   "model": "PartialArg",
+   "fields": [
+    {
+     "name": "bool_value",
+     "alias": "boolValue",
+     "annotation": "typing.Optional[bool]",
+     "default": null
+    },
+    {
+     "name": "json_path",
+     "alias": "jsonPath",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "null_value",
+     "alias": "nullValue",
+     "annotation": "typing.Optional[typing.Literal['NULL_VALUE']]",
+     "default": null
+    },
+    {
+     "name": "number_value",
+     "alias": "numberValue",
+     "annotation": "typing.Optional[float]",
+     "default": null
+    },
+    {
+     "name": "string_value",
+     "alias": "stringValue",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "will_continue",
+     "alias": "willContinue",
+     "annotation": "typing.Optional[bool]",
+     "default": null
+    }
+   ]
+  },
+  "FunctionResponsePart": {
+   "model": "FunctionResponsePart",
+   "fields": [
+    {
+     "name": "inline_data",
+     "alias": "inlineData",
+     "annotation": "typing.Optional[google.genai.types.FunctionResponseBlob]",
+     "default": null
+    },
+    {
+     "name": "file_data",
+     "alias": "fileData",
+     "annotation": "typing.Optional[google.genai.types.FunctionResponseFileData]",
+     "default": null
+    }
+   ]
+  },
+  "FunctionResponseBlob": {
+   "model": "FunctionResponseBlob",
+   "fields": [
+    {
+     "name": "mime_type",
+     "alias": "mimeType",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "data",
+     "alias": "data",
+     "annotation": "typing.Optional[bytes]",
+     "default": null
+    },
+    {
+     "name": "display_name",
+     "alias": "displayName",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "FunctionResponseFileData": {
+   "model": "FunctionResponseFileData",
+   "fields": [
+    {
+     "name": "file_uri",
+     "alias": "fileUri",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "mime_type",
+     "alias": "mimeType",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "display_name",
+     "alias": "displayName",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  },
+  "WordInfo": {
+   "model": "WordInfo",
+   "fields": [
+    {
+     "name": "word",
+     "alias": "word",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "start_offset",
+     "alias": "startOffset",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    },
+    {
+     "name": "end_offset",
+     "alias": "endOffset",
+     "annotation": "typing.Optional[str]",
+     "default": null
+    }
+   ]
+  }
+ }
+}
